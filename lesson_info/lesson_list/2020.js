@@ -230,7 +230,7 @@ var lesson_2020 = [
     },
     {
         "book_title": "Deep learning 深度學習必讀：<br>Keras 大神帶你用 Python 實作",
-        "date": "2021/9/7 ~ 2021/11/2",
+        "date": "2021/9/7 ~ 2021/11/9",
         "lessons": [
             {
                 "chapter_title": "第一章 何謂深度學習?",
