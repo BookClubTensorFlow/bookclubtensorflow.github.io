@@ -286,7 +286,7 @@ var lesson_2020 = [
                 "host_date": "11/9",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": ["https://youtu.be/Uj9iYo8_FJg"]
             }
         ]
     }

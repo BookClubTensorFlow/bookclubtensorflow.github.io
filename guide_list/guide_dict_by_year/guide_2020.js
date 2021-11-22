@@ -81,6 +81,24 @@ var guide_dict_2020=[
         "book_title":"Deep learning 深度學習必讀：Keras 大神帶你用 Python 實作",
         "chapters":8,
         "guider_list":[
+            {
+                "pic":"../assets/img/guide_person/IIN25T90.jpg",
+                "name":"游紹宏",
+                "details":"台科大資工所 研究生"
+            },
+            {
+                "name":"Jerry"
+            },
+            {
+                "name":"Dawi Lu"
+            },
+            {
+                "name":"Hank",
+                "details":"APMIC"
+            },
+            {
+                "name":"廖健傑Jack"
+            },
         ]
     }
 ]
