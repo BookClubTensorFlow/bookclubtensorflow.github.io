@@ -1,74 +1,74 @@
-var lesson_2021 = [
+var lesson_2022 = [
     {
         "book_title": "精通 Python：運用簡單的套件進行現代運算（第二版）",
-        "date": "尚未規劃",
+        "date": "2022/3/15 ~ 2022/5/24",
         "lessons": [
             {
                 "chapter_title": "第一章 初嘗py",
-                "host_date": "尚未開始規劃",
+                "host_date": "3/15",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
                 "chapter_title": "第二章 資料：型態、值、變數與名稱",
-                "host_date": "尚未開始規劃",
+                "host_date": "3/22",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
                 "chapter_title": "第三章 數字",
-                "host_date": "尚未開始規劃",
+                "host_date": "3/29",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
                 "chapter_title": "第四章 用 if 來選擇",
-                "host_date": "尚未開始規劃",
+                "host_date": "4/12",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
                 "chapter_title": "第五章 文字字串",
-                "host_date": "尚未開始規劃",
+                "host_date": "4/19",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
                 "chapter_title": "第六章 用while與for來執行迴圈",
-                "host_date": "尚未開始規劃",
+                "host_date": "4/26",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
                 "chapter_title": "第七章 tuple與串列",
-                "host_date": "尚未開始規劃",
+                "host_date": "5/3",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
                 "chapter_title": "第八章 字典與集合",
-                "host_date": "尚未開始規劃",
+                "host_date": "5/10",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
                 "chapter_title": "第九章 函式",
-                "host_date": "尚未開始規劃",
+                "host_date": "5/17",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
                 "chapter_title": "第十章 喔喔：物件與類別",
-                "host_date": "尚未開始規劃",
+                "host_date": "5/24",
                 "sildes": [],
                 "codes": [],
                 "video": []

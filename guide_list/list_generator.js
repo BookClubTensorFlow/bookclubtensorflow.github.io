@@ -1,8 +1,8 @@
-var stage_list = ["第一階段", "第二階段", "第三階段"];
+var stage_list = ["第一階段", "第二階段", "第三階段", "第四階段"];
 
 var year_dict={
     "2020":guide_dict_2020,
-    //"2021":guide_dict_2021
+    "2022":guide_dict_2022
 }
 
 function display_generator(year) {

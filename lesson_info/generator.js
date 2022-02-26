@@ -1,7 +1,7 @@
 var id_list = ["python-fundamental", "data-science", "tensorflow"]
 var year_dict={
     "2020":lesson_2020,
-    //"2021":lesson_2021
+    "2022":lesson_2022
 }
 
 function display_generator(year){
