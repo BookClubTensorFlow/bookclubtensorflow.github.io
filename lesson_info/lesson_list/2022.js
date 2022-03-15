@@ -7,8 +7,8 @@ var lesson_2022 = [
                 "chapter_title": "第一章 初嘗py",
                 "host_date": "3/15",
                 "sildes": [],
-                "codes": [],
-                "video": []
+                "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter1.ipynb","https://colab.research.google.com/drive/1bi_-bQwxVee1DReV_KlNCnUx8EGh--Vm?usp=sharing","https://colab.research.google.com/drive/1aXgNYvzxMaaxldZ36OrLFX5rJwox6D56?usp=sharing"],
+                "video": ["https://www.youtube.com/watch?v=ttzZy6HAelQ"]
             },
             {
                 "chapter_title": "第二章 資料：型態、值、變數與名稱",
