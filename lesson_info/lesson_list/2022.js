@@ -14,8 +14,8 @@ var lesson_2022 = [
                 "chapter_title": "第二章 資料：型態、值、變數與名稱",
                 "host_date": "3/22",
                 "sildes": [],
-                "codes": [],
-                "video": []
+                "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter2.ipynb"],
+                "video": ["https://youtu.be/4yuTBQD2Wq0"]
             },
             {
                 "chapter_title": "第三章 數字",
