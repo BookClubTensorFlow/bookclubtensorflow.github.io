@@ -21,7 +21,7 @@ var lesson_2022 = [
                 "chapter_title": "第三章 數字",
                 "host_date": "3/29",
                 "sildes": [],
-                "codes": [],
+                "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter3.ipynb","https://colab.research.google.com/drive/1UMnIPxgPV2m6e8uTz7PE0dWQeEUQx6tF?usp=sharing"],
                 "video": []
             },
             {
