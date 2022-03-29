@@ -22,7 +22,7 @@ var lesson_2022 = [
                 "host_date": "3/29",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter3.ipynb","https://colab.research.google.com/drive/1UMnIPxgPV2m6e8uTz7PE0dWQeEUQx6tF?usp=sharing"],
-                "video": []
+                "video": ["https://youtu.be/gg41Dxw6mDs"]
             },
             {
                 "chapter_title": "第四章 用 if 來選擇",
