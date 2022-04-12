@@ -28,8 +28,8 @@ var lesson_2022 = [
                 "chapter_title": "第四章 用 if 來選擇",
                 "host_date": "4/12",
                 "sildes": [],
-                "codes": [],
-                "video": []
+                "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter4.ipynb","https://colab.research.google.com/drive/1aXGb4Wvb44k82tB_p_nhlknZr2RLvjUz?usp=sharing"],
+                "video": ["https://youtu.be/gCy9JGHo6wI"]
             },
             {
                 "chapter_title": "第五章 文字字串",
