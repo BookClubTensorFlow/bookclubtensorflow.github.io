@@ -34,7 +34,7 @@ var lesson_2022 = [
             {
                 "chapter_title": "第五章 文字字串",
                 "host_date": "4/19",
-                "sildes": [],
+                "sildes": ["https://drive.google.com/file/d/1kXkq1dxBg1P3p9RCWP29-KTOrIPbukdF/view?usp=sharing"],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter5.ipynb"],
                 "video": ["https://youtu.be/JnWbmR0lcyQ"]
             },
