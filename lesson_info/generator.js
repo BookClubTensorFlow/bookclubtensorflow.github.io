@@ -1,18 +1,43 @@
-var id_list = ["python-fundamental", "data-science", "tensorflow"]
 var year_dict={
     "2020":lesson_2020,
     "2022":lesson_2022
 }
 
+
+
 function display_generator(year){
 
-    console.log(typeof(year))
-
+    var option_list = ""
     var lesson_info_dict=year_dict[String(year)]
+    var content = ""
 
     for (var i = 0; i < lesson_info_dict.length; i++) {
         var origin_data = lesson_info_dict[i]
-        var content = '<div class="card-profile-actions py-4 mt-lg-0" style="margin-top: 0rem !important;">' +
+
+        option_list += "<li class='nav-item'>"+
+                        "<a class='nav-link mb-sm-3 mb-md-0"
+        if (i === 0 ){
+            option_list += " active"
+        }
+                        
+        option_list +=  "' data-toggle='tab' href='#"+lesson_info_dict[i].tag+"' role='tab' aria-controls='"+lesson_info_dict[i].tag+ "' aria-selected="
+        
+        if (i === 0 ){
+            option_list += "'true'"
+        }
+        else{
+            option_list += "'false'"
+        }
+       
+        option_list +=">"+lesson_info_dict[i].title+"</a>"+
+                        "</li>"
+        content +="<div class='tab-pane fade show"
+        if (i === 0 ){
+            content += " active"
+        }
+        content +="' id='"+lesson_info_dict[i].tag+"' role='tabpanel' aria-labelledby='"+lesson_info_dict[i].tag+"-tab'>"
+        
+        content += '<div class="card-profile-actions py-4 mt-lg-0" style="margin-top: 0rem !important;">' +
             '<h3 style="margin-bottom: 0rem !important;" class="text-center"><small><b>' + lesson_info_dict[i].book_title + '</b></small></h3>' +
             '<h4 style="margin-bottom: 0rem !important;color: #97999b;" class="text-center"><small><b>' + lesson_info_dict[i].date + '</b></small></h4>' +
             '</div>'
@@ -22,7 +47,7 @@ function display_generator(year){
             '<tr>' +
             '<th class="text-center">堂數</th>' +
             '<th>時間</th>' +
-            '<th>導讀章節</th>' +
+            '<th style="width:20vw;">導讀內容</th>' +
             '<th>相關資料</th>' +
             '</tr>' +
             '</thead>' +
@@ -62,7 +87,7 @@ function display_generator(year){
                 content = content + '<tr>' +
                     '<td class="text-center">'+String(host_date_list.indexOf(chapter_relevent.host_date)+1)+'</td>' +
                     '<td>' + chapter_relevent.host_date + '</td>' +
-                    '<td>' + chapter_relevent.chapter_title + '</td>' +
+                    '<td style="word-break: break-all;">' + chapter_relevent.chapter_title + '</td>' +
                     '<td class="td-actions">'
                 
                 if (chapter_relevent.video.length > 0) {
@@ -99,10 +124,12 @@ function display_generator(year){
             }
 
         }
-        document.getElementById(id_list[i]).innerHTML = content
+        content = content + '</table></div>'
         document.getElementById('year_selection').innerHTML = year
         
     }
+    document.getElementById("tabs-icons-text").innerHTML = option_list
+    document.getElementById("myTabContent").innerHTML = content
 
     var year_list=Object.keys(year_dict)
     for(var i=0;i<year_list.length;i++){

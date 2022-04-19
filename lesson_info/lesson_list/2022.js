@@ -1,5 +1,7 @@
 var lesson_2022 = [
-    {
+    {   
+        "title":"<i class='fab fa-python'></i></i> Python基礎",
+        "tag":"python-fundamental",
         "book_title": "精通 Python：運用簡單的套件進行現代運算（第二版）",
         "date": "2022/3/15 ~ 2022/5/24",
         "lessons": [
@@ -7,7 +9,7 @@ var lesson_2022 = [
                 "chapter_title": "第一章 初嘗py",
                 "host_date": "3/15",
                 "sildes": [],
-                "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter1.ipynb","https://colab.research.google.com/drive/1bi_-bQwxVee1DReV_KlNCnUx8EGh--Vm?usp=sharing","https://colab.research.google.com/drive/1aXgNYvzxMaaxldZ36OrLFX5rJwox6D56?usp=sharing"],
+                "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter1.ipynb"],
                 "video": ["https://www.youtube.com/watch?v=ttzZy6HAelQ"]
             },
             {
@@ -21,20 +23,20 @@ var lesson_2022 = [
                 "chapter_title": "第三章 數字",
                 "host_date": "3/29",
                 "sildes": [],
-                "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter3.ipynb","https://colab.research.google.com/drive/1UMnIPxgPV2m6e8uTz7PE0dWQeEUQx6tF?usp=sharing"],
+                "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter3.ipynb"],
                 "video": ["https://youtu.be/gg41Dxw6mDs"]
             },
             {
                 "chapter_title": "第四章 用 if 來選擇",
                 "host_date": "4/12",
                 "sildes": [],
-                "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter4.ipynb","https://colab.research.google.com/drive/1aXGb4Wvb44k82tB_p_nhlknZr2RLvjUz?usp=sharing"],
+                "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter4.ipynb"],
                 "video": ["https://youtu.be/gCy9JGHo6wI"]
             },
             {
                 "chapter_title": "第五章 文字字串",
                 "host_date": "4/19",
-                "sildes": ["https://drive.google.com/file/d/1kXkq1dxBg1P3p9RCWP29-KTOrIPbukdF/view?usp=sharing"],
+                "sildes": [],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter5.ipynb"],
                 "video": ["https://youtu.be/JnWbmR0lcyQ"]
             },
@@ -75,219 +77,223 @@ var lesson_2022 = [
             }
         ]
     },
-    {
-        "book_title": "Data Science from Scratch中文版（第二版）",
-        "date": "尚未規劃",
+    {   
+        "title":"<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow官方API",
+        "tag":"tensorflow-api",
+        "book_title": "TensorFlow官方API",
+        "date": "2022/3/15 ~ 2022/12/27",
         "lessons": [
             {
-                "chapter_title": "第3章 數據視覺化",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "張量基本操作",
+                "host_date": "3/15",
+                "sildes": [],
+                "codes": ["https://colab.research.google.com/drive/1bi_-bQwxVee1DReV_KlNCnUx8EGh--Vm?usp=sharing","https://colab.research.google.com/drive/1aXgNYvzxMaaxldZ36OrLFX5rJwox6D56?usp=sharing"],
+                "video": ["https://www.youtube.com/watch?v=ttzZy6HAelQ"]
+            },
+            {
+                "chapter_title": "tf.GradientTape",
+                "host_date": "3/29",
+                "sildes": [],
+                "codes": ["https://colab.research.google.com/drive/1UMnIPxgPV2m6e8uTz7PE0dWQeEUQx6tF?usp=sharing"],
+                "video": ["https://youtu.be/gg41Dxw6mDs"]
+            },
+            {
+                "chapter_title": "tf.keras.Sequential",
+                "host_date": "4/12",
+                "sildes": [],
+                "codes": ["https://colab.research.google.com/drive/1aXGb4Wvb44k82tB_p_nhlknZr2RLvjUz?usp=sharing"],
+                "video": ["https://youtu.be/gCy9JGHo6wI"]
+            },
+            {
+                "chapter_title": "tf.keras.layers",
+                "host_date": "4/26",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第4章 線性代數",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "tf.keras.Model",
+                "host_date": "5/10",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第5章 統計學",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "tf.keras.losses",
+                "host_date": "5/24",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第6章 機率",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "tf.saved_model",
+                "host_date": "6/7",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第7章 假設與推論",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "tf.function",
+                "host_date": "6/21",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第8章 梯度遞減",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "tf.data",
+                "host_date": "7/5",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第9章 取得數據資料",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "tf.keras.utils.to_categorical",
+                "host_date": "8/2",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第10章 處理數據資料",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "tf.keras.utils.get_file",
+                "host_date": "8/16",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第11章 機器學習",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "ImageDataGenerator",
+                "host_date": "8/30",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第12章 k最近鄰",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "tf.keras.losses.BinaryCrossentropy",
+                "host_date": "9/13",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第13章 單純貝氏",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "tf.keras.losses.MeanAbsoluteError",
+                "host_date": "9/27",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第14章 簡單線性迴歸",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "tf.keras.losses.SparseCategoricalCrossentropy",
+                "host_date": "10/11",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第15章 多元迴歸",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "tf.keras.layers.Add",
+                "host_date": "10/25",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第16章 邏輯迴歸",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "layers.Conv2dTranspose",
+                "host_date": "11/8",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第17章 決策樹",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "tf.keras.metrics",
+                "host_date": "11/22",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第18章 神經網路",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "tf.where",
+                "host_date": "12/6",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第19章 深度學習",
-                "host_date": "尚未開始規劃",
-                "sildes": [],
-                "codes": [],
-                "video": []
-            },
-            {
-                "chapter_title": "第20章 集群",
-                "host_date": "尚未開始規劃",
-                "sildes": [],
-                "codes": [],
-                "video": []
-            },
-            {
-                "chapter_title": "第21章 自然語言處理",
-                "host_date": "尚未開始規劃",
-                "sildes": [],
-                "codes": [],
-                "video": []
-            },
-            {
-                "chapter_title": "第22章 網路分析",
-                "host_date": "尚未開始規劃",
-                "sildes": [],
-                "codes": [],
-                "video": []
-            },
-            {
-                "chapter_title": "第23章 推薦系統",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "待定",
+                "host_date": "12/20",
                 "sildes": [],
                 "codes": [],
                 "video": []
             }
         ]
     },
-    {
-        "book_title": "Deep learning 深度學習必讀：<br>Keras 大神帶你用 Python 實作",
-        "date": "尚未規劃",
+    {   
+        "title":"<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow Hub 模型",
+        "tag":"tensorflow-hub",
+        "book_title": "TensorFlow Hub 模型",
+        "date": "2022/3/15 ~ 2022/12/27",
         "lessons": [
             {
-                "chapter_title": "第一章 何謂深度學習?",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "Text to MEL",
+                "host_date": "4/19",
+                "sildes": ["https://drive.google.com/file/d/1kXkq1dxBg1P3p9RCWP29-KTOrIPbukdF/view?usp=sharing"],
+                "codes": [],
+                "video": ["https://youtu.be/JnWbmR0lcyQ"]
+            },
+            {
+                "chapter_title": "Text segmentation",
+                "host_date": "5/3",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第二章 開始之前：了解神經網路的數學概念",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "Text retrieval question answer",
+                "host_date": "5/17",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第三章 開始使用神經網路",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "Text question answering",
+                "host_date": "5/31",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第四章 機器學習的基礎知識",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "Text classification",
+                "host_date": "6/14",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第五章 深度學習實務電腦視覺的深度學習",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "Text embedding",
+                "host_date": "6/28",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第六章 應用於文字資料與序列資料的深度學習",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "Text generation",
+                "host_date": "7/12",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第七章 進階深度學習的最佳實作方式",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "Text language model",
+                "host_date": "7/26",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "第八章 生成式深度學習",
-                "host_date": "尚未開始規劃",
+                "chapter_title": "Text preprocessing",
+                "host_date": "8/16",
                 "sildes": [],
                 "codes": [],
                 "video": []
-            }
+            },
         ]
     }
 ]

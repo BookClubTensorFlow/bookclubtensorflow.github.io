@@ -1,5 +1,7 @@
 var lesson_2020 = [
-    {
+    {   
+        "title":"<i class='fab fa-python'></i></i> Python基礎",
+        "tag":"python-fundamental",
         "book_title": "精通 Python：運用簡單的套件進行現代運算（第二版）",
         "date": "2020/11/10 ~ 2021/1/5",
         "lessons": [
@@ -75,7 +77,9 @@ var lesson_2020 = [
             }
         ]
     },
-    {
+    {   
+        "title":"<i class='fas fa-chart-bar'></i> 資料科學",
+        "tag":"data-science",
         "book_title": "Data Science from Scratch中文版（第二版）",
         "date": "2021/3/2 ~ 2021/6/22",
         "lessons": [
@@ -228,7 +232,9 @@ var lesson_2020 = [
             }
         ]
     },
-    {
+    {   
+        "title":"<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow",
+        "tag":"tensorflow",
         "book_title": "Deep learning 深度學習必讀：<br>Keras 大神帶你用 Python 實作",
         "date": "2021/9/7 ~ 2021/11/9",
         "lessons": [
