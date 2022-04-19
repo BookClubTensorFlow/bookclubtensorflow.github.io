@@ -45,10 +45,10 @@ function display_generator(year){
         content = content + '<table class="table">' +
             '<thead>' +
             '<tr>' +
-            '<th class="text-center">堂數</th>' +
-            '<th>時間</th>' +
-            '<th style="width:20vw;">導讀內容</th>' +
-            '<th>相關資料</th>' +
+            '<th class="text-center" style="width:5vw;">堂數</th>' +
+            '<th style="width:15vw;">時間</th>' +
+            '<th style="width:60vw;">導讀內容</th>' +
+            '<th style="width:20vw;">相關資料</th>' +
             '</tr>' +
             '</thead>' +
             '<tbody>'
