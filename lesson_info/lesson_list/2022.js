@@ -35,8 +35,8 @@ var lesson_2022 = [
                 "chapter_title": "第五章 文字字串",
                 "host_date": "4/19",
                 "sildes": [],
-                "codes": [],
-                "video": []
+                "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter5.ipynb"],
+                "video": ["https://youtu.be/JnWbmR0lcyQ"]
             },
             {
                 "chapter_title": "第六章 用while與for來執行迴圈",
