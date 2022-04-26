@@ -44,7 +44,7 @@ var lesson_2022 = [
                 "chapter_title": "第六章 用while與for來執行迴圈",
                 "host_date": "4/26",
                 "sildes": [],
-                "codes": [],
+                "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter6.ipynb"],
                 "video": []
             },
             {
@@ -108,7 +108,7 @@ var lesson_2022 = [
                 "chapter_title": "tf.keras.layers",
                 "host_date": "4/26",
                 "sildes": [],
-                "codes": [],
+                "codes": ["https://colab.research.google.com/drive/1LnOTz0GccaSfUWccx8E8hGJiZd3WiyC5"],
                 "video": []
             },
             {
