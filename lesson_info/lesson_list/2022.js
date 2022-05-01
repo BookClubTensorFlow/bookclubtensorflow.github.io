@@ -43,7 +43,7 @@ var lesson_2022 = [
             {
                 "chapter_title": "第六章 用while與for來執行迴圈",
                 "host_date": "4/26",
-                "sildes": [],
+                "sildes": ["https://drive.google.com/file/d/1YouO_pIgtOyErK_pK58nWota6uKosBCf/view?usp=sharing"],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter6.ipynb"],
                 "video": []
             },
