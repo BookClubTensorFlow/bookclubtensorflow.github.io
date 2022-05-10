@@ -59,7 +59,7 @@ var lesson_2022 = [
                 "host_date": "5/10",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1t_SQ-4jT1IYmYtJH4PlvlaGzBr6cJd-y?usp=sharing"],
-                "video": []
+                "video": ["https://youtu.be/VVCIoStJchA"]
             },
             {
                 "chapter_title": "第九章 函式",
@@ -114,9 +114,9 @@ var lesson_2022 = [
             {
                 "chapter_title": "tf.keras.Model",
                 "host_date": "5/10",
-                "sildes": ["https://colab.research.google.com/drive/1_p-5TSmVfnFwZehh1-KA2jrbqB0mm4ss","https://colab.research.google.com/drive/1ZgUAoQNzgiTFCj94NBDs_OQEvB0ksphv"],
-                "codes": [],
-                "video": []
+                "sildes": [],
+                "codes": ["https://colab.research.google.com/drive/1_p-5TSmVfnFwZehh1-KA2jrbqB0mm4ss","https://colab.research.google.com/drive/1ZgUAoQNzgiTFCj94NBDs_OQEvB0ksphv"],
+                "video": ["https://youtu.be/VVCIoStJchA"]
             },
             {
                 "chapter_title": "tf.keras.losses",
