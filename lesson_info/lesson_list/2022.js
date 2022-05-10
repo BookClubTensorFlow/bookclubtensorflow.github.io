@@ -50,9 +50,9 @@ var lesson_2022 = [
             {
                 "chapter_title": "第七章 tuple與串列",
                 "host_date": "5/3",
-                "sildes": [],
-                "codes": [],
-                "video": []
+                "sildes": ["https://drive.google.com/file/d/1_q1PFgj8t_edDPgkPIrsnF4m_ToIZLlA/view"],
+                "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter7.ipynb#scrollTo=gOQtu9TWLdO8"],
+                "video": ["https://youtu.be/-T091oEwUyU"]
             },
             {
                 "chapter_title": "第八章 字典與集合",
