@@ -240,7 +240,7 @@ var lesson_2022 = [
             },
             {
                 "chapter_title": "Text segmentation",
-                "host_date": "5/3",
+                "host_date": "5/17",
                 "sildes": [],
                 "codes": [],
                 "video": []
