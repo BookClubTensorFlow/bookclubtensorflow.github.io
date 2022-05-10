@@ -58,7 +58,7 @@ var lesson_2022 = [
                 "chapter_title": "第八章 字典與集合",
                 "host_date": "5/10",
                 "sildes": [],
-                "codes": [],
+                "codes": ["https://colab.research.google.com/drive/1t_SQ-4jT1IYmYtJH4PlvlaGzBr6cJd-y?usp=sharing"],
                 "video": []
             },
             {
@@ -114,7 +114,7 @@ var lesson_2022 = [
             {
                 "chapter_title": "tf.keras.Model",
                 "host_date": "5/10",
-                "sildes": [],
+                "sildes": ["https://colab.research.google.com/drive/1_p-5TSmVfnFwZehh1-KA2jrbqB0mm4ss","https://colab.research.google.com/drive/1ZgUAoQNzgiTFCj94NBDs_OQEvB0ksphv"],
                 "codes": [],
                 "video": []
             },
