@@ -65,7 +65,7 @@ var lesson_2022 = [
                 "chapter_title": "第九章 函式",
                 "host_date": "5/17",
                 "sildes": [],
-                "codes": [],
+                "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter9.ipynb"],
                 "video": []
             },
             {
