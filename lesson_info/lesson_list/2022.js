@@ -10,14 +10,14 @@ var lesson_2022 = [
                 "host_date": "3/15",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter1.ipynb"],
-                "video": ["https://www.youtube.com/watch?v=ttzZy6HAelQ"]
+                "video": ["https://www.youtube.com/watch?v=ttzZy6HAelQ&t=457s"]
             },
             {
                 "chapter_title": "第二章 資料：型態、值、變數與名稱",
                 "host_date": "3/22",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter2.ipynb"],
-                "video": ["https://youtu.be/4yuTBQD2Wq0"]
+                "video": ["https://www.youtube.com/watch?v=4yuTBQD2Wq0&t=266s"]
             },
             {
                 "chapter_title": "第三章 數字",
@@ -66,7 +66,7 @@ var lesson_2022 = [
                 "host_date": "5/17",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter9.ipynb"],
-                "video": []
+                "video": ["https://youtu.be/dFO9xkkRRxg"]
             },
             {
                 "chapter_title": "第十章 喔喔：物件與類別",
@@ -88,7 +88,7 @@ var lesson_2022 = [
                 "host_date": "3/15",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1bi_-bQwxVee1DReV_KlNCnUx8EGh--Vm?usp=sharing","https://colab.research.google.com/drive/1aXgNYvzxMaaxldZ36OrLFX5rJwox6D56?usp=sharing"],
-                "video": ["https://www.youtube.com/watch?v=ttzZy6HAelQ"]
+                "video": ["https://www.youtube.com/watch?v=ttzZy6HAelQ&t=712s"]
             },
             {
                 "chapter_title": "tf.GradientTape",
@@ -241,16 +241,16 @@ var lesson_2022 = [
             {
                 "chapter_title": "Text segmentation",
                 "host_date": "5/17",
-                "sildes": [],
-                "codes": [],
-                "video": []
+                "sildes": ["https://drive.google.com/file/d/1Go6R6VaVHOvR221tdE_MR3KI_KLEkIbG/view?usp=sharing"],
+                "codes": ["https://colab.research.google.com/drive/1x-Ad-d4YUv2jR9fxzJXu_oaYJ5Zus-Fl"],
+                "video": ["https://youtu.be/dFO9xkkRRxg"]
             },
             {
                 "chapter_title": "Text retrieval question answer",
                 "host_date": "5/17",
-                "sildes": [],
-                "codes": [],
-                "video": []
+                "sildes": ["https://drive.google.com/file/d/1Go6R6VaVHOvR221tdE_MR3KI_KLEkIbG/view?usp=sharing"],
+                "codes": ["https://colab.research.google.com/drive/1btbb6VnRUFaQPy9yAz_XppC5i9vJ21al"],
+                "video": ["https://youtu.be/dFO9xkkRRxg"]
             },
             {
                 "chapter_title": "Text question answering",
