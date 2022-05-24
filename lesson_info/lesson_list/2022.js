@@ -71,8 +71,8 @@ var lesson_2022 = [
             {
                 "chapter_title": "第十章 喔喔：物件與類別",
                 "host_date": "5/24",
-                "sildes": [],
-                "codes": [],
+                "sildes": ["https://docs.google.com/presentation/d/1SUuoJHLjpHBVlXgVxcpRZf8KLolOCa58/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
+                "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter10.ipynb"],
                 "video": []
             }
         ]
@@ -119,105 +119,105 @@ var lesson_2022 = [
                 "video": ["https://youtu.be/VVCIoStJchA"]
             },
             {
-                "chapter_title": "tf.keras.losses",
+                "chapter_title": "tf.keras.datasets",
                 "host_date": "5/24",
                 "sildes": [],
-                "codes": [],
+                "codes": ["https://colab.research.google.com/drive/1GMjgCl_2gdrBgkT3hnxfvQ7vfTid4tXQ"],
                 "video": []
             },
             {
-                "chapter_title": "tf.saved_model",
+                "chapter_title": "tf.keras.losse",
                 "host_date": "6/7",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.function",
+                "chapter_title": "tf.saved_model",
                 "host_date": "6/21",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.data",
+                "chapter_title": "tf.function",
                 "host_date": "7/5",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.keras.utils.to_categorical",
+                "chapter_title": "tf.data",
                 "host_date": "8/2",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.keras.utils.get_file",
+                "chapter_title": "tf.keras.utils.to_categorical",
                 "host_date": "8/16",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "ImageDataGenerator",
+                "chapter_title": "tf.keras.utils.get_file",
                 "host_date": "8/30",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.keras.losses.BinaryCrossentropy",
+                "chapter_title": "ImageDataGenerator",
                 "host_date": "9/13",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.keras.losses.MeanAbsoluteError",
+                "chapter_title": "tf.keras.losses.BinaryCrossentropy",
                 "host_date": "9/27",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.keras.losses.SparseCategoricalCrossentropy",
+                "chapter_title": "tf.keras.losses.MeanAbsoluteError",
                 "host_date": "10/11",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.keras.layers.Add",
+                "chapter_title": "tf.keras.losses.SparseCategoricalCrossentropy",
                 "host_date": "10/25",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "layers.Conv2dTranspose",
+                "chapter_title": "tf.keras.layers.Add",
                 "host_date": "11/8",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.keras.metrics",
+                "chapter_title": "layers.Conv2dTranspose",
                 "host_date": "11/22",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.where",
+                "chapter_title": "tf.keras.metrics",
                 "host_date": "12/6",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "待定",
+                "chapter_title": "tf.where",
                 "host_date": "12/20",
                 "sildes": [],
                 "codes": [],
