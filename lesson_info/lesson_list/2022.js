@@ -73,7 +73,7 @@ var lesson_2022 = [
                 "host_date": "5/24",
                 "sildes": ["https://docs.google.com/presentation/d/1SUuoJHLjpHBVlXgVxcpRZf8KLolOCa58/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter10.ipynb"],
-                "video": []
+                "video": ['https://youtu.be/6CZWrDJNZgM']
             }
         ]
     },
@@ -123,7 +123,7 @@ var lesson_2022 = [
                 "host_date": "5/24",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1GMjgCl_2gdrBgkT3hnxfvQ7vfTid4tXQ"],
-                "video": []
+                "video": ['https://youtu.be/6CZWrDJNZgM']
             },
             {
                 "chapter_title": "tf.keras.losse",
