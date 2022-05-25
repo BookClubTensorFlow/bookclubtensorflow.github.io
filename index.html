@@ -22,13 +22,14 @@ Coded by www.creative-tim.com
     <title>
         從 Python 到 TensorFlow 線上讀書會
     </title>
- 
+
     <meta property="og:type" content="article" />
     <meta property="og:title" content="從 Python 到 TensorFlow 線上讀書會" />
-    <meta property="og:description" content="1.專注在Python、機器學習、TensorFlow的學習 \n2. 本讀書會不錄影，鼓勵現場互動與討論 \n3. 導讀形式以程式碼、投影片為主" />
+    <meta property="og:description"
+        content="1.專注在Python、機器學習、TensorFlow的學習 \n2. 本讀書會不錄影，鼓勵現場互動與討論 \n3. 導讀形式以程式碼、投影片為主" />
     <meta property="og:image" content="https://bookclubtensorflow.github.io/assets/img/brand_img.jpeg" />
     <meta property="og:url" content="https://bookclubtensorflow.github.io/" />
-    
+
     <!-- GOOGLE爬蟲所需的標計話資料-->
     <script type="application/ld+json">
         {
@@ -58,7 +59,8 @@ Coded by www.creative-tim.com
     </script>
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <!-- Nucleo Icons -->
     <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
@@ -71,7 +73,17 @@ Coded by www.creative-tim.com
     <link href="./assets/css/argon-design-system.css?v=1.2.0" rel="stylesheet" />
     <!-- Animate.css v3.5.2 -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- 定義DialogFlow對話氣泡的外觀-->
+    <style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48
+        }
+        </style>
     <style>
         df-messenger {
             --df-messenger-bot-message: #878fac;
@@ -81,7 +93,7 @@ Coded by www.creative-tim.com
             --df-messenger-send-icon: #878fac;
             --df-messenger-user-message: #479b3d;
         }
-        
+
         @font-face {
             font-family: 'Material Icons';
             font-style: normal;
@@ -103,11 +115,13 @@ Coded by www.creative-tim.com
             border-color: #ff3600;
         }
 
-        .btn-warning.disabled, .btn-warning:disabled {
+        .btn-warning.disabled,
+        .btn-warning:disabled {
             color: #fff;
             background-color: #ff3600;
             border-color: #ff3600;
         }
+
         .btn-warning:hover {
             color: #fff;
             background-color: #ff3600;
@@ -121,7 +135,6 @@ Coded by www.creative-tim.com
         .navbar-toggler-icon {
             color: #ff3600;
         }
-
     </style>
 </head>
 
@@ -129,21 +142,23 @@ Coded by www.creative-tim.com
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
         <div class="container">
             <div class="navbar-brand mr-lg-5"></div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation" >
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global"
+                aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse" id="navbar_global">
                 <div class="navbar-collapse-header">
                     <div class="row">
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: auto;
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global"
+                            aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: auto;
                         margin-right: auto;">
-                                <span></span>
-                                <span></span>
+                            <span></span>
+                            <span></span>
                         </button>
                     </div>
                 </div>
 
-                <ul class="navbar-nav align-items-lg-center ml-lg-auto" >
+                <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                     <li class="nav-item">
                         <a class="nav-link nav-link-icon" href="./guide_list/">
                             <i class="ni ni-circle-08"></i>
@@ -168,7 +183,7 @@ Coded by www.creative-tim.com
     </nav>
     <!-- End Navbar -->
     <div class="wrapper">
-          <section class="section section-hero section-shaped" style="background-image: url('./assets/img/bg/bg2.png'),linear-gradient(0deg,#ffffff,#eaa61d, #ff6f00);
+        <section class="section section-hero section-shaped" style="background-image: url('./assets/img/bg/bg2.png'),linear-gradient(0deg,#ffffff,#eaa61d, #ff6f00);
           background-position: top right;">
 
             <div class="page-header">
@@ -184,8 +199,10 @@ Coded by www.creative-tim.com
                                 <div class="btn-wrapper mt-4">
                                     <!-- <a href="javascript:;" class="text-primary"><button type="button" class="btn btn-secondary btn-icon mt-3 mb-sm-0 disabled">即將開放第三梯次報名</button></a> -->
 
-                                    <a href="https://forms.gle/NeFLrg6cVXZDNViR9" target="_blank" class="btn btn-warning btn-icon mt-3 mb-sm-0">
-                                        <span class="btn-inner--text" style="font-size: 1.33333333em;">Python基礎導讀開放報名中</span>
+                                    <a href="https://forms.gle/NeFLrg6cVXZDNViR9" target="_blank"
+                                        class="btn btn-warning btn-icon mt-3 mb-sm-0">
+                                        <span class="btn-inner--text"
+                                            style="font-size: 1.33333333em;">Python基礎導讀開放報名中</span>
                                     </a>
                                 </div>
                             </div>
@@ -198,18 +215,18 @@ Coded by www.creative-tim.com
                 <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
         </svg>
             </div-->
-        </div>
-        <div class="section features-1" style="padding: 32px 0px;">
-            <div class="container">
-                <div class="row col-md-12" style="margin: 0px;">
-                    <div class="col-md-8 mx-auto text-center">
-                        <h3 class="display-3">導讀書本</h3>
-                        <h4><small>循序漸進，從基礎到專家</small></h3>
-                    </div>
+    </div>
+    <div class="section features-1" style="padding: 32px 0px;">
+        <div class="container">
+            <div class="row col-md-12" style="margin: 0px;">
+                <div class="col-md-8 mx-auto text-center">
+                    <h3 class="display-3">導讀書本</h3>
+                    <h4><small>循序漸進，從基礎到專家</small></h3>
                 </div>
-                <br>
-                <div class="row col-md-12" style="margin: 0px;">
-                    <div class="col-md-4 mx-auto text-center" style="padding: 15px 15px;">
+            </div>
+            <br>
+            <div class="row col-md-12" style="margin: 0px;">
+                <!-- <div class="col-md-4 mx-auto text-center" style="padding: 15px 15px;">
                         <div class="card card-profile pt-0 shadow" data-image="img-raised">
                             <div class="card-body">
                                 <div class="info">
@@ -222,15 +239,15 @@ Coded by www.creative-tim.com
                                 </div>
                             </div>
                            <div class="card-footer text-center">
-                            <!-- <a href="javascript:;" class="text-primary"><button type="button" class="btn btn-secondary disabled">已結束</button></a>-->
+                            <a href="javascript:;" class="text-primary"><button type="button" class="btn btn-secondary disabled">已結束</button></a>
                             <a href="https://forms.gle/NeFLrg6cVXZDNViR9" class="text-primary" target="_blank"><button type="button" class="btn btn-warning">
                                     <div class="animated flash infinite slow" style="animation-duration: 5s;">現正報名中</div>
                                 </button></a>
                             </div> 
                             
                         </div>
-                    </div>
-                    <!-- <div class="col-md-4 mx-auto text-center" style="padding: 15px 15px;">
+                    </div> -->
+                <!-- <div class="col-md-4 mx-auto text-center" style="padding: 15px 15px;">
                         <div class="card card-profile pt-0 shadow" data-image="img-raised">
                             <div class="card-body">
                                 <div class="info">
@@ -248,136 +265,177 @@ Coded by www.creative-tim.com
                             </div>
                         </div>
                     </div> -->
-                    <!-- <div class="col-md-4 mx-auto text-center" style="padding: 15px 15px;">
-                        <div class="card card-profile pt-0 shadow" data-image="img-raised">
-                            <div class="card-body">
-                                <div class="info">
-                                    <div class="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle">
-                                        <span class="iconify" data-icon="simple-icons:tensorflow" data-inline="false"></span>
-                                    </div>
-                                    <h6 class="info-title text-uppercase text-warning">TensorFlow</h6>
-                                    <b><p class="description opacity-10" style="font-weight:900;">Deep learning 深度學習必讀：<br>Keras 大神帶你用 Python 實作 </p></b>
-                                    <p class="description opacity-10" style="font-weight:bold;">新梯次尚在規劃中</p>
+                <div class="col-md-6 mx-auto text-center" style="padding: 15px 15px;">
+                    <div class="card card-profile pt-0 shadow" data-image="img-raised">
+                        <div class="card-body">
+                            <div class="info">
+                                <div class="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle">
+                                    <span class="iconify" data-icon="simple-icons:tensorflow"
+                                        data-inline="false"></span>
                                 </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="javascript:;" class="text-primary"><button type="button" class="btn btn-secondary disabled">已結束</button></a>
-                                <a href="https://forms.gle/iQJ1GJUnsofAF5HC6" class="text-primary" target="_blank"><button type="button" class="btn btn-warning">
-                                    <div class="animated flash infinite slow" style="animation-duration: 5s;">現正報名中</div>
-                                </button></a> 
+                                <h6 class="info-title text-uppercase text-warning">TensorFlow</h6>
+                                <b>
+                                    <p class="description opacity-10" style="font-weight:900;">Deep learning
+                                        深度學習必讀：<br>Keras 大神帶你用 Python 實作 </p>
+                                </b>
+                                <p class="description opacity-10" style="font-weight:bold;">2021/6/7 ~ 2021/7/26</p>
                             </div>
                         </div>
-                    </div> -->
-                    <div class="col-md-4 mx-auto text-center" style="padding: 15px 15px;">
-                        <div class="card card-profile pt-0 shadow" data-image="img-raised">
-                            <div class="card-body">
-                                <div class="info">
-                                    <div class="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle">
-                                        <span class="iconify" data-icon="simple-icons:tensorflow" data-inline="false"></span>
+                        <div class="card-footer text-center">
+                            <!-- <a href="javascript:;" class="text-primary"><button type="button" class="btn btn-secondary disabled">已結束</button></a> -->
+                            <a href="https://forms.gle/QAZuvNzjTHe3yhRZ" class="text-primary" target="_blank"><button
+                                    type="button" class="btn btn-warning">
+                                    <div class="animated flash infinite slow" style="animation-duration: 5s;">現正報名中
                                     </div>
-                                    <h6 class="info-title text-uppercase text-warning">TensorFlow資源分享</h6>
-                                    <b><p class="description opacity-10" style="font-weight:900;">TensorFlow官方API<br>TensorFlow Hub 模型<br>Tensorflow Datasets</p></b>
-                                    <p class="description opacity-10" style="font-weight:bold;">2022/3/15 ~ 2022/12/27</p>
-                                </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <!-- <a href="javascript:;" class="text-primary"><button type="button" class="btn btn-secondary disabled">已結束</button></a> -->
-                                <a href="https://forms.gle/QAZuvNzjTHe3yhRZ6" class="text-primary" target="_blank"><button type="button" class="btn btn-warning">
-                                    <div class="animated flash infinite slow" style="animation-duration: 5s;">現正報名中</div>
                                 </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mx-auto text-center" style="padding: 15px 15px;">
+                    <div class="card card-profile pt-0 shadow" data-image="img-raised">
+                        <div class="card-body">
+                            <div class="info">
+                                <div class="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle">
+                                    <span class="iconify" data-icon="simple-icons:tensorflow"
+                                        data-inline="false"></span>
+                                </div>
+                                <h6 class="info-title text-uppercase text-warning">TensorFlow資源分享</h6>
+                                <b>
+                                    <p class="description opacity-10" style="font-weight:900;">
+                                        TensorFlow官方API<br>TensorFlow Hub 模型<br>Tensorflow Datasets</p>
+                                </b>
+                                <p class="description opacity-10" style="font-weight:bold;">2022/3/15 ~ 2022/12/27</p>
                             </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <!-- <a href="javascript:;" class="text-primary"><button type="button" class="btn btn-secondary disabled">已結束</button></a> -->
+                            <a href="https://forms.gle/QAZuvNzjTHe3yhRZ6" class="text-primary" target="_blank"><button
+                                    type="button" class="btn btn-warning">
+                                    <div class="animated flash infinite slow" style="animation-duration: 5s;">現正報名中
+                                    </div>
+                                </button></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section features-6" style="padding: 32px 0px;">
-            <div class="container">
-                <!--div class="col-lg-6"-->
-                <h1>協辦單位</h1>
-                <!--/div-->
-                <div class="row align-items-center">
-
-                    <div class="col-lg-6">
-                        <div class="info info-horizontal info-hover-primary">
-                            <div class="description pl-4">
-                                <h4 class="title">GDG Taipei </h4>
-                                <p>是以研究 Google 相關技術為主的開發者社群，由與會者提供數個 Lightening Talk，並不定期邀請講者分享特定主題、舉辦 Hackthon 或 Workshop 等活動。</p>
-                                <a href="https://gdg.community.dev/gdg-taipei/" target="_blank" class="text-info"><button type="button" class="btn btn-outline-warning btn-round">了解更多</button>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="info info-horizontal info-hover-primary mt-5">
-                            <div class="description pl-4">
-                                <h4 class="title">TensorFlow User Group Taipei </h4>
-                                <p>這個 Meetup 群組歡迎所有對 TensorFlow 有興趣的人，不論您是初學者或經驗豐富的開發者，我們期待與您一起探索這個由 Google 開源的機器學習框架。 </p>
-                                <a href="https://www.meetup.com/TensorFlow-User-Group-Taipei/" target="_blank" class="text-info"><button type="button" class="btn btn-outline-warning btn-round">了解更多</button></a>
-                            </div>
-                        </div>
-                        <div class="info info-horizontal info-hover-primary mt-5">
-                            <div class="description pl-4">
-                                <h4 class="title">Google Developer Student Clubs <br>National Dong Hwa University </h4>
-                                <p>Google Developer Student Clubs (GDSC) 是由 Google Developers 所支持的學生開發者社群計劃，我們鼓勵各大專院校的學生們，在校園裡組織社群/社團 (一所學校一個社群)，學習及討論 Google 提倡的開發技術，其中涵蓋 Android、Cloud、Web 及 AI/ML 等領域。</p>
-                                <a href="https://dscndhu.blogspot.com/?fbclid=IwAR2X-c0N5nN2Oj6OREhBcifN8TXvlXlaaEcw4f9vHrQO6ErhcoST_GIdkNc" target="_blank" class="text-info"><button type="button" class="btn btn-outline-warning btn-round">了解更多</button></a>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="col-lg-6 col-10">
-                        <img class="img-center" src="./assets/img/working.png" width="100%" style="margin-left: 0rem !important;">
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <br /><br />
-        <footer class="footer">
-            <div class="container">
-                <div class="row row-grid align-items-center mb-5">
-                    <div class="col-lg-6">
-                        <h3 class="font-weight-light mb-2" style="color: #ff3600;">謝謝各位熱情參與!</h3>
-                        <h4 class="mb-0 font-weight-light">在這些平台與我們聯繫吧!</h4>
-                    </div>
-                    <div class="col-lg-6 text-lg-center btn-wrapper">
-                        <a target="_blank" href="mailto:tensorflowbookclub@gmail.com">
-                            <button rel="nofollow" class="btn btn-icon-only btn-github rounded-circle" data-toggle="tooltip" data-original-title="Email to Us!">
-                                <span class="iconify" data-icon="il-email" data-inline="false"></span>
-                            </button>
-                        </a>
-                        <a target="_blank" href="https://www.youtube.com/channel/UCWfxZibjbxZPr4YVqxDq8AA">
-                            <button target="_blank" rel="nofollow" class="btn btn-icon-only btn-youtube rounded-circle" data-toggle="tooltip" data-original-title="Youtube channel" style="background-color: #FF0000; border-color: #FF0000;">
-                                <span class="btn-inner--icon"><span class="iconify" data-icon="cib:youtube" data-inline="false"></span></span>
-                            </button>
-                          </a>
-                          <a target="_blank" href="https://www.meetup.com/en-AU/TensorFlow-User-Group-Taipei/">
-                            <button target="_blank" rel="nofollow" class="btn btn-icon-only btn-youtube rounded-circle" data-toggle="tooltip" data-original-title="Follow us" style="background-color: #e0393e; border-color: #e0393e;">
-                              <span class="btn-inner--icon"><span class="iconify" data-icon="cib:meetup"
-                                  data-inline="false"></span></span>
-                            </button>
-                          </a>
-                        <a target="_blank" href="https://www.facebook.com/Python.to.TensorFlow.Bookclub">
-                            <button target="_blank" rel="nofollow" class="btn-icon-only rounded-circle btn btn-facebook" data-toggle="tooltip" data-original-title="Like us">
-                                <span class="btn-inner--icon"><span class="fab fa-facebook" data-icon="cib:meetup" data-inline="false"></span></span>
-                            </button>
-                        </a>
-                    </div>
-                </div>
-                <hr>
-                <div class="row align-items-center justify-content-md-between">
-                    <div class="col-md-6">
-                        <div class="copyright">
-                            &copy;
-                            <script>
-                                document.write(new Date().getFullYear())
-                            </script> <a href="" target="_blank" style="color: #ff3600;">從 Python 到 TensorFlow</a></div>
-
-                    </div>
-                </div>
-            </div>
-        </footer>
     </div>
-    <df-messenger intent="WELCOME" chat-title="小秘書" agent-id="60d53ab1-602d-4772-9a94-74334c8dd773" language-code="zh-TW" chat-icon="./assets/img/tensorflow.png"></df-messenger>
+    <div class="section features-6" style="padding: 32px 0px;">
+        <div class="container">
+            <div class="row col-md-12" style="margin: 0px;">
+                <div class="col-md-8 mx-auto text-center">
+                    <h3 class="display-3">協辦單位</h3>
+                    <!-- <h4><small>循序漸進，從基礎到專家</small></h3> -->
+                </div>
+            </div>
+            <br>
+            <div class="row align-items-center text-center">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="info">
+                            <div class="icon icon-lg icon-shape icon-shape-danger shadow rounded-circle">
+                                <span class="material-symbols-outlined">
+                                    code
+                                    </span>
+                            </div>
+                            <h6 class="info-title text-uppercase text-danger">GDG Taipei</h6>
+                            <p class="description opacity-8">是以研究 Google 相關技術為主的開發者社群，由與會者提供數個 Lightening Talk，並不定期邀請講者分享特定主題、舉辦 Hackthon 或 Workshop
+                                等活動。</p>
+                            <a href="https://gdg.community.dev/gdg-taipei/" class="text-danger" target="_blank">了解更多
+                                <i class="ni ni-bold-right text-danger"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info">
+                            <div class="icon icon-lg icon-shape icon-shape-danger shadow rounded-circle">
+                                <span class="material-symbols-outlined">
+                                    group
+                                    </span>
+                            </div>
+                            <h6 class="info-title text-uppercase text-danger">TensorFlow User Group Taipei</h6>
+                            <p class="description opacity-8">這個 Meetup 群組歡迎所有對 TensorFlow 有興趣的人，不論您是初學者或經驗豐富的開發者，我們期待與您一起探索這個由 Google 開源的機器學習框架。</p>
+                            <a href="https://www.meetup.com/TensorFlow-User-Group-Taipei/" class="text-danger" target="_blank">了解更多
+                                <i class="ni ni-bold-right text-danger"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info">
+                            <div class="icon icon-lg icon-shape icon-shape-danger shadow rounded-circle">
+                                <span class="material-symbols-outlined">
+                                    school
+                                    </span>
+                            </div>
+                            <h6 class="info-title text-uppercase text-danger">GDSC NDHU</h6>
+                            <p class="description opacity-8">Google Developer Student Clubs 是由 Google Developers 官方所支持的學生開發者社群。我們將會與全球上千個校園內的 GDSC，一起學習 Google 所提倡的最新開發技術。</p>
+                            <a href="https://dscndhu.blogspot.com/?fbclid=IwAR2X-c0N5nN2Oj6OREhBcifN8TXvlXlaaEcw4f9vHrQO6ErhcoST_GIdkNc" class="text-danger" target="_blank">了解更多
+                                <i class="ni ni-bold-right text-danger"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br /><br />
+    <footer class="footer">
+        <div class="container">
+            <div class="row row-grid align-items-center mb-5">
+                <div class="col-lg-6">
+                    <h3 class="font-weight-light mb-2" style="color: #ff3600;">謝謝各位熱情參與!</h3>
+                    <h4 class="mb-0 font-weight-light">在這些平台與我們聯繫吧!</h4>
+                </div>
+                <div class="col-lg-6 text-lg-center btn-wrapper">
+                    <a target="_blank" href="mailto:tensorflowbookclub@gmail.com">
+                        <button rel="nofollow" class="btn btn-icon-only btn-github rounded-circle" data-toggle="tooltip"
+                            data-original-title="Email to Us!">
+                            <span class="iconify" data-icon="il-email" data-inline="false"></span>
+                        </button>
+                    </a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCWfxZibjbxZPr4YVqxDq8AA">
+                        <button target="_blank" rel="nofollow" class="btn btn-icon-only btn-youtube rounded-circle"
+                            data-toggle="tooltip" data-original-title="Youtube channel"
+                            style="background-color: #FF0000; border-color: #FF0000;">
+                            <span class="btn-inner--icon"><span class="iconify" data-icon="cib:youtube"
+                                    data-inline="false"></span></span>
+                        </button>
+                    </a>
+                    <a target="_blank" href="https://www.meetup.com/en-AU/TensorFlow-User-Group-Taipei/">
+                        <button target="_blank" rel="nofollow" class="btn btn-icon-only btn-youtube rounded-circle"
+                            data-toggle="tooltip" data-original-title="Follow us"
+                            style="background-color: #e0393e; border-color: #e0393e;">
+                            <span class="btn-inner--icon"><span class="iconify" data-icon="cib:meetup"
+                                    data-inline="false"></span></span>
+                        </button>
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/Python.to.TensorFlow.Bookclub">
+                        <button target="_blank" rel="nofollow" class="btn-icon-only rounded-circle btn btn-facebook"
+                            data-toggle="tooltip" data-original-title="Like us">
+                            <span class="btn-inner--icon"><span class="fab fa-facebook" data-icon="cib:meetup"
+                                    data-inline="false"></span></span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <div class="row align-items-center justify-content-md-between">
+                <div class="col-md-6">
+                    <div class="copyright">
+                        &copy;
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script> <a href="" target="_blank" style="color: #ff3600;">從 Python 到 TensorFlow</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <df-messenger intent="WELCOME" chat-title="小秘書" agent-id="60d53ab1-602d-4772-9a94-74334c8dd773"
+        language-code="zh-TW" chat-icon="./assets/img/tensorflow.png"></df-messenger>
     <!--   Core JS Files   -->
     <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
     <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>

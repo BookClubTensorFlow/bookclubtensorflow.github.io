@@ -78,6 +78,70 @@ var lesson_2022 = [
         ]
     },
     {   
+        "title":"<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow 書本導讀",
+        "tag":"tensorflow",
+        "book_title": "Deep learning 深度學習必讀：<br>Keras 大神帶你用 Python 實作",
+        "date": "2021/6/7 ~ 2021/7/26",
+        "lessons": [
+            {
+                "chapter_title": "第一章 何謂深度學習?",
+                "host_date": "6/7",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            },
+            {
+                "chapter_title": "第二章 開始之前：了解神經網路的數學概念",
+                "host_date": "6/14",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            },
+            {
+                "chapter_title": "第三章 開始使用神經網路",
+                "host_date": "6/21",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            },
+            {
+                "chapter_title": "第四章 機器學習的基礎知識",
+                "host_date": "6/28",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            },
+            {
+                "chapter_title": "第五章 深度學習實務電腦視覺的深度學習",
+                "host_date": "7/5",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            },
+            {
+                "chapter_title": "第六章 應用於文字資料與序列資料的深度學習",
+                "host_date": "7/15",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            },
+            {
+                "chapter_title": "第七章 進階深度學習的最佳實作方式",
+                "host_date": "7/19",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            },
+            {
+                "chapter_title": "第八章 生成式深度學習",
+                "host_date": "7/26",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            }
+        ]
+    },
+    {   
         "title":"<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow官方API",
         "tag":"tensorflow-api",
         "book_title": "TensorFlow官方API",
