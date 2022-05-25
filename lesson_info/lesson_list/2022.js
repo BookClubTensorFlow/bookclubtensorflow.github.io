@@ -120,7 +120,7 @@ var lesson_2022 = [
             },
             {
                 "chapter_title": "第六章 應用於文字資料與序列資料的深度學習",
-                "host_date": "7/15",
+                "host_date": "7/12",
                 "sildes": [],
                 "codes": [],
                 "video": []
