@@ -197,98 +197,105 @@ var lesson_2022 = [
                 "video": ['https://youtu.be/6CZWrDJNZgM']
             },
             {
-                "chapter_title": "tf.keras.losse",
+                "chapter_title": "tf.saved_model",
                 "host_date": "6/7",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.saved_model",
+                "chapter_title": "tf.function",
                 "host_date": "6/21",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.function",
+                "chapter_title": "tf.data",
                 "host_date": "7/5",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.data",
-                "host_date": "8/2",
+                "chapter_title": "tf.data.Dataset",
+                "host_date": "7/19",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
                 "chapter_title": "tf.keras.utils.to_categorical",
-                "host_date": "8/16",
+                "host_date": "8/2",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
                 "chapter_title": "tf.keras.utils.get_file",
-                "host_date": "8/30",
+                "host_date": "8/16",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
                 "chapter_title": "ImageDataGenerator",
+                "host_date": "8/30",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            },
+            {
+                "chapter_title": "tf.keras.losses",
                 "host_date": "9/13",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.keras.losses.BinaryCrossentropy",
+                "chapter_title": "tf.keras.initializers",
                 "host_date": "9/27",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.keras.losses.MeanAbsoluteError",
+                "chapter_title": "tf.keras.activations",
                 "host_date": "10/11",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.keras.losses.SparseCategoricalCrossentropy",
+                "chapter_title": "tf.keras.callbacks.Callback",
                 "host_date": "10/25",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.keras.layers.Add",
+                "chapter_title": "layers.Conv2dTranspose",
                 "host_date": "11/8",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "layers.Conv2dTranspose",
+                "chapter_title": "tf.keras.metrics",
                 "host_date": "11/22",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.keras.metrics",
+                "chapter_title": "tf.where",
                 "host_date": "12/6",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "tf.where",
+                "chapter_title": "tf.keras.optimizers",
                 "host_date": "12/20",
                 "sildes": [],
                 "codes": [],
@@ -365,6 +372,62 @@ var lesson_2022 = [
                 "codes": [],
                 "video": []
             },
+            {
+                "chapter_title": "Jerry 訪談 (題目未定)",
+                "host_date": "8/23",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            },
+            {
+                "chapter_title": "Image classification",
+                "host_date": "9/6",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            },
+            {
+                "chapter_title": "Object detection",
+                "host_date": "9/20",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            },
+            {
+                "chapter_title": "Text Detection & recognition",
+                "host_date": "10/4",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            },
+            {
+                "chapter_title": "Image Segmentation",
+                "host_date": "10/18",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            },
+            {
+                "chapter_title": "Pose detection",
+                "host_date": "11/1",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            },
+            {
+                "chapter_title": "Style transfer",
+                "host_date": "11/15",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            },
+            {
+                "chapter_title": "Generator",
+                "host_date": "11/29",
+                "sildes": [],
+                "codes": [],
+                "video": []
+            }
         ]
     }
 ]

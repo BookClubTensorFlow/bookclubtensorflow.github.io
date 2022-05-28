@@ -34,6 +34,16 @@ var guide_dict_2022=[
         ]
     },
     {
+        "book_title":"Deep learning 深度學習必讀：Keras 大神帶你用 Python 實作",
+        "chapters":9,
+        "guider_list":[
+            {
+                "name":"謝政宏",
+                "details":"國立台北大學 電機工程學系 碩士生"
+            },
+        ]
+    },
+    {
         "book_title":"TensorFlow官方API",
         "chapters":21,
         "guider_list":[
@@ -48,6 +58,11 @@ var guide_dict_2022=[
         "guider_list":[
             {
                 "name":"Jerry"
+            },
+            {
+                "pic":"../assets/img/guide_person/LIS8RJAB.JPG",
+                "name":"Eric Chin",
+                "details":"Intel  Software Engineer"
             }
         ]
     }
