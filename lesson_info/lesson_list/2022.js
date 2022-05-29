@@ -81,7 +81,7 @@ var lesson_2022 = [
         "title":"<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow 書本導讀",
         "tag":"tensorflow",
         "book_title": "Deep learning 深度學習必讀：<br>Keras 大神帶你用 Python 實作",
-        "date": "2021/6/7 ~ 2021/8/2",
+        "date": "2022/6/7 ~ 2022/8/2",
         "lessons": [
             {
                 "chapter_title": "第一章 何謂深度學習?",

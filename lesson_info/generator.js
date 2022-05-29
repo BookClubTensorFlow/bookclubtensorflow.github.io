@@ -10,13 +10,14 @@ function display_generator(year){
     var option_list = ""
     var lesson_info_dict=year_dict[String(year)]
     var content = ""
+    let active_index = 1
 
     for (var i = 0; i < lesson_info_dict.length; i++) {
         var origin_data = lesson_info_dict[i]
 
         option_list += "<li class='nav-item'>"+
                         "<a class='nav-link mb-sm-3 mb-md-0"
-        if (i === 0 ){
+        if (i === active_index ){
             option_list += " active"
         }
                         
@@ -32,7 +33,7 @@ function display_generator(year){
         option_list +=">"+lesson_info_dict[i].title+"</a>"+
                         "</li>"
         content +="<div class='tab-pane fade show"
-        if (i === 0 ){
+        if (i === active_index ){
             content += " active"
         }
         content +="' id='"+lesson_info_dict[i].tag+"' role='tabpanel' aria-labelledby='"+lesson_info_dict[i].tag+"-tab'>"
