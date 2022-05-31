@@ -335,7 +335,7 @@ var lesson_2022 = [
                 "host_date": "5/31",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": ["https://youtu.be/3Uq3wziBfOk"]
             },
             {
                 "chapter_title": "Text classification",
