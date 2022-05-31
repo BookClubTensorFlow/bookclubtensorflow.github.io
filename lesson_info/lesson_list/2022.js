@@ -378,7 +378,56 @@ var lesson_2022 = [
                 "sildes": [],
                 "codes": [],
                 "video": []
-            }
+            },
+            {
+                "chapter_title": "Hugging Face-Translation",
+                "host_date": "9/13",
+                "sildes": [],
+                "codes": [],
+                "video": []
+                },
+                {
+                    "chapter_title": "Hugging Face-Token Classification",
+                    "host_date": "9/27",
+                    "sildes": [],
+                    "codes": [],
+                    "video": []
+                },
+                {
+                    "chapter_title": "Hugging Face-Sentence Similarity",
+                    "host_date": "10/11",
+                    "sildes": [],
+                    "codes": [],
+                    "video": []
+                },
+                {
+                    "chapter_title": "Hugging Face-Question Answering",
+                    "host_date": "10/25",
+                    "sildes": [],
+                    "codes": [],
+                    "video": []
+                },
+                {
+                    "chapter_title": "Hugging Face-Summarization",
+                    "host_date": "11/8",
+                    "sildes": [],
+                    "codes": [],
+                    "video": []
+                },
+                {
+                    "chapter_title": "Hugging Face-Zero-Shot Classification",
+                    "host_date": "11/22",
+                    "sildes": [],
+                    "codes": [],
+                    "video": []
+                },
+                {
+                    "chapter_title": "Hugging Face-Text Classification",
+                    "host_date": "12/6",
+                    "sildes": [],
+                    "codes": [],
+                    "video": []
+                }
         ]
     },
     {   
@@ -435,63 +484,6 @@ var lesson_2022 = [
             "codes": [],
             "video": []
         }
-    ]
-    },
-    {   
-        "title":"<span class='iconify' data-icon='clarity:happy-face-line' data-inline='false'></span> TensorFlow 人臉辨識",
-        "tag":"tensorflow-face-process",
-        "book_title": "TensorFlow 人臉辨識",
-        "date": "2022/9/13 ~ 2022/12/6",
-        "lessons": [  
-            {
-            "chapter_title": "Hugging Face-Translation",
-            "host_date": "9/13",
-            "sildes": [],
-            "codes": [],
-            "video": []
-            },
-            {
-                "chapter_title": "Hugging Face-Token Classification",
-                "host_date": "9/27",
-                "sildes": [],
-                "codes": [],
-                "video": []
-            },
-            {
-                "chapter_title": "Hugging Face-Sentence Similarity",
-                "host_date": "10/11",
-                "sildes": [],
-                "codes": [],
-                "video": []
-            },
-            {
-                "chapter_title": "Hugging Face-Question Answering",
-                "host_date": "10/25",
-                "sildes": [],
-                "codes": [],
-                "video": []
-            },
-            {
-                "chapter_title": "Hugging Face-Summarization",
-                "host_date": "11/8",
-                "sildes": [],
-                "codes": [],
-                "video": []
-            },
-            {
-                "chapter_title": "Hugging Face-Zero-Shot Classification",
-                "host_date": "11/22",
-                "sildes": [],
-                "codes": [],
-                "video": []
-            },
-            {
-                "chapter_title": "Hugging Face-Text Classification",
-                "host_date": "12/6",
-                "sildes": [],
-                "codes": [],
-                "video": []
-            }
     ]
     }
 ]
