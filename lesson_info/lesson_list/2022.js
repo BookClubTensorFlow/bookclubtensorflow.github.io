@@ -304,10 +304,10 @@ var lesson_2022 = [
         ]
     },
     {   
-        "title":"<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow Hub 模型",
-        "tag":"tensorflow-hub",
-        "book_title": "TensorFlow Hub 模型",
-        "date": "2022/3/15 ~ 2022/12/27",
+        "title":"<span class='iconify' data-icon='akar-icons:text-align-left' data-inline='false'></span> TensorFlow 文字處理",
+        "tag":"tensorflow-text",
+        "book_title": "TensorFlow 文字處理",
+        "date": "2022/3/15 ~ 2022/8/16",
         "lessons": [
             {
                 "chapter_title": "Text to MEL",
@@ -378,56 +378,120 @@ var lesson_2022 = [
                 "sildes": [],
                 "codes": [],
                 "video": []
+            }
+        ]
+    },
+    {   
+        "title":"<span class='iconify' data-icon='ci:image' data-inline='false'></span> TensorFlow 影像處理",
+        "tag":"tensorflow-image-process",
+        "book_title": "TensorFlow 影像處理",
+        "date": "2022/9/6 ~ 2022/11/29",
+        "lessons": [  {
+            "chapter_title": "Image classification",
+            "host_date": "9/6",
+            "sildes": [],
+            "codes": [],
+            "video": []
+        },
+        {
+            "chapter_title": "Object detection",
+            "host_date": "9/20",
+            "sildes": [],
+            "codes": [],
+            "video": []
+        },
+        {
+            "chapter_title": "Text Detection & recognition",
+            "host_date": "10/4",
+            "sildes": [],
+            "codes": [],
+            "video": []
+        },
+        {
+            "chapter_title": "Image Segmentation",
+            "host_date": "10/18",
+            "sildes": [],
+            "codes": [],
+            "video": []
+        },
+        {
+            "chapter_title": "Pose detection",
+            "host_date": "11/1",
+            "sildes": [],
+            "codes": [],
+            "video": []
+        },
+        {
+            "chapter_title": "Style transfer",
+            "host_date": "11/15",
+            "sildes": [],
+            "codes": [],
+            "video": []
+        },
+        {
+            "chapter_title": "Generator",
+            "host_date": "11/29",
+            "sildes": [],
+            "codes": [],
+            "video": []
+        }
+    ]
+    },
+    {   
+        "title":"<span class='iconify' data-icon='clarity:happy-face-line' data-inline='false'></span> TensorFlow 人臉辨識",
+        "tag":"tensorflow-face-process",
+        "book_title": "TensorFlow 人臉辨識",
+        "date": "2022/9/13 ~ 2022/12/6",
+        "lessons": [  
+            {
+            "chapter_title": "Hugging Face-Translation",
+            "host_date": "9/13",
+            "sildes": [],
+            "codes": [],
+            "video": []
             },
             {
-                "chapter_title": "Image classification",
-                "host_date": "9/6",
+                "chapter_title": "Hugging Face-Token Classification",
+                "host_date": "9/27",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "Object detection",
-                "host_date": "9/20",
+                "chapter_title": "Hugging Face-Sentence Similarity",
+                "host_date": "10/11",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "Text Detection & recognition",
-                "host_date": "10/4",
+                "chapter_title": "Hugging Face-Question Answering",
+                "host_date": "10/25",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "Image Segmentation",
-                "host_date": "10/18",
+                "chapter_title": "Hugging Face-Summarization",
+                "host_date": "11/8",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "Pose detection",
-                "host_date": "11/1",
+                "chapter_title": "Hugging Face-Zero-Shot Classification",
+                "host_date": "11/22",
                 "sildes": [],
                 "codes": [],
                 "video": []
             },
             {
-                "chapter_title": "Style transfer",
-                "host_date": "11/15",
-                "sildes": [],
-                "codes": [],
-                "video": []
-            },
-            {
-                "chapter_title": "Generator",
-                "host_date": "11/29",
+                "chapter_title": "Hugging Face-Text Classification",
+                "host_date": "12/6",
                 "sildes": [],
                 "codes": [],
                 "video": []
             }
-        ]
+    ]
     }
 ]

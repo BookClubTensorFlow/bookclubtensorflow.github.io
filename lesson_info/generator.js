@@ -30,7 +30,7 @@ function display_generator(year){
             option_list += "'false'"
         }
        
-        option_list +=">"+lesson_info_dict[i].title+"</a>"+
+        option_list +=" style='margin:10px'>"+lesson_info_dict[i].title+"</a>"+
                         "</li>"
         content +="<div class='tab-pane fade show"
         if (i === active_index ){

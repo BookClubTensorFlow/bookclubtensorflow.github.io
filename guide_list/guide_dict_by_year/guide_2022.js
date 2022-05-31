@@ -21,10 +21,6 @@ var guide_dict_2022=[
                 "details":"台科大資工所 研究生"
             },
             {
-                "name":"Nishkarsh arya",
-                "details":"Developer"    
-            },
-            {
                 "name":"洪譽承",
                 "details":"台灣大學電信所 研究生"
             },
@@ -39,7 +35,7 @@ var guide_dict_2022=[
         "guider_list":[
             {
                 "name":"謝政宏",
-                "details":"國立台北大學 電機工程學系 碩士生"
+                "details":"國立台北大學<br> 電機工程學系 碩士生"
             },
         ]
     },
