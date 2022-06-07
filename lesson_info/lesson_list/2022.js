@@ -227,7 +227,7 @@ var lesson_2022 = [
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1JfNPcrJ98Ns9cesfC7rq65pUrU0WWHcZ"],
                 "video": [],
-                "url": []
+                "url": ["https://tf.wiki/zh_hant/deployment/export.html"]
             },
             {
                 "chapter_title": "tf.function",
