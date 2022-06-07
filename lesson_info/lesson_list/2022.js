@@ -10,70 +10,80 @@ var lesson_2022 = [
                 "host_date": "3/15",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter1.ipynb"],
-                "video": ["https://www.youtube.com/watch?v=ttzZy6HAelQ&t=457s"]
+                "video": ["https://www.youtube.com/watch?v=ttzZy6HAelQ&t=457s"],
+                "url": []
             },
             {
                 "chapter_title": "第二章 資料：型態、值、變數與名稱",
                 "host_date": "3/22",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter2.ipynb"],
-                "video": ["https://www.youtube.com/watch?v=4yuTBQD2Wq0&t=266s"]
+                "video": ["https://www.youtube.com/watch?v=4yuTBQD2Wq0&t=266s"],
+                "url": []
             },
             {
                 "chapter_title": "第三章 數字",
                 "host_date": "3/29",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter3.ipynb"],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "第四章 用 if 來選擇",
                 "host_date": "4/12",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter4.ipynb"],
-                "video": ["https://youtu.be/gCy9JGHo6wI"]
+                "video": ["https://youtu.be/gCy9JGHo6wI"],
+                "url": []
             },
             {
                 "chapter_title": "第五章 文字字串",
                 "host_date": "4/19",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter5.ipynb"],
-                "video": ["https://youtu.be/JnWbmR0lcyQ"]
+                "video": ["https://youtu.be/JnWbmR0lcyQ"],
+                "url": []
             },
             {
                 "chapter_title": "第六章 用while與for來執行迴圈",
                 "host_date": "4/26",
                 "sildes": ["https://drive.google.com/file/d/1YouO_pIgtOyErK_pK58nWota6uKosBCf/view?usp=sharing"],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter6.ipynb"],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "第七章 tuple與串列",
                 "host_date": "5/3",
                 "sildes": ["https://drive.google.com/file/d/1_q1PFgj8t_edDPgkPIrsnF4m_ToIZLlA/view"],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter7.ipynb#scrollTo=gOQtu9TWLdO8"],
-                "video": ["https://youtu.be/-T091oEwUyU"]
+                "video": ["https://youtu.be/-T091oEwUyU"],
+                "url": []
             },
             {
                 "chapter_title": "第八章 字典與集合",
                 "host_date": "5/10",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1t_SQ-4jT1IYmYtJH4PlvlaGzBr6cJd-y?usp=sharing"],
-                "video": ["https://youtu.be/VVCIoStJchA"]
+                "video": ["https://youtu.be/VVCIoStJchA"],
+                "url": []
             },
             {
                 "chapter_title": "第九章 函式",
                 "host_date": "5/17",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter9.ipynb"],
-                "video": ["https://www.youtube.com/watch?v=dFO9xkkRRxg&t=808s"]
+                "video": ["https://www.youtube.com/watch?v=dFO9xkkRRxg&t=808s"],
+                "url": []
             },
             {
                 "chapter_title": "第十章 喔喔：物件與類別",
                 "host_date": "5/24",
                 "sildes": ["https://docs.google.com/presentation/d/1SUuoJHLjpHBVlXgVxcpRZf8KLolOCa58/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
                 "codes": ["https://colab.research.google.com/github/hank199599/Introducing-Python-reading_log/blob/main/Chapter10.ipynb"],
-                "video": ['https://youtu.be/6CZWrDJNZgM']
+                "video": ['https://youtu.be/6CZWrDJNZgM'],
+                "url": []
             }
         ]
     },
@@ -86,65 +96,74 @@ var lesson_2022 = [
             {
                 "chapter_title": "第一章 何謂深度學習?",
                 "host_date": "6/7",
-                "sildes": [],
+                "sildes": ["https://docs.google.com/presentation/d/1CbBhRbTbLpAkbd0KMzK6fOsPQYYUK7oa/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": ["https://case.ntu.edu.tw/blog/?p=26340","https://ithelp.ithome.com.tw/articles/10217967","https://chih-sheng-huang821.medium.com/%E4%BB%80%E9%BA%BC%E6%98%AF%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E5%92%8C%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-587e6a0dc72a"]
             },
             {
                 "chapter_title": "第二章 開始之前：了解神經網路的數學概念",
                 "host_date": "6/14",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "第三章 開始使用神經網路",
                 "host_date": "6/21",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "第四章 機器學習的基礎知識",
                 "host_date": "6/28",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "第五章 深度學習實務電腦視覺的深度學習",
                 "host_date": "7/5",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "第六章 應用於文字資料與序列資料的深度學習",
                 "host_date": "7/12",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "第七章 進階深度學習的最佳實作方式",
                 "host_date": "7/19",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "第八章 生成式深度學習",
                 "host_date": "7/26",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "第九章 結語",
                 "host_date": "8/2",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             }
         ]
     },
@@ -159,147 +178,168 @@ var lesson_2022 = [
                 "host_date": "3/15",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1bi_-bQwxVee1DReV_KlNCnUx8EGh--Vm?usp=sharing","https://colab.research.google.com/drive/1aXgNYvzxMaaxldZ36OrLFX5rJwox6D56?usp=sharing"],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "tf.GradientTape",
                 "host_date": "3/29",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1UMnIPxgPV2m6e8uTz7PE0dWQeEUQx6tF?usp=sharing"],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "tf.keras.Sequential",
                 "host_date": "4/12",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1aXGb4Wvb44k82tB_p_nhlknZr2RLvjUz?usp=sharing"],
-                "video": ["https://youtu.be/gCy9JGHo6wI"]
+                "video": ["https://youtu.be/gCy9JGHo6wI"],
+                "url": []
             },
             {
                 "chapter_title": "tf.keras.layers",
                 "host_date": "4/26",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1LnOTz0GccaSfUWccx8E8hGJiZd3WiyC5"],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "tf.keras.Model",
                 "host_date": "5/10",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1_p-5TSmVfnFwZehh1-KA2jrbqB0mm4ss","https://colab.research.google.com/drive/1ZgUAoQNzgiTFCj94NBDs_OQEvB0ksphv"],
-                "video": ["https://youtu.be/VVCIoStJchA"]
+                "video": ["https://youtu.be/VVCIoStJchA"],
+                "url": []
             },
             {
                 "chapter_title": "tf.keras.datasets",
                 "host_date": "5/24",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1GMjgCl_2gdrBgkT3hnxfvQ7vfTid4tXQ"],
-                "video": ['https://youtu.be/6CZWrDJNZgM']
+                "video": ['https://youtu.be/6CZWrDJNZgM'],
+                "url": []
             },
             {
                 "chapter_title": "tf.saved_model",
                 "host_date": "6/7",
                 "sildes": [],
-                "codes": [],
-                "video": []
+                "codes": ["https://colab.research.google.com/drive/1JfNPcrJ98Ns9cesfC7rq65pUrU0WWHcZ"],
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "tf.function",
                 "host_date": "6/21",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "tf.data",
                 "host_date": "7/5",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "tf.data.Dataset",
                 "host_date": "7/19",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "tf.keras.utils.to_categorical",
                 "host_date": "8/2",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "tf.keras.utils.get_file",
                 "host_date": "8/16",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "ImageDataGenerator",
                 "host_date": "8/30",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "tf.keras.losses",
                 "host_date": "9/13",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "tf.keras.initializers",
                 "host_date": "9/27",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "tf.keras.activations",
                 "host_date": "10/11",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "tf.keras.callbacks.Callback",
                 "host_date": "10/25",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "layers.Conv2dTranspose",
                 "host_date": "11/8",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "tf.keras.metrics",
                 "host_date": "11/22",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "tf.where",
                 "host_date": "12/6",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "tf.keras.optimizers",
                 "host_date": "12/20",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             }
         ]
     },
@@ -314,70 +354,80 @@ var lesson_2022 = [
                 "host_date": "4/19",
                 "sildes": ["https://drive.google.com/file/d/1kXkq1dxBg1P3p9RCWP29-KTOrIPbukdF/view?usp=sharing"],
                 "codes": [],
-                "video": ["https://youtu.be/JnWbmR0lcyQ"]
+                "video": ["https://youtu.be/JnWbmR0lcyQ"],
+                "url": []
             },
             {
                 "chapter_title": "Text segmentation",
                 "host_date": "5/17",
                 "sildes": ["https://drive.google.com/file/d/1Go6R6VaVHOvR221tdE_MR3KI_KLEkIbG/view?usp=sharing"],
                 "codes": ["https://colab.research.google.com/drive/1x-Ad-d4YUv2jR9fxzJXu_oaYJ5Zus-Fl"],
-                "video": ["https://www.youtube.com/watch?v=dFO9xkkRRxg&t=2711s"]
+                "video": ["https://www.youtube.com/watch?v=dFO9xkkRRxg&t=2711s"],
+                "url": []
             },
             {
                 "chapter_title": "Text retrieval question answer",
                 "host_date": "5/17",
                 "sildes": ["https://drive.google.com/file/d/1Go6R6VaVHOvR221tdE_MR3KI_KLEkIbG/view?usp=sharing"],
                 "codes": ["https://colab.research.google.com/drive/1btbb6VnRUFaQPy9yAz_XppC5i9vJ21al"],
-                "video": ["https://www.youtube.com/watch?v=dFO9xkkRRxg&t=2711s"]
+                "video": ["https://www.youtube.com/watch?v=dFO9xkkRRxg&t=2711s"],
+                "url": []
             },
             {
                 "chapter_title": "Text question answering",
                 "host_date": "5/31",
                 "sildes": [],
                 "codes": [],
-                "video": ["https://youtu.be/3Uq3wziBfOk"]
+                "video": ["https://youtu.be/3Uq3wziBfOk"],
+                "url": []
             },
             {
                 "chapter_title": "Text classification",
                 "host_date": "6/14",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "Text embedding",
                 "host_date": "6/28",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "Text generation",
                 "host_date": "7/12",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "Text language model",
                 "host_date": "7/26",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "Text preprocessing",
                 "host_date": "8/16",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "Jerry 訪談 (題目未定)",
                 "host_date": "8/23",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             }
         ]
     },
@@ -391,49 +441,56 @@ var lesson_2022 = [
             "host_date": "9/6",
             "sildes": [],
             "codes": [],
-            "video": []
+            "video": [],
+            "url": []
         },
         {
             "chapter_title": "Object detection",
             "host_date": "9/20",
             "sildes": [],
             "codes": [],
-            "video": []
+            "video": [],
+            "url": []
         },
         {
             "chapter_title": "Text Detection & recognition",
             "host_date": "10/4",
             "sildes": [],
             "codes": [],
-            "video": []
+            "video": [],
+            "url": []
         },
         {
             "chapter_title": "Image Segmentation",
             "host_date": "10/18",
             "sildes": [],
             "codes": [],
-            "video": []
+            "video": [],
+            "url": []
         },
         {
             "chapter_title": "Pose detection",
             "host_date": "11/1",
             "sildes": [],
             "codes": [],
-            "video": []
+            "video": [],
+            "url": []
         },
         {
             "chapter_title": "Style transfer",
             "host_date": "11/15",
             "sildes": [],
             "codes": [],
-            "video": []
+            "video": [],
+            "url": []
         },
         {
             "chapter_title": "Generator",
             "host_date": "11/29",
             "sildes": [],
             "codes": [],
-            "video": []
+            "video": [],
+            "url": []
         }
     ]
     },
@@ -448,49 +505,56 @@ var lesson_2022 = [
             "host_date": "9/13",
             "sildes": [],
             "codes": [],
-            "video": []
+            "video": [],
+            "url": []
             },
             {
                 "chapter_title": "Hugging Face-Token Classification",
                 "host_date": "9/27",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "Hugging Face-Sentence Similarity",
                 "host_date": "10/11",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "Hugging Face-Question Answering",
                 "host_date": "10/25",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "Hugging Face-Summarization",
                 "host_date": "11/8",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "Hugging Face-Zero-Shot Classification",
                 "host_date": "11/22",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "Hugging Face-Text Classification",
                 "host_date": "12/6",
                 "sildes": [],
                 "codes": [],
-                "video": []
+                "video": [],
+                "url": []
             }
     ]
     }

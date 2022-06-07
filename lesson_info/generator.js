@@ -121,6 +121,17 @@ function display_generator(year){
                     }
                 }
                 
+                if (chapter_relevent.url.length > 0) {
+                    for (var k = 0; k < chapter_relevent.url.length; k++) {
+                        content = content + '<a target="_blank" href="' + chapter_relevent.url[k] + '">' +
+                            '<button type="button" rel="tooltip" class="btn btn-warning btn-icon btn-sm" data-original-title="" title="相關網頁" style="margin: 3px 3px;padding:4px 7px;background-color: #0051ff; border-color: #0051ff;">' +
+                            '<i class="fa fa-external-link" aria-hidden="true"></i>' +
+                            '</button>' +
+                            '</a>'
+                    }
+        
+                }
+
                 content = content + '</td>' + '</tr>'
             }
 
