@@ -98,7 +98,7 @@ var lesson_2022 = [
                 "host_date": "6/7",
                 "sildes": ["https://docs.google.com/presentation/d/1CbBhRbTbLpAkbd0KMzK6fOsPQYYUK7oa/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
                 "codes": [],
-                "video": [],
+                "video": ["https://youtu.be/0kN_5AFVMPU"],
                 "url": ["https://case.ntu.edu.tw/blog/?p=26340","https://ithelp.ithome.com.tw/articles/10217967","https://chih-sheng-huang821.medium.com/%E4%BB%80%E9%BA%BC%E6%98%AF%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E5%92%8C%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-587e6a0dc72a"]
             },
             {
@@ -226,7 +226,7 @@ var lesson_2022 = [
                 "host_date": "6/7",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1JfNPcrJ98Ns9cesfC7rq65pUrU0WWHcZ"],
-                "video": [],
+                "video": ["https://youtu.be/nXVzmM3XKtw"],
                 "url": ["https://tf.wiki/zh_hant/deployment/export.html"]
             },
             {
