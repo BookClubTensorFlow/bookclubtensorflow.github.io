@@ -104,9 +104,9 @@ var lesson_2022 = [
             {
                 "chapter_title": "第二章 開始之前：了解神經網路的數學概念",
                 "host_date": "6/14",
-                "sildes": [],
+                "sildes": ["https://docs.google.com/presentation/d/1yQnLTqdnNseel-SQkuxs8YvhKSd7z-Ev/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
                 "codes": [],
-                "video": [],
+                "video": ["https://youtu.be/yM-apqkn18A"],
                 "url": []
             },
             {
