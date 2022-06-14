@@ -383,7 +383,7 @@ var lesson_2022 = [
             },
             {
                 "chapter_title": "Text classification",
-                "host_date": "6/14",
+                "host_date": "6/28",
                 "sildes": [],
                 "codes": [],
                 "video": [],
