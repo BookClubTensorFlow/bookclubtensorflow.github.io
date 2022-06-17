@@ -104,10 +104,10 @@ var lesson_2022 = [
             {
                 "chapter_title": "第二章 開始之前：了解神經網路的數學概念",
                 "host_date": "6/14",
-                "sildes": [],
+                "sildes": ["https://docs.google.com/presentation/d/1yQnLTqdnNseel-SQkuxs8YvhKSd7z-Ev/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
                 "codes": [],
-                "video": [],
-                "url": []
+                "video": ["https://youtu.be/yM-apqkn18A"],
+                "url": ["https://iter01.com/579169.html","https://medium.com/hunter-cheng/%E6%A9%9F%E4%BD%95%E7%82%BA%E5%BC%B5%E9%87%8F-tensor-%E4%B8%89%E5%88%86%E9%90%98%E5%9C%96%E8%A7%A3%E9%A1%9E%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF%E5%9F%BA%E6%9C%AC%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B-ab0ccd115aff","https://www.796t.com/content/1547313962.html"]
             },
             {
                 "chapter_title": "第三章 開始使用神經網路",
