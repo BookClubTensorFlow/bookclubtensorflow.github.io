@@ -112,10 +112,10 @@ var lesson_2022 = [
             {
                 "chapter_title": "第三章 開始使用神經網路",
                 "host_date": "6/21",
-                "sildes": [],
-                "codes": [],
-                "video": [],
-                "url": []
+                "sildes": ["https://docs.google.com/presentation/d/1f4_xdnJ_tXDYlefdLmrwX3BRYvMoTZ1R/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
+                "codes": ["https://colab.research.google.com/drive/1Drh_Wv6sQ4ioIR553syyTO2idQpcCL1n"],
+                "video": ["https://youtu.be/-U_97a_qgek"],
+                "url": ["https://lufor129.medium.com/%E5%82%BB%E7%93%9C%E5%BC%8Ftensorflow-keras%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8-730b235275d","https://medium.com/analytics-vidhya/install-tensorflow-gpu-2-4-0-with-cuda-11-0-and-cudnn-8-using-anaconda-8c6472c9653f","https://medium.com/ching-i/win10-%E5%AE%89%E8%A3%9D-cuda-cudnn-%E6%95%99%E5%AD%B8-c617b3b76deb"]
             },
             {
                 "chapter_title": "第四章 機器學習的基礎知識",
@@ -234,7 +234,7 @@ var lesson_2022 = [
                 "host_date": "6/21",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1tnI9vsIkSzO1Wti1NLiimBSr9khxzErQ","https://colab.research.google.com/drive/1tnI9vsIkSzO1Wti1NLiimBSr9khxzErQ"],
-                "video": [],
+                "video": ["https://youtu.be/-U_97a_qgek"],
                 "url": []
             },
             {
