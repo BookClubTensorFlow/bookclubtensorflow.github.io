@@ -233,7 +233,7 @@ var lesson_2022 = [
                 "chapter_title": "tf.function",
                 "host_date": "6/21",
                 "sildes": [],
-                "codes": [],
+                "codes": ["https://colab.research.google.com/drive/1tnI9vsIkSzO1Wti1NLiimBSr9khxzErQ","https://colab.research.google.com/drive/1tnI9vsIkSzO1Wti1NLiimBSr9khxzErQ"],
                 "video": [],
                 "url": []
             },
