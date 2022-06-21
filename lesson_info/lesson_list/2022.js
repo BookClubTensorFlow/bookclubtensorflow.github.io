@@ -234,7 +234,7 @@ var lesson_2022 = [
                 "host_date": "6/21",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1tnI9vsIkSzO1Wti1NLiimBSr9khxzErQ","https://colab.research.google.com/drive/1tnI9vsIkSzO1Wti1NLiimBSr9khxzErQ"],
-                "video": ["https://youtu.be/-U_97a_qgek"],
+                "video": ["https://youtu.be/8bUt67hqx4Q"],
                 "url": []
             },
             {
