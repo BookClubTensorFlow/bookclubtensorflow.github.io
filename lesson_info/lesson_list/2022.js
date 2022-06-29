@@ -382,7 +382,7 @@ var lesson_2022 = [
                 "url": []
             },
             {
-                "chapter_title": "Text classification",
+                "chapter_title": "Text classification<br>Text embedding",
                 "host_date": "6/28",
                 "sildes": [],
                 "codes": [],
@@ -390,32 +390,8 @@ var lesson_2022 = [
                 "url": []
             },
             {
-                "chapter_title": "Text embedding",
-                "host_date": "6/28",
-                "sildes": [],
-                "codes": [],
-                "video": [],
-                "url": []
-            },
-            {
-                "chapter_title": "Text generation",
+                "chapter_title": "Text generation<br>Text language model<br>Text preprocessing",
                 "host_date": "7/12",
-                "sildes": [],
-                "codes": [],
-                "video": [],
-                "url": []
-            },
-            {
-                "chapter_title": "Text language model",
-                "host_date": "7/26",
-                "sildes": [],
-                "codes": [],
-                "video": [],
-                "url": []
-            },
-            {
-                "chapter_title": "Text preprocessing",
-                "host_date": "8/16",
                 "sildes": [],
                 "codes": [],
                 "video": [],
