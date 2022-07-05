@@ -120,8 +120,8 @@ var lesson_2022 = [
             {
                 "chapter_title": "第四章 機器學習的基礎知識",
                 "host_date": "6/28",
-                "sildes": [],
-                "codes": ["https://docs.google.com/presentation/d/1qp7eqEVYEpsV9VBLdctWuzKQYyIjF7B7/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
+                "sildes": ["https://docs.google.com/presentation/d/1qp7eqEVYEpsV9VBLdctWuzKQYyIjF7B7/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
+                "codes": [],
                 "video": ["https://youtu.be/rlZzUaRQafA"],
                 "url": []
             },
