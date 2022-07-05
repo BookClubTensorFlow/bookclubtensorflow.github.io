@@ -242,7 +242,7 @@ var lesson_2022 = [
                 "host_date": "7/5",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1kt1jZWXgbfGG_RVUsVdp1kWalQSun21g"],
-                "video": [],
+                "video": ["https://youtu.be/aflfGY6jrnM"],
                 "url": []
             },
             {
