@@ -130,7 +130,7 @@ var lesson_2022 = [
                 "host_date": "7/5",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ["https://youtu.be/Zb3beJRxe3"],
                 "url": []
             },
             {
