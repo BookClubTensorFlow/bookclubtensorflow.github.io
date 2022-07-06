@@ -246,7 +246,7 @@ var lesson_2022 = [
                 "url": []
             },
             {
-                "chapter_title": "tf.data.Dataset",
+                "chapter_title": "tf.keras.backend",
                 "host_date": "7/19",
                 "sildes": [],
                 "codes": [],
