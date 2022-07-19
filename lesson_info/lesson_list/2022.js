@@ -128,16 +128,16 @@ var lesson_2022 = [
             {
                 "chapter_title": "第五章 深度學習實務電腦視覺的深度學習",
                 "host_date": "7/5",
-                "sildes": [],
-                "codes": [],
+                "sildes": ["https://docs.google.com/presentation/d/1PhLr1l0FfDiwbUYiYdizn5Efyq9mOxq5/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
+                "codes": ["https://colab.research.google.com/drive/1o0viIf-DqwpnGwxLZBhwWcwIg8vi5KrI"],
                 "video": ["https://youtu.be/Zb3beJRxe3"],
                 "url": []
             },
             {
                 "chapter_title": "第六章 應用於文字資料與序列資料的深度學習",
                 "host_date": "7/12",
-                "sildes": [],
-                "codes": [],
+                "sildes": ["https://docs.google.com/presentation/d/1kXdW4ReEF61fDGUT0qcKR-IKiF8Hz3Dv/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
+                "codes": ["https://colab.research.google.com/drive/1MaBffI75tEXssdWc8WBaiBb-fU5NwvBq"],
                 "video": ["https://youtu.be/uV7GDtK4W1I"],
                 "url": []
             },
@@ -146,7 +146,7 @@ var lesson_2022 = [
                 "host_date": "7/19",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ['https://youtu.be/Fd40ePao-yw'],
                 "url": []
             },
             {
@@ -249,8 +249,8 @@ var lesson_2022 = [
                 "chapter_title": "tf.keras.backend",
                 "host_date": "7/19",
                 "sildes": [],
-                "codes": [],
-                "video": [],
+                "codes": ["https://colab.research.google.com/drive/1eUkqg9cAxAVuCKuRd2r9lZE40GWG1aR7"],
+                "video": ["https://youtu.be/aBV3VfPlXDE"],
                 "url": []
             },
             {
