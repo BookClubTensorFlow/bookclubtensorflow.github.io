@@ -390,11 +390,27 @@ var lesson_2022 = [
                 "url": []
             },
             {
-                "chapter_title": "Text generation<br>Text language model<br>Text preprocessing",
+                "chapter_title": "Text generation",
                 "host_date": "7/12",
                 "sildes": [],
                 "codes": [],
                 "video": ["https://youtu.be/l39Tv0gG1hg"],
+                "url": []
+            },
+            {
+                "chapter_title": "Text language model",
+                "host_date": "7/26",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "Text preprocessing",
+                "host_date": "8/9",
+                "sildes": [],
+                "codes": [],
+                "video": [],
                 "url": []
             },
             {
