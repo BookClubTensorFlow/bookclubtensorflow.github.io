@@ -144,8 +144,8 @@ var lesson_2022 = [
             {
                 "chapter_title": "第七章 進階深度學習的最佳實作方式",
                 "host_date": "7/19",
-                "sildes": [],
-                "codes": [],
+                "sildes": ['https://docs.google.com/presentation/d/1pEWeMEhksK1S_SAiTcItpzt16KXXfkKJ/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true'],
+                "codes": ['https://colab.research.google.com/drive/1Dp9-5oHmAV8Xhu_ZECYYsLT39jL5BU25'],
                 "video": ['https://youtu.be/Fd40ePao-yw'],
                 "url": []
             },
@@ -154,7 +154,7 @@ var lesson_2022 = [
                 "host_date": "7/26",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ['https://youtu.be/Zn2Dpf_mmKY'],
                 "url": []
             },
             {
