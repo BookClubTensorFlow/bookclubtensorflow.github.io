@@ -538,7 +538,7 @@ var lesson_2022 = [
         "title":"<i class='fab fa-python'></i></i> Python 讀書會考照班",
         "tag":"python-fundamental-certification",
         "book_title": "運算思維與Python程式設計 (<a href='http://www.mosme.net/mosme/book_detail/PF305' target='_blank' style='color: #4285f4;'><u>連結</u></a>)",
-        "date": "2022/9/6 ~ 2022/11/8 <br> <11/12 考照",
+        "date": "2022/9/6 ~ 2022/11/8 <br> 11/12 考照",
         "lessons": [
             {
                 "chapter_title": "第1章 認識 Python 與操作環境",
