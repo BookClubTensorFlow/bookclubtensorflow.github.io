@@ -533,5 +533,93 @@ var lesson_2022 = [
                 "url": []
             }
     ]
+    },
+    {   
+        "title":"<i class='fab fa-python'></i></i> Python 讀書會考照班",
+        "tag":"python-fundamental-certification",
+        "book_title": "<a href='http://www.mosme.net/mosme/book_detail/PF305' target='_blank' style='color: #4285f4;'>運算思維與Python程式設計</a>",
+        "date": "2022/9/6 ~ 2022/11/8",
+        "lessons": [
+            {
+                "chapter_title": "第1章 認識 Python 與操作環境",
+                "host_date": "9/6",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "第2章 變數與資料型態",
+                "host_date": "9/13",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "第3章 運算式與運算子",
+                "host_date": "9/20",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "第4章 流程控制與迴圈",
+                "host_date": "9/27",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "第5章 字元與字串",
+                "host_date": "10/4",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "第6章 容器資料型別",
+                "host_date": "10/11",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "第7章 函數",
+                "host_date": "10/18",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "第8章 模組與工具的操作",
+                "host_date": "10/25",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "第9章 疑難排解與錯誤處理",
+                "host_date": "11/1",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "第10章 檔案輸入與輸出",
+                "host_date": "11/8",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            }
+        ]
     }
 ]
