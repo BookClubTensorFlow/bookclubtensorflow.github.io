@@ -1,7 +1,7 @@
 var lesson_2022 = [
-    {   
-        "title":"<i class='fab fa-python'></i></i> Python基礎",
-        "tag":"python-fundamental",
+    {
+        "title": "<i class='fab fa-python'></i></i> Python基礎",
+        "tag": "python-fundamental",
         "book_title": "精通 Python：運用簡單的套件進行現代運算（第二版）",
         "date": "2022/3/15 ~ 2022/5/24",
         "lessons": [
@@ -87,9 +87,9 @@ var lesson_2022 = [
             }
         ]
     },
-    {   
-        "title":"<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow 書本導讀",
-        "tag":"tensorflow",
+    {
+        "title": "<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow 書本導讀",
+        "tag": "tensorflow",
         "book_title": "Deep learning 深度學習必讀：<br>Keras 大神帶你用 Python 實作",
         "date": "2022/6/7 ~ 2022/8/2",
         "lessons": [
@@ -99,7 +99,7 @@ var lesson_2022 = [
                 "sildes": ["https://docs.google.com/presentation/d/1CbBhRbTbLpAkbd0KMzK6fOsPQYYUK7oa/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
                 "codes": [],
                 "video": ["https://youtu.be/0kN_5AFVMPU"],
-                "url": ["https://case.ntu.edu.tw/blog/?p=26340","https://ithelp.ithome.com.tw/articles/10217967","https://chih-sheng-huang821.medium.com/%E4%BB%80%E9%BA%BC%E6%98%AF%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E5%92%8C%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-587e6a0dc72a"]
+                "url": ["https://case.ntu.edu.tw/blog/?p=26340", "https://ithelp.ithome.com.tw/articles/10217967", "https://chih-sheng-huang821.medium.com/%E4%BB%80%E9%BA%BC%E6%98%AF%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E5%92%8C%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-587e6a0dc72a"]
             },
             {
                 "chapter_title": "第二章 開始之前：了解神經網路的數學概念",
@@ -107,7 +107,7 @@ var lesson_2022 = [
                 "sildes": ["https://docs.google.com/presentation/d/1yQnLTqdnNseel-SQkuxs8YvhKSd7z-Ev/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
                 "codes": [],
                 "video": ["https://youtu.be/yM-apqkn18A"],
-                "url": ["https://iter01.com/579169.html","https://medium.com/hunter-cheng/%E6%A9%9F%E4%BD%95%E7%82%BA%E5%BC%B5%E9%87%8F-tensor-%E4%B8%89%E5%88%86%E9%90%98%E5%9C%96%E8%A7%A3%E9%A1%9E%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF%E5%9F%BA%E6%9C%AC%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B-ab0ccd115aff","https://www.796t.com/content/1547313962.html"]
+                "url": ["https://iter01.com/579169.html", "https://medium.com/hunter-cheng/%E6%A9%9F%E4%BD%95%E7%82%BA%E5%BC%B5%E9%87%8F-tensor-%E4%B8%89%E5%88%86%E9%90%98%E5%9C%96%E8%A7%A3%E9%A1%9E%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF%E5%9F%BA%E6%9C%AC%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B-ab0ccd115aff", "https://www.796t.com/content/1547313962.html"]
             },
             {
                 "chapter_title": "第三章 開始使用神經網路",
@@ -115,7 +115,7 @@ var lesson_2022 = [
                 "sildes": ["https://docs.google.com/presentation/d/1f4_xdnJ_tXDYlefdLmrwX3BRYvMoTZ1R/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
                 "codes": ["https://colab.research.google.com/drive/1Drh_Wv6sQ4ioIR553syyTO2idQpcCL1n"],
                 "video": ["https://youtu.be/-U_97a_qgek"],
-                "url": ["https://lufor129.medium.com/%E5%82%BB%E7%93%9C%E5%BC%8Ftensorflow-keras%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8-730b235275d","https://medium.com/analytics-vidhya/install-tensorflow-gpu-2-4-0-with-cuda-11-0-and-cudnn-8-using-anaconda-8c6472c9653f","https://medium.com/ching-i/win10-%E5%AE%89%E8%A3%9D-cuda-cudnn-%E6%95%99%E5%AD%B8-c617b3b76deb"]
+                "url": ["https://lufor129.medium.com/%E5%82%BB%E7%93%9C%E5%BC%8Ftensorflow-keras%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8-730b235275d", "https://medium.com/analytics-vidhya/install-tensorflow-gpu-2-4-0-with-cuda-11-0-and-cudnn-8-using-anaconda-8c6472c9653f", "https://medium.com/ching-i/win10-%E5%AE%89%E8%A3%9D-cuda-cudnn-%E6%95%99%E5%AD%B8-c617b3b76deb"]
             },
             {
                 "chapter_title": "第四章 機器學習的基礎知識",
@@ -167,9 +167,9 @@ var lesson_2022 = [
             }
         ]
     },
-    {   
-        "title":"<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow官方API",
-        "tag":"tensorflow-api",
+    {
+        "title": "<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow官方API",
+        "tag": "tensorflow-api",
         "book_title": "TensorFlow官方API",
         "date": "2022/3/15 ~ 2022/12/27",
         "lessons": [
@@ -177,7 +177,7 @@ var lesson_2022 = [
                 "chapter_title": "張量基本操作",
                 "host_date": "3/15",
                 "sildes": [],
-                "codes": ["https://colab.research.google.com/drive/1bi_-bQwxVee1DReV_KlNCnUx8EGh--Vm?usp=sharing","https://colab.research.google.com/drive/1aXgNYvzxMaaxldZ36OrLFX5rJwox6D56?usp=sharing"],
+                "codes": ["https://colab.research.google.com/drive/1bi_-bQwxVee1DReV_KlNCnUx8EGh--Vm?usp=sharing", "https://colab.research.google.com/drive/1aXgNYvzxMaaxldZ36OrLFX5rJwox6D56?usp=sharing"],
                 "video": [],
                 "url": []
             },
@@ -209,7 +209,7 @@ var lesson_2022 = [
                 "chapter_title": "tf.keras.Model",
                 "host_date": "5/10",
                 "sildes": [],
-                "codes": ["https://colab.research.google.com/drive/1_p-5TSmVfnFwZehh1-KA2jrbqB0mm4ss","https://colab.research.google.com/drive/1ZgUAoQNzgiTFCj94NBDs_OQEvB0ksphv"],
+                "codes": ["https://colab.research.google.com/drive/1_p-5TSmVfnFwZehh1-KA2jrbqB0mm4ss", "https://colab.research.google.com/drive/1ZgUAoQNzgiTFCj94NBDs_OQEvB0ksphv"],
                 "video": ["https://youtu.be/VVCIoStJchA"],
                 "url": []
             },
@@ -233,7 +233,7 @@ var lesson_2022 = [
                 "chapter_title": "tf.function",
                 "host_date": "6/21",
                 "sildes": [],
-                "codes": ["https://colab.research.google.com/drive/1tnI9vsIkSzO1Wti1NLiimBSr9khxzErQ","https://colab.research.google.com/drive/1tnI9vsIkSzO1Wti1NLiimBSr9khxzErQ"],
+                "codes": ["https://colab.research.google.com/drive/1tnI9vsIkSzO1Wti1NLiimBSr9khxzErQ", "https://colab.research.google.com/drive/1tnI9vsIkSzO1Wti1NLiimBSr9khxzErQ"],
                 "video": ["https://youtu.be/8bUt67hqx4Q"],
                 "url": []
             },
@@ -343,9 +343,9 @@ var lesson_2022 = [
             }
         ]
     },
-    {   
-        "title":"<span class='iconify' data-icon='akar-icons:text-align-left' data-inline='false'></span> TensorFlow 文字處理",
-        "tag":"tensorflow-text",
+    {
+        "title": "<span class='iconify' data-icon='akar-icons:text-align-left' data-inline='false'></span> TensorFlow 文字處理",
+        "tag": "tensorflow-text",
         "book_title": "TensorFlow 文字處理",
         "date": "2022/3/15 ~ 2022/8/16",
         "lessons": [
@@ -407,12 +407,12 @@ var lesson_2022 = [
             }
         ]
     },
-    {   
-        "title":"<span class='iconify' data-icon='ci:image' data-inline='false'></span> TensorFlow 影像處理",
-        "tag":"tensorflow-image-process",
+    {
+        "title": "<span class='iconify' data-icon='ci:image' data-inline='false'></span> TensorFlow 影像處理",
+        "tag": "tensorflow-image-process",
         "book_title": "TensorFlow 影像處理",
         "date": "2022/9/6 ~ 2022/11/29",
-        "lessons": [  {
+        "lessons": [{
             "chapter_title": "Image classification",
             "host_date": "9/6",
             "sildes": [],
@@ -468,21 +468,21 @@ var lesson_2022 = [
             "video": [],
             "url": []
         }
-    ]
+        ]
     },
-    {   
-        "title":"<span class='iconify' data-icon='akar-icons:text-align-left' data-inline='false'></span> TensorFlow 自然語言理解",
-        "tag":"tensorflow-nlp",
+    {
+        "title": "<span class='iconify' data-icon='akar-icons:text-align-left' data-inline='false'></span> TensorFlow 自然語言理解",
+        "tag": "tensorflow-nlp",
         "book_title": "TensorFlow 自然語言理解",
         "date": "2022/9/13 ~ 2022/12/6",
-        "lessons": [  
+        "lessons": [
             {
-            "chapter_title": "Hugging Face-Translation",
-            "host_date": "9/13",
-            "sildes": [],
-            "codes": [],
-            "video": [],
-            "url": []
+                "chapter_title": "Hugging Face-Translation",
+                "host_date": "9/13",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
             },
             {
                 "chapter_title": "Hugging Face-Token Classification",
@@ -532,11 +532,51 @@ var lesson_2022 = [
                 "video": [],
                 "url": []
             }
-    ]
+        ]
     },
-    {   
-        "title":"<i class='fab fa-python'></i></i> Python 讀書會考照班",
-        "tag":"python-fundamental-certification",
+    {
+        "title": "<i class='fa-solid fa-brain'></i> ML Study Jams 2022",
+        "tag": "python-fundamental-certification",
+        "book_title": "ML Study Jams 2022",
+        "date": "2022/08/09 ~2022/08/30",
+        "lessons": [
+            {
+                "chapter_title": "<ul><li><a href='https://www.kaggle.com/learn/intro-to-machine-learning'target='_blank'style='color:#4285f4;'>Intro to Machine Learning</a></li><li><a href='https://www.kaggle.com/learn/pandas'target='_blank'style='color:#4285f4;'>Pandas</a></li></ul>",
+                "host_date": "8/9",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "<ul><li><a href='https://www.kaggle.com/learn/intermediate-machine-learning'target='_blank'style='color:#4285f4;'>Intermediate Machine Learning</a></li><li><a href='https://www.kaggle.com/learn/feature-engineering'target='_blank'style='color:#4285f4;'>Feature Engineering</a></li></ul>",
+                "host_date": "8/16",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "<ul><li><a href='https://www.kaggle.com/learn/advanced-sql'target='_blank'style='color:#4285f4;'>Intro to Deep Learning</a></li><li><a href='https://www.kaggle.com/learn/computer-vision'target='_blank'style='color:#4285f4;'>Computer Vision</a></li></ul>",
+                "host_date": "8/23",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "<ul><li><a href=https://www.kaggle.com/learn/time-seriestarget=_blankstyle=color:#4285f4;>Time Series</a></li><li><a href=https://www.kaggle.com/learn/intro-to-ai-ethicstarget=_blankstyle=color:#4285f4;>Intro to AI Ethics</a></li></ul>",
+                "host_date": "8/30",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+        ]
+    },
+    {
+        "title": "<i class='fab fa-python'></i></i> Python 讀書會考照班",
+        "tag": "python-fundamental-certification",
         "book_title": "運算思維與Python程式設計 (<a href='http://www.mosme.net/mosme/book_detail/PF305' target='_blank' style='color: #4285f4;'><u>連結</u></a>)",
         "date": "2022/9/6 ~ 2022/11/8 <br> 11/12 考照",
         "lessons": [
