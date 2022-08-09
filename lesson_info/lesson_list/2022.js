@@ -409,7 +409,7 @@ var lesson_2022 = [
     },
     {
         "title": "<span class='iconify' data-icon='fluent:brain-circuit-20-filled' data-inline='false'></span> ML Study Jams 2022",
-        "tag": "python-fundamental-certification",
+        "tag": "ml-study-jams",
         "book_title": "<img src='../assets/img/study jams logo.png' alt='Circle image'  style='display: block;max-width:100%;margin-left: auto;margin-right: auto;'>",
         "date": "2022/08/09 ~2022/08/30",
         "lessons": [
