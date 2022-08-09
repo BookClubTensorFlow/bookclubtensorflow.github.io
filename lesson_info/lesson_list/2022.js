@@ -408,6 +408,46 @@ var lesson_2022 = [
         ]
     },
     {
+        "title": "<span class='iconify' data-icon='fluent:brain-circuit-20-filled' data-inline='false'></span> ML Study Jams 2022",
+        "tag": "python-fundamental-certification",
+        "book_title": "<img src='../assets/img/study jams logo.png' alt='Circle image'  style='display: block;max-width:100%;margin-left: auto;margin-right: auto;'>",
+        "date": "2022/08/09 ~2022/08/30",
+        "lessons": [
+            {
+                "chapter_title": "<ul><li><a href='https://www.kaggle.com/learn/intro-to-machine-learning'target='_blank'style='color:#4285f4;'>Intro to Machine Learning</a></li><li><a href='https://www.kaggle.com/learn/pandas'target='_blank'style='color:#4285f4;'>Pandas</a></li></ul>",
+                "host_date": "8/9",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "<ul><li><a href='https://www.kaggle.com/learn/intermediate-machine-learning'target='_blank'style='color:#4285f4;'>Intermediate Machine Learning</a></li><li><a href='https://www.kaggle.com/learn/feature-engineering'target='_blank'style='color:#4285f4;'>Feature Engineering</a></li></ul>",
+                "host_date": "8/16",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "<ul><li><a href='https://www.kaggle.com/learn/advanced-sql'target='_blank'style='color:#4285f4;'>Intro to Deep Learning</a></li><li><a href='https://www.kaggle.com/learn/computer-vision'target='_blank'style='color:#4285f4;'>Computer Vision</a></li></ul>",
+                "host_date": "8/23",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "<ul><li><a href=https://www.kaggle.com/learn/time-seriestarget=_blankstyle=color:#4285f4;>Time Series</a></li><li><a href=https://www.kaggle.com/learn/intro-to-ai-ethicstarget=_blankstyle=color:#4285f4;>Intro to AI Ethics</a></li></ul>",
+                "host_date": "8/30",
+                "sildes": [],
+                "codes": [],
+                "video": [],
+                "url": []
+            },
+        ]
+    },
+    {
         "title": "<span class='iconify' data-icon='ci:image' data-inline='false'></span> TensorFlow 影像處理",
         "tag": "tensorflow-image-process",
         "book_title": "TensorFlow 影像處理",
@@ -532,46 +572,6 @@ var lesson_2022 = [
                 "video": [],
                 "url": []
             }
-        ]
-    },
-    {
-        "title": "<i class='fa-solid fa-brain'></i> ML Study Jams 2022",
-        "tag": "python-fundamental-certification",
-        "book_title": "ML Study Jams 2022",
-        "date": "2022/08/09 ~2022/08/30",
-        "lessons": [
-            {
-                "chapter_title": "<ul><li><a href='https://www.kaggle.com/learn/intro-to-machine-learning'target='_blank'style='color:#4285f4;'>Intro to Machine Learning</a></li><li><a href='https://www.kaggle.com/learn/pandas'target='_blank'style='color:#4285f4;'>Pandas</a></li></ul>",
-                "host_date": "8/9",
-                "sildes": [],
-                "codes": [],
-                "video": [],
-                "url": []
-            },
-            {
-                "chapter_title": "<ul><li><a href='https://www.kaggle.com/learn/intermediate-machine-learning'target='_blank'style='color:#4285f4;'>Intermediate Machine Learning</a></li><li><a href='https://www.kaggle.com/learn/feature-engineering'target='_blank'style='color:#4285f4;'>Feature Engineering</a></li></ul>",
-                "host_date": "8/16",
-                "sildes": [],
-                "codes": [],
-                "video": [],
-                "url": []
-            },
-            {
-                "chapter_title": "<ul><li><a href='https://www.kaggle.com/learn/advanced-sql'target='_blank'style='color:#4285f4;'>Intro to Deep Learning</a></li><li><a href='https://www.kaggle.com/learn/computer-vision'target='_blank'style='color:#4285f4;'>Computer Vision</a></li></ul>",
-                "host_date": "8/23",
-                "sildes": [],
-                "codes": [],
-                "video": [],
-                "url": []
-            },
-            {
-                "chapter_title": "<ul><li><a href=https://www.kaggle.com/learn/time-seriestarget=_blankstyle=color:#4285f4;>Time Series</a></li><li><a href=https://www.kaggle.com/learn/intro-to-ai-ethicstarget=_blankstyle=color:#4285f4;>Intro to AI Ethics</a></li></ul>",
-                "host_date": "8/30",
-                "sildes": [],
-                "codes": [],
-                "video": [],
-                "url": []
-            },
         ]
     },
     {

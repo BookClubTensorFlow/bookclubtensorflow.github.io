@@ -1,16 +1,20 @@
-var year_dict={
-    "2020":lesson_2020,
-    "2022":lesson_2022
-}
+/*
+ 結構：[課程清單,要預設顯示的課程位置]
+*/
 
+var year_dict={
+    "2020":[lesson_2020,0], 
+    "2022":[lesson_2022,4]
+}
 
 
 function display_generator(year){
 
     var option_list = ""
-    var lesson_info_dict=year_dict[String(year)]
+    var lesson_info_dict=year_dict[String(year)][0]
     var content = ""
-    let active_index = 1
+    let active_index = year_dict[String(year)][1]
+
 
     for (var i = 0; i < lesson_info_dict.length; i++) {
         var origin_data = lesson_info_dict[i]
@@ -39,7 +43,7 @@ function display_generator(year){
         content +="' id='"+lesson_info_dict[i].tag+"' role='tabpanel' aria-labelledby='"+lesson_info_dict[i].tag+"-tab'>"
         
         content += '<div class="card-profile-actions py-4 mt-lg-0" style="margin-top: 0rem !important;">' +
-            '<h3 style="margin-bottom: 0rem !important;" class="text-center"><small><b>' + lesson_info_dict[i].book_title + '</b></small></h3>' +
+            '<h3 style="margin-bottom: 0rem !important;" class=" text-center"><small><b>' + lesson_info_dict[i].book_title + '</b></small></h3>' +
             '<h4 style="margin-bottom: 0rem !important;color: #97999b;" class="text-center"><small><b>' + lesson_info_dict[i].date + '</b></small></h4>' +
             '</div>'
 
