@@ -418,8 +418,8 @@ var lesson_2022 = [
                 "host_date": "8/9",
                 "sildes": [],
                 "codes": [],
-                "video": [],
-                "url": []
+                "video": ['https://youtu.be/o7NtNY4N2iY'],
+                "url": ['https://www.kaggle.com/learn/intro-to-machine-learning', 'https://www.kaggle.com/learn/pandas']
             },
             {
                 "chapter_title": "<ul><li><a href='https://www.kaggle.com/learn/intermediate-machine-learning'target='_blank'style='color:#4285f4;'>Intermediate Machine Learning</a></li><li><a href='https://www.kaggle.com/learn/feature-engineering'target='_blank'style='color:#4285f4;'>Feature Engineering</a></li></ul>",
