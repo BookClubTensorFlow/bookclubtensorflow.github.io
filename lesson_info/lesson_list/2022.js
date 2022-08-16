@@ -266,7 +266,7 @@ var lesson_2022 = [
                 "host_date": "8/16",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ['https://youtu.be/PKi0EMsUAaw'],
                 "url": []
             },
             {
@@ -426,8 +426,8 @@ var lesson_2022 = [
                 "host_date": "8/16",
                 "sildes": [],
                 "codes": [],
-                "video": [],
-                "url": []
+                "video": ['https://youtu.be/XFpOplPr18I'],
+                "url": ['https://www.kaggle.com/learn/intermediate-machine-learning', 'https://www.kaggle.com/learn/feature-engineering']
             },
             {
                 "chapter_title": "<ul><li><a href='https://www.kaggle.com/learn/advanced-sql'target='_blank'style='color:#4285f4;'>Intro to Deep Learning</a></li><li><a href='https://www.kaggle.com/learn/computer-vision'target='_blank'style='color:#4285f4;'>Computer Vision</a></li></ul>",
