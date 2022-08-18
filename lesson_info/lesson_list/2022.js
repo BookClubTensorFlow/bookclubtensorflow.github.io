@@ -398,8 +398,8 @@ var lesson_2022 = [
                 "url": []
             },
             {
-                "chapter_title": "Jerry 訪談 (題目未定)",
-                "host_date": "8/23",
+                "chapter_title": "JAX",
+                "host_date": "9/6",
                 "sildes": [],
                 "codes": [],
                 "video": [],
