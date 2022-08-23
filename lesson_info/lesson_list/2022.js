@@ -434,8 +434,8 @@ var lesson_2022 = [
                 "host_date": "8/23",
                 "sildes": [],
                 "codes": [],
-                "video": [],
-                "url": []
+                "video": ['https://youtu.be/taBczx9GI38'],
+                "url": ['https://www.kaggle.com/learn/intro-to-deep-learning', 'https://www.kaggle.com/learn/computer-vision']
             },
             {
                 "chapter_title": "<ul><li><a href=https://www.kaggle.com/learn/time-seriestarget=_blankstyle=color:#4285f4;>Time Series</a></li><li><a href=https://www.kaggle.com/learn/intro-to-ai-ethicstarget=_blankstyle=color:#4285f4;>Intro to AI Ethics</a></li></ul>",
@@ -443,7 +443,7 @@ var lesson_2022 = [
                 "sildes": [],
                 "codes": [],
                 "video": [],
-                "url": []
+                "url": ['https://www.kaggle.com/learn/time-series', 'https://www.kaggle.com/learn/intro-to-ai-ethics']
             },
         ]
     },
