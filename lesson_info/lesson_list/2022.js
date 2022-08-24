@@ -414,7 +414,7 @@ var lesson_2022 = [
         "date": "2022/08/09 ~2022/08/30",
         "lessons": [
             {
-                "chapter_title": "<ul><li><a href='https://www.kaggle.com/learn/intro-to-machine-learning'target='_blank'style='color:#4285f4;'>Intro to Machine Learning</a></li><li><a href='https://www.kaggle.com/learn/pandas'target='_blank'style='color:#4285f4;'>Pandas</a></li></ul>",
+                "chapter_title": "<ul><li>Intro to Machine Learning</li><li>Pandas</li></ul>",
                 "host_date": "8/9",
                 "sildes": [],
                 "codes": [],
@@ -422,7 +422,7 @@ var lesson_2022 = [
                 "url": ['https://www.kaggle.com/learn/intro-to-machine-learning', 'https://www.kaggle.com/learn/pandas']
             },
             {
-                "chapter_title": "<ul><li><a href='https://www.kaggle.com/learn/intermediate-machine-learning'target='_blank'style='color:#4285f4;'>Intermediate Machine Learning</a></li><li><a href='https://www.kaggle.com/learn/feature-engineering'target='_blank'style='color:#4285f4;'>Feature Engineering</a></li></ul>",
+                "chapter_title": "<ul><li>Intermediate Machine Learning</li><li>Feature Engineering</li></ul>",
                 "host_date": "8/16",
                 "sildes": [],
                 "codes": [],
@@ -430,7 +430,7 @@ var lesson_2022 = [
                 "url": ['https://www.kaggle.com/learn/intermediate-machine-learning', 'https://www.kaggle.com/learn/feature-engineering']
             },
             {
-                "chapter_title": "<ul><li><a href='https://www.kaggle.com/learn/advanced-sql'target='_blank'style='color:#4285f4;'>Intro to Deep Learning</a></li><li><a href='https://www.kaggle.com/learn/computer-vision'target='_blank'style='color:#4285f4;'>Computer Vision</a></li></ul>",
+                "chapter_title": "<ul><li>Intro to Deep Learning</li><li>Computer Vision</li></ul>",
                 "host_date": "8/23",
                 "sildes": [],
                 "codes": [],
@@ -438,7 +438,7 @@ var lesson_2022 = [
                 "url": ['https://www.kaggle.com/learn/intro-to-deep-learning', 'https://www.kaggle.com/learn/computer-vision']
             },
             {
-                "chapter_title": "<ul><li><a href=https://www.kaggle.com/learn/time-seriestarget=_blankstyle=color:#4285f4;>Time Series</a></li><li><a href=https://www.kaggle.com/learn/intro-to-ai-ethicstarget=_blankstyle=color:#4285f4;>Intro to AI Ethics</a></li></ul>",
+                "chapter_title": "<ul><li>Time Series</li><li>Intro to AI Ethics</li></ul>",
                 "host_date": "8/30",
                 "sildes": [],
                 "codes": [],
