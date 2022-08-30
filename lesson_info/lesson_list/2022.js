@@ -442,7 +442,7 @@ var lesson_2022 = [
                 "host_date": "8/30",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ["https://youtu.be/vYsfKv2t1xI"],
                 "url": ['https://www.kaggle.com/learn/time-series', 'https://www.kaggle.com/learn/intro-to-ai-ethics']
             },
         ]
