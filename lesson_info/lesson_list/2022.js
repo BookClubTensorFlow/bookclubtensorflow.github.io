@@ -152,15 +152,15 @@ var lesson_2022 = [
             {
                 "chapter_title": "第八章 生成式深度學習",
                 "host_date": "7/26",
-                "sildes": [],
-                "codes": [],
+                "sildes": ["https://docs.google.com/presentation/d/1gGnVQn4Jo590UJok9NhfRjDmwhTnlK5P/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
+                "codes": ["https://colab.research.google.com/drive/1fNoQVeLE0IM5Cb2-4AP3P74qkWNwF1A4"],
                 "video": ['https://youtu.be/Zn2Dpf_mmKY'],
                 "url": []
             },
             {
                 "chapter_title": "第九章 結語",
                 "host_date": "8/2",
-                "sildes": [],
+                "sildes": ["https://docs.google.com/presentation/d/1JJCZndQ3R9OuFpg8YCLZp0DW2yDLDIbl/edit?usp=sharing&ouid=100956521177936661947&rtpof=true&sd=true"],
                 "codes": [],
                 "video": ['https://youtu.be/Xz_F4z2vCNw'],
                 "url": []
@@ -257,7 +257,7 @@ var lesson_2022 = [
                 "chapter_title": "tf.keras.utils.to_categorical",
                 "host_date": "8/2",
                 "sildes": [],
-                "codes": [],
+                "codes": ["https://colab.research.google.com/drive/18Gs41EIvR5z0vxK-6_YlCx9Sy59aALCS","https://colab.research.google.com/drive/1BAZK8Spoa0Iopi3v3WjT3JHya6RVpR2V"],
                 "video": ['https://youtu.be/rKIlZ0mU1ZM'],
                 "url": []
             },
@@ -265,7 +265,7 @@ var lesson_2022 = [
                 "chapter_title": "tf.keras.utils.get_file",
                 "host_date": "8/16",
                 "sildes": [],
-                "codes": [],
+                "codes": ["https://colab.research.google.com/drive/11Xf2BmMFubKVZmyFrLAfg5gp5g2Xd0AY","https://colab.research.google.com/drive/1-Y2qo2_2bnqJkDm2oo-lhtFX4IfA9cY_"],
                 "video": ['https://youtu.be/PKi0EMsUAaw'],
                 "url": []
             },
@@ -273,15 +273,15 @@ var lesson_2022 = [
                 "chapter_title": "ImageDataGenerator",
                 "host_date": "8/30",
                 "sildes": [],
-                "codes": [],
-                "video": [],
+                "codes": ["https://colab.research.google.com/drive/1MqRuf-PmOfUlVS5HLKdYgpBaf9l4JJBa"],
+                "video": ["https://youtu.be/vYsfKv2t1xI"],
                 "url": []
             },
             {
                 "chapter_title": "tf.keras.losses",
                 "host_date": "9/13",
                 "sildes": [],
-                "codes": [],
+                "codes": ["https://colab.research.google.com/drive/1X4WRZdaPP3gtgdKeFue0tcTNVaChVOBD"],
                 "video": [],
                 "url": []
             },
