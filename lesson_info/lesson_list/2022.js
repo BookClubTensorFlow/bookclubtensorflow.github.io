@@ -400,9 +400,9 @@ var lesson_2022 = [
             {
                 "chapter_title": "JAX",
                 "host_date": "9/6",
-                "sildes": [],
+                "sildes": ["https://drive.google.com/file/d/1wprkTYk4qXt_0jxTynU1yp5UyCsFdHUP/view?usp=sharing"],
                 "codes": [],
-                "video": [],
+                "video": ["https://youtu.be/SllsasgVntg"],
                 "url": []
             }
         ]
@@ -457,7 +457,7 @@ var lesson_2022 = [
             "host_date": "9/6",
             "sildes": [],
             "codes": [],
-            "video": [],
+            "video": ["https://youtu.be/wagAL7JvveQ"],
             "url": []
         },
         {
@@ -584,8 +584,8 @@ var lesson_2022 = [
                 "chapter_title": "第1章 認識 Python 與操作環境",
                 "host_date": "9/6",
                 "sildes": [],
-                "codes": [],
-                "video": [],
+                "codes": ["https://drive.google.com/file/d/1xgNDH-_S4pL12M-J60Vaw528LR9ejf5H/view?usp=sharing"],
+                "video": ["https://youtu.be/xhltHBUDD9I"],
                 "url": []
             },
             {
