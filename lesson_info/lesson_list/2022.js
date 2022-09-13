@@ -282,7 +282,7 @@ var lesson_2022 = [
                 "host_date": "9/13",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1X4WRZdaPP3gtgdKeFue0tcTNVaChVOBD"],
-                "video": [],
+                "video": ["https://youtu.be/cBlFCWvE1yc"],
                 "url": []
             },
             {
@@ -521,7 +521,7 @@ var lesson_2022 = [
                 "host_date": "9/13",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ["https://youtu.be/cBlFCWvE1yc"],
                 "url": []
             },
             {
@@ -584,15 +584,15 @@ var lesson_2022 = [
                 "chapter_title": "第1章 認識 Python 與操作環境",
                 "host_date": "9/6",
                 "sildes": [],
-                "codes": ["https://drive.google.com/file/d/1xgNDH-_S4pL12M-J60Vaw528LR9ejf5H/view?usp=sharing"],
-                "video": ["https://youtu.be/xhltHBUDD9I"],
+                "codes": [],
+                "video": [],
                 "url": []
             },
             {
                 "chapter_title": "第2章 變數與資料型態",
                 "host_date": "9/13",
                 "sildes": [],
-                "codes": [],
+                "codes": ["https://youtu.be/cBlFCWvE1yc"],
                 "video": [],
                 "url": []
             },
