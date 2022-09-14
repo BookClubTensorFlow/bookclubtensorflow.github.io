@@ -585,15 +585,15 @@ var lesson_2022 = [
                 "host_date": "9/6",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ["https://youtu.be/SllsasgVntg"],
                 "url": []
             },
             {
                 "chapter_title": "第2章 變數與資料型態",
                 "host_date": "9/13",
                 "sildes": [],
-                "codes": ["https://youtu.be/cBlFCWvE1yc"],
-                "video": [],
+                "codes": [],
+                "video": ["https://youtu.be/cBlFCWvE1yc"],
                 "url": []
             },
             {
