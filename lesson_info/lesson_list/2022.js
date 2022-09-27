@@ -290,7 +290,7 @@ var lesson_2022 = [
                 "host_date": "9/27",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ["https://youtu.be/E6NynzDdq7s"],
                 "url": []
             },
             {
@@ -529,7 +529,7 @@ var lesson_2022 = [
                 "host_date": "9/27",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ["https://youtu.be/Ao4-Rel_XVY"],
                 "url": []
             },
             {
