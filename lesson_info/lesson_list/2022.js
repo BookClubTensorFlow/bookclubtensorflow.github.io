@@ -493,16 +493,8 @@ var lesson_2022 = [
             "url": []
         },
         {
-            "chapter_title": "Style transfer",
+            "chapter_title": "Image Generation",
             "host_date": "11/15",
-            "sildes": [],
-            "codes": [],
-            "video": [],
-            "url": []
-        },
-        {
-            "chapter_title": "Generator",
-            "host_date": "11/29",
             "sildes": [],
             "codes": [],
             "video": [],
