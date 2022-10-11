@@ -298,7 +298,7 @@ var lesson_2022 = [
                 "host_date": "10/11",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ["https://youtu.be/1CLX6TkRKpY"],
                 "url": []
             },
             {
@@ -529,7 +529,7 @@ var lesson_2022 = [
                 "host_date": "10/11",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ["https://youtu.be/RVZhWd3W6dA"],
                 "url": []
             },
             {
@@ -606,7 +606,7 @@ var lesson_2022 = [
             },
             {
                 "chapter_title": "第5章 字元與字串",
-                "host_date": "10/4",
+                "host_date": "10/18",
                 "sildes": [],
                 "codes": [],
                 "video": [],
@@ -617,7 +617,7 @@ var lesson_2022 = [
                 "host_date": "10/11",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ["https://youtu.be/Y3zSxug7ihg"],
                 "url": []
             },
             {
