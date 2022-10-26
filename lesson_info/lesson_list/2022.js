@@ -306,7 +306,7 @@ var lesson_2022 = [
                 "host_date": "10/25",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ['https://youtu.be/MN0aa9hBRBM'],
                 "url": []
             },
             {
@@ -537,7 +537,7 @@ var lesson_2022 = [
                 "host_date": "10/25",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ['https://youtu.be/nvSNG8sbcCc'],
                 "url": []
             },
             {
@@ -650,6 +650,14 @@ var lesson_2022 = [
                 "sildes": [],
                 "codes": [],
                 "video": [],
+                "url": []
+            },
+            {
+                "chapter_title": "補充章節 類別",
+                "host_date": "10/25",
+                "sildes": [],
+                "codes": [],
+                "video": ['https://youtu.be/18IlnqMYPPA'],
                 "url": []
             }
         ]
