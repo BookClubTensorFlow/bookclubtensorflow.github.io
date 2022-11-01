@@ -489,7 +489,7 @@ var lesson_2022 = [
             "host_date": "11/1",
             "sildes": [],
             "codes": [],
-            "video": [],
+            "video": ['https://youtu.be/O5RJn9OcrLI'],
             "url": []
         },
         {
@@ -633,7 +633,7 @@ var lesson_2022 = [
                 "host_date": "10/25",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ['https://youtu.be/nAalC0zFU2Q'],
                 "url": []
             },
             {
@@ -641,7 +641,7 @@ var lesson_2022 = [
                 "host_date": "11/1",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ['https://youtu.be/nAalC0zFU2Q'],
                 "url": []
             },
             {
