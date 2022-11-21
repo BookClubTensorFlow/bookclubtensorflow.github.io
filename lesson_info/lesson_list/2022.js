@@ -289,7 +289,7 @@ var lesson_2022 = [
                 "chapter_title": "tf.keras.initializers",
                 "host_date": "9/27",
                 "sildes": [],
-                "codes": [],
+                "codes": ["https://colab.research.google.com/drive/1e_AU0JaBYCYNziX8xqVSNNtgwDzDSBFO"],
                 "video": ["https://youtu.be/E6NynzDdq7s"],
                 "url": []
             },
@@ -297,7 +297,7 @@ var lesson_2022 = [
                 "chapter_title": "tf.keras.activations",
                 "host_date": "10/11",
                 "sildes": [],
-                "codes": [],
+                "codes": ["https://colab.research.google.com/drive/1t49XMEx-8a8TcczqLf37QcX-JLODpfop"],
                 "video": ["https://youtu.be/1CLX6TkRKpY"],
                 "url": []
             },
@@ -305,7 +305,7 @@ var lesson_2022 = [
                 "chapter_title": "tf.keras.callbacks.Callback",
                 "host_date": "10/25",
                 "sildes": [],
-                "codes": [],
+                "codes": ["https://colab.research.google.com/drive/10nQnEF-AGb2gKiEUfYwDADacfvntLdA9"],
                 "video": ['https://youtu.be/MN0aa9hBRBM'],
                 "url": []
             },
@@ -313,7 +313,7 @@ var lesson_2022 = [
                 "chapter_title": "layers.Conv2dTranspose",
                 "host_date": "11/8",
                 "sildes": [],
-                "codes": [],
+                "codes": ["https://colab.research.google.com/drive/1DBaoa-umxSMMmJ4wuSwMvHhtbWBuw8P9"],
                 "video": [],
                 "url": []
             },
