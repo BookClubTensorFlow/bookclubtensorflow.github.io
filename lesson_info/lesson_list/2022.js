@@ -314,7 +314,7 @@ var lesson_2022 = [
                 "host_date": "11/8",
                 "sildes": [],
                 "codes": ["https://colab.research.google.com/drive/1DBaoa-umxSMMmJ4wuSwMvHhtbWBuw8P9"],
-                "video": [],
+                "video": ["https://youtu.be/LqY-fUsWfj0"],
                 "url": []
             },
             {
@@ -545,7 +545,7 @@ var lesson_2022 = [
                 "host_date": "11/8",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ["https://youtu.be/LqY-fUsWfj0"],
                 "url": []
             },
             {
@@ -649,7 +649,7 @@ var lesson_2022 = [
                 "host_date": "11/8",
                 "sildes": [],
                 "codes": [],
-                "video": [],
+                "video": ["https://youtu.be/LqY-fUsWfj0"],
                 "url": []
             },
             {

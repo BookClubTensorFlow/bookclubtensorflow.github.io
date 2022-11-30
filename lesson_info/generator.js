@@ -4,7 +4,7 @@
 
 var year_dict={
     "2020":[lesson_2020,0], 
-    "2022":[lesson_2022,4]
+    "2022":[lesson_2022,2]
 }
 
 
@@ -33,7 +33,7 @@ function display_generator(year){
         else{
             option_list += "'false'"
         }
-       
+    
         option_list +=" style='margin:10px'>"+lesson_info_dict[i].title+"</a>"+
                         "</li>"
         content +="<div class='tab-pane fade show"
