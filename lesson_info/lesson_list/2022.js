@@ -319,27 +319,28 @@ var lesson_2022 = [
             },
             {
                 "chapter_title": "tf.keras.metrics",
-                "host_date": "11/22",
+                "host_date": "12/21",
                 "sildes": [],
-                "codes": [],
-                "video": [],
-                "url": []
-            },
-            {
-                "chapter_title": "tf.where",
-                "host_date": "12/6",
-                "sildes": [],
-                "codes": [],
-                "video": [],
+                "codes": ["https://colab.research.google.com/drive/1DKg4bj1uURcxNrA8N5Conv7OVVtGjRrB"],
+                "video": ["https://www.youtube.com/watch?v=eYilGgVFWmw&t=1s"],
                 "url": []
             },
             {
                 "chapter_title": "tf.keras.optimizers",
-                "host_date": "12/20",
+                "host_date": "12/21",
                 "sildes": [],
-                "codes": [],
-                "video": [],
+                "codes": ["https://colab.research.google.com/drive/12VEkKQgxv6QP1qMb7aw0aTLjZ9dRBPjH"],
+                "video": ["https://www.youtube.com/watch?v=eYilGgVFWmw"],
                 "url": []
+            },
+            {
+                "chapter_title": "tf.keras.constraints",
+                "host_date": "12/21",
+                "sildes": [],
+                "codes":['https://colab.research.google.com/drive/1jci09vawlx9O2qpdOrHeXnxssLwlV7zN'],
+                "video": ["https://www.youtube.com/watch?v=eYilGgVFWmw"],
+                "url": []
+
             }
         ]
     },
