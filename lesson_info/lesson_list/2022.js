@@ -2,7 +2,7 @@ var lesson_2022 = [
     {
         "title": "<i class='fab fa-python'></i></i> Python基礎",
         "tag": "python-fundamental",
-        "book_title": "精通 Python：運用簡單的套件進行現代運算（第二版）",
+        "chapter_title": "精通 Python：運用簡單的套件進行現代運算（第二版）",
         "date": "2022/3/15 ~ 2022/5/24",
         "lessons": [
             {
@@ -90,7 +90,7 @@ var lesson_2022 = [
     {
         "title": "<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow 書本導讀",
         "tag": "tensorflow",
-        "book_title": "Deep learning 深度學習必讀：<br>Keras 大神帶你用 Python 實作",
+        "chapter_title": "Deep learning 深度學習必讀：<br>Keras 大神帶你用 Python 實作",
         "date": "2022/6/7 ~ 2022/8/2",
         "lessons": [
             {
@@ -170,7 +170,7 @@ var lesson_2022 = [
     {
         "title": "<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow官方API",
         "tag": "tensorflow-api",
-        "book_title": "TensorFlow官方API",
+        "chapter_title": "TensorFlow官方API",
         "date": "2022/3/15 ~ 2022/12/27",
         "lessons": [
             {
@@ -347,7 +347,7 @@ var lesson_2022 = [
     {
         "title": "<span class='iconify' data-icon='akar-icons:text-align-left' data-inline='false'></span> TensorFlow 文字處理",
         "tag": "tensorflow-text",
-        "book_title": "TensorFlow 文字處理",
+        "chapter_title": "TensorFlow 文字處理",
         "date": "2022/3/15 ~ 2022/8/16",
         "lessons": [
             {
@@ -411,7 +411,7 @@ var lesson_2022 = [
     {
         "title": "<span class='iconify' data-icon='fluent:brain-circuit-20-filled' data-inline='false'></span> ML Study Jams 2022",
         "tag": "ml-study-jams",
-        "book_title": "<img src='../assets/img/study jams logo.png' alt='Circle image'  style='display: block;max-width:100%;margin-left: auto;margin-right: auto;'>",
+        "chapter_title": "<img src='../assets/img/study jams logo.png' alt='Circle image'  style='display: block;max-width:100%;margin-left: auto;margin-right: auto;'>",
         "date": "2022/08/09 ~2022/08/30",
         "lessons": [
             {
@@ -451,7 +451,7 @@ var lesson_2022 = [
     {
         "title": "<span class='iconify' data-icon='ci:image' data-inline='false'></span> TensorFlow 影像處理",
         "tag": "tensorflow-image-process",
-        "book_title": "TensorFlow 影像處理",
+        "chapter_title": "TensorFlow 影像處理",
         "date": "2022/9/6 ~ 2022/11/29",
         "lessons": [{
             "chapter_title": "Image classification",
@@ -504,9 +504,9 @@ var lesson_2022 = [
         ]
     },
     {
-        "title": "<span class='iconify' data-icon='akar-icons:text-align-left' data-inline='false'></span> TensorFlow 自然語言理解",
+        "title": "<span class='iconify' data-icon='fluent-emoji-high-contrast:hugging-face' data-inline='false'></span> TensorFlow 自然語言理解",
         "tag": "tensorflow-nlp",
-        "book_title": "TensorFlow 自然語言理解",
+        "chapter_title": "TensorFlow 自然語言理解",
         "date": "2022/9/13 ~ 2022/12/6",
         "lessons": [
             {
@@ -570,7 +570,7 @@ var lesson_2022 = [
     {
         "title": "<i class='fab fa-python'></i></i> Python 讀書會考照班",
         "tag": "python-fundamental-certification",
-        "book_title": "運算思維與Python程式設計 (<a href='http://www.mosme.net/mosme/book_detail/PF305' target='_blank' style='color: #4285f4;'><u>連結</u></a>)",
+        "chapter_title": "運算思維與Python程式設計 (<a href='http://www.mosme.net/mosme/book_detail/PF305' target='_blank' style='color: #4285f4;'><u>連結</u></a>)",
         "date": "2022/9/6 ~ 2022/11/8 <br> 11/12 考照",
         "lessons": [
             {

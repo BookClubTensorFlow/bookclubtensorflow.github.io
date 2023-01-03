@@ -15,7 +15,7 @@ function display_generator(year) {
             '<div class="row col-lg-12 justify-content-center" style="padding: 0px 0px;margin: 0px">' +
             '<div class="col-lg-9 order-lg-1 text-lg-left align-self-lg-center">' +
             '<div class="card-profile-actions py-4 mt-lg-0" style="margin-top: 0rem !important;">' +
-            '<h3 style="margin-bottom: 0rem !important;"><b style="color:#ff6f00">' + stage_list[i] + '</b><br><small><b>' + year_dict[String(year)][i].book_title + '</b></small></h3>' +
+            '<h3 style="margin-bottom: 0rem !important;"><b style="color:#ff6f00">' + stage_list[i] + '</b><br><small><b>' + year_dict[String(year)][i].chapter_title + '</b></small></h3>' +
             '</div>' +
             '</div>' +
             '<div class="col-lg-3 order-lg-1 justify-content-center">' +

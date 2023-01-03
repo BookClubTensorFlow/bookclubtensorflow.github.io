@@ -1,0 +1,1 @@
+NextEvent(new Date().getFullYear())

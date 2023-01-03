@@ -44,7 +44,7 @@ function display_generator(year){
         content +="' id='"+lesson_info_dict[i].tag+"' role='tabpanel' aria-labelledby='"+lesson_info_dict[i].tag+"-tab'>"
         
         content += '<div class="card-profile-actions py-4 mt-lg-0" style="margin-top: 0rem !important;">' +
-            '<h3 style="margin-bottom: 0rem !important;" class=" text-center"><small><b>' + lesson_info_dict[i].book_title + '</b></small></h3>' +
+            '<h3 style="margin-bottom: 0rem !important;" class=" text-center"><small><b>' + lesson_info_dict[i].chapter_title + '</b></small></h3>' +
             '<h4 style="margin-bottom: 0rem !important;color: #97999b;" class="text-center"><small><b>' + lesson_info_dict[i].date + '</b></small></h4>' +
             '</div>'
 

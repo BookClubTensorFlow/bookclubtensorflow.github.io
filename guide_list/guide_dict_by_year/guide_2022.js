@@ -1,6 +1,6 @@
 var guide_dict_2022=[
     {
-        "book_title":"精通 Python：運用簡單的套件進行現代運算（第二版）",
+        "chapter_title":"精通 Python：運用簡單的套件進行現代運算（第二版）",
         "chapters":10,
         "guider_list":[
             {
@@ -30,7 +30,7 @@ var guide_dict_2022=[
         ]
     },
     {
-        "book_title":"Deep learning 深度學習必讀：Keras 大神帶你用 Python 實作",
+        "chapter_title":"Deep learning 深度學習必讀：Keras 大神帶你用 Python 實作",
         "chapters":9,
         "guider_list":[
             {
@@ -40,7 +40,7 @@ var guide_dict_2022=[
         ]
     },
     {
-        "book_title":"TensorFlow官方API",
+        "chapter_title":"TensorFlow官方API",
         "chapters":21,
         "guider_list":[
             {
@@ -49,7 +49,7 @@ var guide_dict_2022=[
         ]
     },
     {
-        "book_title":"TensorFlow Hub 模型",
+        "chapter_title":"TensorFlow Hub 模型",
         "chapters":9,
         "guider_list":[
             {
