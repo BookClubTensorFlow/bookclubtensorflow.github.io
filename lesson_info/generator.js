@@ -2,21 +2,37 @@
  結構：[課程清單,要預設顯示的課程位置]
 */
 
-var year_dict={
-    "2020":[lesson_2020,0], 
-    "2022":[lesson_2022,2],
-    "2023":[lesson_2023,0]
+var activateYear={
+    "2020":0, 
+    "2022":2,
+    "2023":0
 }
 
+const firebaseConfig = {
+    apiKey: "AIzaSyBAVU1k_ZoFh6YKcG8iFIpm1WSFtDX9Nrw",
+    authDomain: "steam-aria-296003.firebaseapp.com",
+    databaseURL: "https://steam-aria-296003.firebaseio.com",
+    projectId: "steam-aria-296003",
+    storageBucket: "steam-aria-296003.appspot.com",
+    messagingSenderId: "103205224740",
+    appId: "1:103205224740:web:bf737b070093958fdc33b1",
+    measurementId: "G-BZ9JKH1S4X"
+};    
+  
+  // Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 function display_generator(year){
 
     var option_list = ""
-    var lesson_info_dict=year_dict[String(year)][0]
+    let yearData =  firebase.database().ref('/'+year);
     var content = ""
-    let active_index = year_dict[String(year)][1]
+    let active_index = activateYear[String(year)]
 
-
+    yearData.on('value', function(snapshot) {
+    
+    var lesson_info_dict=snapshot.val();
+    
     for (var i = 0; i < lesson_info_dict.length; i++) {
         var origin_data = lesson_info_dict[i]
 
@@ -96,7 +112,7 @@ function display_generator(year){
                     '<td style="word-break: break-all;">' + chapter_relevent.chapter_title + '</td>' +
                     '<td class="td-actions">'
                 
-                if (chapter_relevent.video.length > 0) {
+                if (chapter_relevent.video!== undefined) {
                     for (var k = 0; k < chapter_relevent.video.length; k++) {
                         content = content + '<a target="_blank" href="' + chapter_relevent.video[k] + '">' +
                         '<button type="button" rel="tooltip" class="btn btn-warning btn-icon btn-sm" data-original-title="" title="錄影回放" style="margin: 3px 3px;padding:4px 9px;background-color: #FF0000; border-color: #FF0000;">' +
@@ -107,7 +123,7 @@ function display_generator(year){
         
                 }
 
-                if (chapter_relevent.sildes.length > 0) {
+                if (chapter_relevent.sildes!== undefined) {
                     for (var k = 0; k < chapter_relevent.sildes.length; k++) {
                         content = content + '<a target="_blank" href="' + chapter_relevent.sildes[k] + '">' +
                             '<button type="button" rel="tooltip" class="btn btn-default btn-icon btn-sm" data-original-title="" title="投影片" style="margin: 3px 3px;background-color: #212832; border-color: #212832;">' +
@@ -116,7 +132,7 @@ function display_generator(year){
                             '</a>'
                     }
                 }
-                if (chapter_relevent.codes.length > 0) {
+                if (chapter_relevent.codes!== undefined) {
                     for (var k = 0; k < chapter_relevent.codes.length; k++) {
                         content = content + '<a target="_blank" href="' + chapter_relevent.codes[k] + '">' +
                             '<button type="button" rel="tooltip" class="btn btn-warning btn-icon btn-sm" data-original-title="" title="Colab" style="margin: 3px 3px;padding:4px 6px;background-color: #ff6f00; border-color: #ff6f00;">' +
@@ -126,7 +142,7 @@ function display_generator(year){
                     }
                 }
                 
-                if (chapter_relevent.url.length > 0) {
+                if (chapter_relevent.url!== undefined) {
                     for (var k = 0; k < chapter_relevent.url.length; k++) {
                         content = content + '<a target="_blank" href="' + chapter_relevent.url[k] + '">' +
                             '<button type="button" rel="tooltip" class="btn btn-warning btn-icon btn-sm" data-original-title="" title="相關網頁" style="margin: 3px 3px;padding:4px 7px;background-color: #0051ff; border-color: #0051ff;">' +
@@ -147,8 +163,8 @@ function display_generator(year){
     }
     document.getElementById("tabs-icons-text").innerHTML = option_list
     document.getElementById("myTabContent").innerHTML = content
-
-    var year_list=Object.keys(year_dict)
+    });
+    var year_list=Object.keys(activateYear)
     for(var i=0;i<year_list.length;i++){
         document.getElementById(year_list[i]).classList.remove('active');
 
@@ -159,7 +175,7 @@ function display_generator(year){
 }
 
 //自動生成下拉選單選項
-var year_array=Object.keys(year_dict)
+var year_array=Object.keys(activateYear)
 var year_options=""
 
 for(var i=0;i<year_array.length;i++){
