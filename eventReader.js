@@ -96,9 +96,7 @@ myData.on('value', function(snapshot) {
                                   ${buttonContent}
                                 </div>
                               </div>
-                            
                             </div>
-                          
                           </div>
                         </div>`
 
