@@ -1,8 +1,8 @@
-var stage_list = ["第一階段", "第二階段", "第三階段", "第四階段"];
 
 var year_dict={
     "2020":guide_dict_2020,
-    "2022":guide_dict_2022
+    "2022":guide_dict_2022,
+    "2023":guide_dict_2023
 }
 
 function display_generator(year) {
@@ -10,28 +10,29 @@ function display_generator(year) {
     for (var i = 0; i < year_dict[String(year)].length; i++) {
         content = content + '<div class="card card-profile shadow mt--300"'
         if (i > 0) { content = content + ' style="margin-top: 16px !important;"' }
-        content = content + '<div class="px-1" >' +
-            '<div class="mt-5 py-1 border-bottom text-center" style="margin-top: 0rem !important;padding:0px 20px">' +
-            '<div class="row col-lg-12 justify-content-center" style="padding: 0px 0px;margin: 0px">' +
-            '<div class="col-lg-9 order-lg-1 text-lg-left align-self-lg-center">' +
-            '<div class="card-profile-actions py-4 mt-lg-0" style="margin-top: 0rem !important;">' +
-            '<h3 style="margin-bottom: 0rem !important;"><b style="color:#ff6f00">' + stage_list[i] + '</b><br><small><b>' + year_dict[String(year)][i].chapter_title + '</b></small></h3>' +
-            '</div>' +
-            '</div>' +
-            '<div class="col-lg-3 order-lg-1 justify-content-center">' +
-            '<div class="card-profile-stats d-flex justify-content-center" style="margin: 0rem !important; align-items: center;padding:24px 0px">' +
-            '<div>' +
-            '<span class="heading">' + year_dict[String(year)][i].chapters + '</span>' +
-            '<span class="description"><b>章節</b></span>' +
-            '</div>' +
-            '<div>' +
-            '<span class="heading">' + year_dict[String(year)][i].guider_list.length + '</span>' +
-            '<span class="description"><b>導讀者</b></span>' +
-            '</div>' +
-            '</div>' +
-            '</div>' +
-            '</div>' +
-            ' </div>'
+        content = content + `<div class="px-1" > 
+            <div class="mt-5 py-1 border-bottom text-center" style="margin-top: 0rem !important;padding:0px 20px"> 
+                <div class="row col-lg-12 justify-content-center" style="padding: 0px 0px;margin: 0px"> 
+                    <div class="col-lg-9 order-lg-1 text-lg-left align-self-lg-center"> 
+                        <div class="card-profile-actions py-4 mt-lg-0" style="margin-top: 0rem !important;"> 
+                            <h3 style="margin-bottom: 0rem !important;"><b style="color:#ff6f00">   ${year_dict[String(year)][i].banner}   </b><br><small><b>  ${year_dict[String(year)][i].chapter_title}  </b></small></h3> 
+                        </div> 
+                        </div> 
+                            <div class="col-lg-3 order-lg-1 justify-content-center"> 
+                            <div class="card-profile-stats d-flex justify-content-center" style="margin: 0rem !important; align-items: center;padding:24px 0px"> 
+                        <div> 
+                            <span class="heading"> ${year_dict[String(year)][i].chapters}  </span> 
+                            <span class="description"><b>章節</b></span> 
+                        </div> 
+                        <div> 
+                            <span class="heading">  ${year_dict[String(year)][i].guider_list.length}  </span> 
+                            <span class="description"><b>導讀者</b></span> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+         </div>`
+            
         //生成導讀者圖片區域
         content = content + '<div class="text-center mt-2" style="margin-top: 14px !important">'
         var guider_array = year_dict[String(year)][i].guider_list;

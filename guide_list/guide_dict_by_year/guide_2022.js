@@ -1,5 +1,6 @@
 var guide_dict_2022=[
-    {
+    {   
+        "banner":"<i class='fab fa-python'></i></i> Python基礎",
         "chapter_title":"精通 Python：運用簡單的套件進行現代運算（第二版）",
         "chapters":10,
         "guider_list":[
@@ -30,6 +31,7 @@ var guide_dict_2022=[
         ]
     },
     {
+        "banner": "<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow 書本導讀",
         "chapter_title":"Deep learning 深度學習必讀：Keras 大神帶你用 Python 實作",
         "chapters":9,
         "guider_list":[
@@ -40,6 +42,7 @@ var guide_dict_2022=[
         ]
     },
     {
+        "banner": "<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow 資源分享",
         "chapter_title":"TensorFlow官方API",
         "chapters":21,
         "guider_list":[
@@ -49,6 +52,8 @@ var guide_dict_2022=[
         ]
     },
     {
+        "banner": "<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow 資源分享",
+        "title": "<span class='iconify' data-icon='akar-icons:text-align-left' data-inline='false'></span> TensorFlow 文字處理",
         "chapter_title":"TensorFlow Hub 模型",
         "chapters":9,
         "guider_list":[

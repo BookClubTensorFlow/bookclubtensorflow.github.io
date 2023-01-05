@@ -1,5 +1,6 @@
 var guide_dict_2020=[
     {
+        "banner":"<i class='fab fa-python'></i></i> Python基礎",
         "chapter_title":"精通 Python：運用簡單的套件進行現代運算（第二版）",
         "chapters":10,
         "guider_list":[
@@ -35,6 +36,7 @@ var guide_dict_2020=[
         ]
     },
     {
+        "banner":"<i class='fas fa-chart-bar'></i> 資料科學",
         "chapter_title":"Data Science from Scratch中文版（第二版）",
         "chapters":17,
         "guider_list":[
@@ -78,6 +80,7 @@ var guide_dict_2020=[
         ]
     },
     {
+        "banner": "<span class='iconify' data-icon='simple-icons:tensorflow' data-inline='false'></span> TensorFlow",
         "chapter_title":"Deep learning 深度學習必讀：Keras 大神帶你用 Python 實作",
         "chapters":8,
         "guider_list":[
