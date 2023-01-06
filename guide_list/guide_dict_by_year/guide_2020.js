@@ -7,7 +7,7 @@ var guide_dict_2020=[
             {
                 "pic":"../assets/img/guide_person/IIN25T90.jpg",
                 "name":"游紹宏",
-                "details":"台科大資工所 研究生"
+                "details":"GDG Taipei"
             },
             {
                 "pic":"../assets/img/guide_person/BEDQHOZO.jpg",
@@ -43,7 +43,7 @@ var guide_dict_2020=[
             {
                 "pic":"../assets/img/guide_person/IIN25T90.jpg",
                 "name":"游紹宏",
-                "details":"台科大資工所 研究生"
+                "details":"GDG Taipei"
             },
             {
                 "pic":"../assets/img/guide_person/NC1MJT0Q.jpg",
@@ -87,7 +87,7 @@ var guide_dict_2020=[
             {
                 "pic":"../assets/img/guide_person/IIN25T90.jpg",
                 "name":"游紹宏",
-                "details":"台科大資工所 研究生"
+                "details":"GDG Taipei"
             },
             {
                 "name":"Jerry"

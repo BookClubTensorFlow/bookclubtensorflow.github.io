@@ -7,7 +7,7 @@ var guide_dict_2022=[
             {
                 "pic":"../assets/img/guide_person/IIN25T90.jpg",
                 "name":"游紹宏",
-                "details":"台科大資工所 研究生"
+                "details":"GDG Taipei"
             },
             {
                 "name":"張閔勛",
