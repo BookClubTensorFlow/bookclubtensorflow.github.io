@@ -4,8 +4,7 @@ async function runSample() {
 
     var youtubeData = firebase.database().ref('/youtube');
 
-    console.log()
-    console.log("youtubeData",youtubeData)
+    // console.log("youtubeData",youtubeData)
 
     youtubeData.on('value', function(snapshot) {
 
@@ -16,9 +15,6 @@ async function runSample() {
             </iframe>`;
 
         let publishDate = new Date(snapshot.val().publishTime);
-        console.log( )
-        console.log( )
-        console.log()
 
         const videoDetailsTemplate = `
             <p class="h4 card-title mb-3" style="color: #ff3600;">${snapshot.val().title}</p>

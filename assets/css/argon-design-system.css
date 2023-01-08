@@ -1483,7 +1483,7 @@ pre code {
 
 .table {
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     color: #525f7f;
     background-color: transparent;
 }
