@@ -90,10 +90,10 @@ myData.on('value', function(snapshot) {
         let card_template = `<div class="col-lg-6 mr-auto text-left mt-4">
                         <div class="card text-black card-background shadow border-0">
                           <img class="card-img" src="./assets/img/main_page_activity/tf-bg-new-design.png" alt="Card image" style="border-color: aliceblue;">
-                            <div class="card-img-overlay d-flex align-items-center" style="padding:40px";>
+                            <div class="card-img-overlay d-flex align-items-center" style="padding:40px;  position:absolute;">
                               <div class="content" >
                                 <p class="h6 card-title mb-3" style="color: #ff3600;">${title}</p>
-                                  <p class="card-description h3">${chapter_title}</p>
+                                  <h3 class="card-text">${chapter_title}</h3>
                                   <p class="card-text text-md font-weight-bold">${year}/${date}</p>
                                   <div class="card_footer">
                                   ${buttonContent}
