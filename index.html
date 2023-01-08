@@ -71,6 +71,9 @@ Coded by www.creative-tim.com
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- CSS Files -->
     <link href="./assets/css/argon-design-system.css?v=1.2.0" rel="stylesheet" />
+    <!-- Youtube API Files -->  
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
     <!-- Animate.css v4.0.0 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"/>
     <link rel="stylesheet"
@@ -180,8 +183,29 @@ Coded by www.creative-tim.com
     </div>
     <div class="section features-1" style="padding: 32px 0px;">
         <div class="container">
-           
             <div class="row col-md-12" style="margin: 0px;">
+                <div class="col-md-8 mx-auto text-center">
+                    <h3 class="display-3">最新影片</h3>
+                </div>
+            </div>
+            <div class="row col-md-12" style="margin: 0px;" style="margin-bottom: 50px;">
+                <div class="col-lg-6 mr-auto mt-4"  id="recentVideo">
+                    <!-- 交由JS檔案自動讀取生成 -->
+                    <div class=" rounded col-lg-12 mr-auto mt-4 animated flash infinite slower" style="height:315px; background-color: #000000; animation-delay: 0ms; padding-left: 15px; padding-right: 15px;;">
+                        <div class="card-body" >
+                         
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-6 mr-auto mt-4"  id="recentVideoContent" style="margin-top: 24px; padding-top: 40px;">
+                    <!-- 交由JS檔案自動讀取生成 -->
+                    <p class="h4 card-title mb-3 animated flash infinite slower" style="word-break:break-all; color: #ff3600; animation-delay: 125ms;">██████████████████████████████████</p>
+                    <p class="card-description h6 animated flash infinite slower" style="word-break:break-all; animation-delay: 250ms;">██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████</p>
+                    <p class="card-text text-md font-weight-bold animated flash infinite slower" style="animation-delay: 375ms;">發布日期：████年██月██日</p>
+                </div>
+            </div>
+
+            <div class="row col-md-12" style="margin: 0px; margin-top: 50px;">
                 <div class="col-md-8 mx-auto text-center">
                     <h3 class="display-3">近期活動</h3>
                     <a href="./lesson_info/index.html"
@@ -421,12 +445,8 @@ Coded by www.creative-tim.com
     <!-- Control Center for Argon UI Kit: parallax effects, scripts for the example pages etc -->
     <script src="./assets/js/argon-design-system.min.js?v=1.2.0" type="text/javascript"></script>
     <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
-    <script src="./lesson_info/lesson_list/2020.js"></script>
-    <script src="./lesson_info/lesson_list/2022.js"></script>
-    <script src="./lesson_info/lesson_list/2023.js"></script>
-    <!-- <script src="./firebase.js"></script> -->
     <script src="./eventReader.js"></script>
-    <!-- <script src="./init.js"></script> -->
+    <script src="./youtube-fetch.js"></script>
     <script>
         window.TrackJS &&
             TrackJS.install({

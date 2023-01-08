@@ -29,9 +29,12 @@ myData.on('value', function(snapshot) {
 
     for(let j = 0; j < yearContent[i].lessons.length;j++){
 
-      console.log("Now", Date.now())
-      console.log("Event "+j, Date.parse(year+'/'+(yearContent[i].lessons[j].host_date)))
-      console.log("Event "+j, Date.parse(year+'/'+(yearContent[i].lessons[j].host_date)))
+      // console.log("Now", Date.now())
+      // console.log( new Date().getFullYear())
+      // console.log( new Date().getMonth())
+      // console.log( new Date().getDate())
+      // console.log("Event "+j, Date.parse(year+'/'+(yearContent[i].lessons[j].host_date)))
+      // console.log("Event "+j, Date.parse(year+'/'+(yearContent[i].lessons[j].host_date)))
 
       let eventDate = (year+'/'+(yearContent[i].lessons[j].host_date)).replace('/','-');
 
@@ -89,8 +92,8 @@ myData.on('value', function(snapshot) {
                           <img class="card-img" src="./assets/img/main_page_activity/tf-bg-new-design.png" alt="Card image" style="border-color: aliceblue;">
                             <div class="card-img-overlay d-flex align-items-center" style="padding:40px";>
                               <div class="content" >
-                                <p class="h3 card-title text-black mb-2" style="color: #ff3600;">${title}</p>
-                                  <p class="card-description h5">${chapter_title}</p>
+                                <p class="h6 card-title mb-3" style="color: #ff3600;">${title}</p>
+                                  <p class="card-description h3">${chapter_title}</p>
                                   <p class="card-text text-md font-weight-bold">${year}/${date}</p>
                                   <div class="card_footer">
                                   ${buttonContent}
@@ -106,7 +109,7 @@ myData.on('value', function(snapshot) {
     }
   }
 
-  console.log("returnCards",returnCards)
+  // console.log("returnCards",returnCards)
 
   document.getElementById("recentContentList").innerHTML = returnCards
 
