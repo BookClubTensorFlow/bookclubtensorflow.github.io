@@ -13,12 +13,14 @@ let daySetter = {
   2: []
 }
 
-const DateNestThreeWeek = Object.keys(daySetter).map(function (x) {
+const NextThreeDateFull = Object.keys(daySetter).map(function (x) {
   let date = new Date(today.getTime() + ((daysUntilTuesday + x * 7) * 24 * 60 * 60 * 1000))
-  return date.getMonth() + 1 + "/" + date.getDate()
+  return [date.getFullYear(), date.getMonth() + 1 ,date.getDate()]
 });
 
-console.log(DateNestThreeWeek);
+const NextThreeDateMonth = NextThreeDateFull.map(x => x[1]+"/"+x[2])
+console.log(NextThreeDateFull);
+console.log(NextThreeDateMonth);
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -49,7 +51,7 @@ myData.on('value', function (snapshot) {
     for (let j = 0; j < yearContent[i].lessons.length; j++) {
 
 
-      if (DateNestThreeWeek.indexOf(yearContent[i].lessons[j].host_date) !== -1) {
+      if (NextThreeDateMonth.indexOf(yearContent[i].lessons[j].host_date) !== -1) {
 
         let title = yearContent[i].title;
         let chapter_title = yearContent[i].lessons[j].chapter_title;
@@ -97,7 +99,7 @@ myData.on('value', function (snapshot) {
 
         }
 
-        daySetter[DateNestThreeWeek.indexOf(yearContent[i].lessons[j].host_date)].push(
+        daySetter[NextThreeDateMonth.indexOf(yearContent[i].lessons[j].host_date)].push(
           {
             "title": title,
             "chapter_title": chapter_title,
@@ -111,9 +113,13 @@ myData.on('value', function (snapshot) {
 
   function HolidayChecker(inputDate){
     let holidayContent = snapshot.val()["calender"];
-
+    console.log("inputDate",inputDate)
     for (let i=0;i<holidayContent.length;i++){
-      if (Date.parse(holidayContent[i].start) <= Date.parse(inputDate) && Date.parse(inputDate) <= Date.parse(holidayContent[i].end)){
+
+      let startDate = new Date(holidayContent[i].start);
+      startDate =  `${startDate.getFullYear()}-${startDate.getMonth() + 1}-${startDate.getDate()}`;
+      if (startDate=== inputDate) {
+        console.log("startDate",startDate)
         return holidayContent[i].name
       }
     }
@@ -125,7 +131,7 @@ myData.on('value', function (snapshot) {
 
   let eachDateContent = ''
 
-  for(let i=0;i<DateNestThreeWeek.length;i++){
+  for(let i=0;i<NextThreeDateMonth.length;i++){
 
     let tableRowSource = daySetter[i]
 
@@ -133,7 +139,7 @@ myData.on('value', function (snapshot) {
 
       let tableRowDisplay = ""
 
-      if (daysUntilTuesday===0 && DateNestThreeWeek[0]===DateNestThreeWeek[i]){
+      if (daysUntilTuesday===0 && NextThreeDateMonth[0]===NextThreeDateMonth[i]){
         tableRowDisplay+= `<tr>
         <button class="btn btn-youtube btn-sm mb-2" type="button">
           <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
@@ -168,7 +174,7 @@ myData.on('value', function (snapshot) {
     }
     else{
 
-    let inputDate = HolidayChecker(`${new Date().getFullYear()}-${DateNestThreeWeek[i].replace("/","-")}`);
+    let inputDate = HolidayChecker(`${NextThreeDateFull[i][0]}-${NextThreeDateFull[i][1]}-${NextThreeDateFull[i][2]}`);
 
     let backgroundColor = "#000000"
 
@@ -188,7 +194,7 @@ myData.on('value', function (snapshot) {
     eachDateContent += `
       <div class="row col-md-12">
           <div class="col-lg-2 mr-auto text-left mt-4">
-              <p class="h1 card-title mb-3 " style="word-break:break-all; color: #ff3600; animation-delay: 0ms;">${DateNestThreeWeek[i]}</p>
+              <p class="h1 card-title mb-3 " style="word-break:break-all; color: #ff3600; animation-delay: 0ms;">${NextThreeDateMonth[i]}</p>
           </div>
           <div class="col-lg-10 mr-auto text-left mt-4">
                 ${cardBodyContent}
