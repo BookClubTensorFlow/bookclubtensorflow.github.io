@@ -153,9 +153,9 @@ myData.on('value', function (snapshot) {
 
           tableRowDisplay+=`
             <tr>
-              <td class="text-center">${j+1}</td>
-              <td style="color: #ff3600;">${tableRowSource[j].title}</td>
-              <td>${tableRowSource[j].chapter_title}</td>
+              <td class="text-center" style="width:10px">${j+1}</td>
+              <td class="text-left" style="color: #ff3600; width:170px;">${tableRowSource[j].title}</td>
+              <td class="text-left">${tableRowSource[j].chapter_title}</td>
               <td class="td-actions text-right">
               ${tableRowSource[j].buttonContent}
               </td>
