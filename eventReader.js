@@ -36,12 +36,12 @@ const firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-var myData = firebase.database().ref('/' + new Date().getFullYear());
+var myData = firebase.database().ref('/');
 
 
 myData.on('value', function (snapshot) {
 
-  let yearContent = snapshot.val();
+  let yearContent = snapshot.val()[new Date().getFullYear()];
 
   for (let i = 0; i < Object.keys(yearContent).length; i++) {
     console.log(yearContent[i].lessons.length)
@@ -109,7 +109,19 @@ myData.on('value', function (snapshot) {
   }
 
 
-  console.log("daySetter", daySetter)
+  function HolidayChecker(inputDate){
+    let holidayContent = snapshot.val()["calender"];
+
+    for (let i=0;i<holidayContent.length;i++){
+      if (Date.parse(holidayContent[i].start) <= Date.parse(inputDate) && Date.parse(inputDate) <= Date.parse(holidayContent[i].end)){
+        return holidayContent[i].name
+      }
+    }
+    return "休息日"
+  }
+
+
+  // console.log("daySetter", daySetter)
 
   let eachDateContent = ''
 
@@ -155,10 +167,18 @@ myData.on('value', function (snapshot) {
         `
     }
     else{
-      var cardBodyContent = `
-      
-      <div class="card shadow text-center" style="padding:5px; background-color: #000000;opacity: 0.4;">
-      <p class="h1 card-title mb-3 text-white" style="margin:0 !important; ">休息日</p>
+
+    let inputDate = HolidayChecker(`${new Date().getFullYear()}-${DateNestThreeWeek[i].replace("/","-")}`);
+
+    let backgroundColor = "#000000"
+
+    if (inputDate!=="休息日"){
+      backgroundColor = "#cd201f"
+    }
+
+    var cardBodyContent = `
+      <div class="card shadow text-center" style="padding:5px; background-color: ${backgroundColor};opacity: 0.4;">
+        <p class="h1 card-title mb-3 text-white" style="margin:0 !important; ">${inputDate}</p>
       </div>
     `
     }
