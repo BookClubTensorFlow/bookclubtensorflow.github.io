@@ -10,7 +10,8 @@ if (daysUntilTuesday < 0) {
 let daySetter = {
   0: [],
   1: [],
-  2: []
+  2: [],
+  3: []
 }
 
 const NextThreeDateFull = Object.keys(daySetter).map(function (x) {
@@ -19,8 +20,8 @@ const NextThreeDateFull = Object.keys(daySetter).map(function (x) {
 });
 
 const NextThreeDateMonth = NextThreeDateFull.map(x => x[1]+"/"+x[2])
-console.log(NextThreeDateFull);
-console.log(NextThreeDateMonth);
+// console.log(NextThreeDateFull);
+// console.log(NextThreeDateMonth);
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -46,7 +47,7 @@ myData.on('value', function (snapshot) {
   let yearContent = snapshot.val()[new Date().getFullYear()];
 
   for (let i = 0; i < Object.keys(yearContent).length; i++) {
-    console.log(yearContent[i].lessons.length)
+    // console.log(yearContent[i].lessons.length)
 
     for (let j = 0; j < yearContent[i].lessons.length; j++) {
 
@@ -113,13 +114,13 @@ myData.on('value', function (snapshot) {
 
   function HolidayChecker(inputDate){
     let holidayContent = snapshot.val()["calender"];
-    console.log("inputDate",inputDate)
+    // console.log("inputDate",inputDate)
     for (let i=0;i<holidayContent.length;i++){
 
       let startDate = new Date(holidayContent[i].start);
       startDate =  `${startDate.getFullYear()}-${startDate.getMonth() + 1}-${startDate.getDate()}`;
       if (startDate=== inputDate) {
-        console.log("startDate",startDate)
+        // console.log("startDate",startDate)
         return holidayContent[i].name
       }
     }
@@ -145,6 +146,11 @@ myData.on('value', function (snapshot) {
           <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
           LIVE
         </button>
+        </tr>`
+      }else{
+        tableRowDisplay+= `
+        <tr>
+          <button type="button" class="btn btn-outline-default btn-round btn-sm mb-2 disabled">${tableRowSource.length} 個主題</button>
         </tr>`
       }
     
@@ -203,8 +209,7 @@ myData.on('value', function (snapshot) {
 
   }
 
-
-
   document.getElementById("recentContentList").innerHTML = eachDateContent
+
 });
 
