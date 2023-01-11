@@ -10,8 +10,7 @@ if (daysUntilTuesday < 0) {
 let daySetter = {
   0: [],
   1: [],
-  2: [],
-  3: []
+  2: []
 }
 
 const NextThreeDateFull = Object.keys(daySetter).map(function (x) {
