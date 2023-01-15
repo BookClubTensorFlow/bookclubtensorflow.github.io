@@ -77,11 +77,15 @@ myData.on('value', function (snapshot) {
   
   console.log(`${lastEventDate}:${MeetLink}`)
 
+  if (!MeetLink){
+    var countDown = setInterval(failInfo, 5000);
+  }
   
-  if(MeetLink.length > 0){
-    var countDown = setInterval(goToMeet, 5000);
-    document.getElementById("title").innerHTML = "自動導向成功"
-    document.getElementById("infoCOntent").innerHTML = `將會自動帶你去本周二 (${lastEventDate}) 的讀書會連結`
+  if(MeetLink.length > 0 ){
+    var countDown1 = setInterval(goToMeet, 5000);
+    var countDown2 = setInterval(SuccessInfo, 5000);
+
+    document.getElementById("infoCOntent").innerHTML = `將帶你去本周二 (${lastEventDate}) 的讀書會連結`
     document.getElementById("redirectedButton").innerHTML =`
       <a href="${MeetLink}" target="" class="btn btn-outline-white">
         <span class="btn-inner--text" style="font-size: 1.33333333em;">手動前往Google Meet</span>
@@ -94,9 +98,15 @@ myData.on('value', function (snapshot) {
 
   function goToMeet() {
     document.location.href = MeetLink;
-    clearInterval(countDown);
+    clearInterval(countDown1);
   }
   
+  function SuccessInfo(){
+    document.getElementById("title").innerHTML = "自動導向成功"
+    clearInterval(countDown2);
+
+  }
+
   function failInfo(){
     document.getElementById("title").innerHTML = "自動導向失敗"
     document.getElementById("infoCOntent").innerHTML = `本周二 (${lastEventDate}) 是「${HolidayChecker(LatestNextDateEventFull())}」沒有舉行活動`
