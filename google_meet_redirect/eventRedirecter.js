@@ -96,7 +96,7 @@ myData.on('value', function (snapshot) {
   
   function failInfo(){
     document.getElementById("title").innerHTML = "重新導向失敗"
-    document.getElementById("infoCOntent").innerHTML = `本周二 (${lastEventDate}) 是 「${HolidayChecker(LatestNextDateEventFull())}」 沒有舉行活動`
+    document.getElementById("infoCOntent").innerHTML = `本周二 (${lastEventDate}) 是「${HolidayChecker(LatestNextDateEventFull())}」沒有舉行活動`
     document.getElementById("redirectedButton").innerHTML =`
     <a href="../lesson_info" target="" class="btn btn-outline-white">
       <span class="btn-inner--text" style="font-size: 1.33333333em;">查看完整活動清單</span>
