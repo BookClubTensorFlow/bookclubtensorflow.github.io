@@ -17,8 +17,10 @@ firebase.initializeApp(firebaseConfig);
 var myData = firebase.database().ref('/');
 countDown()
 
+var today = new Date('2023-2-19');
+
 function LatestNextDateEvent(){
-  let today = new Date();
+  
   let dayOfWeek = today.getDay();
   let daysUntilTuesday = 2 - dayOfWeek;
   
@@ -31,7 +33,7 @@ function LatestNextDateEvent(){
 }
 
 function LatestNextDateEventFull(){
-  let today = new Date();
+  // let today = new Date();
   let dayOfWeek = today.getDay();
   let daysUntilTuesday = 2 - dayOfWeek;
   
@@ -107,10 +109,12 @@ myData.on('value', function (snapshot) {
 
 });
 
-
+var timer = 6
 function countDown(){
-  if (document.getElementById("timeBox").innerHTML>0){
-    document.getElementById("timeBox").innerHTML -= 1;
+ 
+  timer -= 1;
+  if (timer > 0){
+    document.getElementById("title").innerHTML = `${timer}秒後自動導向...`
   }
   setTimeout(`countDown()`,1000);
 }
