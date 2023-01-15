@@ -74,7 +74,7 @@ myData.on('value', function (snapshot) {
   var MeetLink = MeetLinkFinder(lastEventDate)
   
   console.log(`${lastEventDate}:${MeetLink}`)
- 
+
   
   if(MeetLink.length > 0){
     var countDown = setInterval(goToMeet, 5000);
