@@ -41,6 +41,8 @@ firebase.initializeApp(firebaseConfig);
 var myData = firebase.database().ref('/');
 
 
+
+
 myData.on('value', function (snapshot) {
 
   let yearContent = snapshot.val()[new Date().getFullYear()];
@@ -127,6 +129,18 @@ myData.on('value', function (snapshot) {
   }
 
 
+  function MeetLinkFinder(inputDate){
+    let meetLinkContent = snapshot.val()["meet"][new Date().getFullYear()];
+
+    console.log(meetLinkContent)
+
+    for (let i=0;i<meetLinkContent.length;i++){
+      if ( meetLinkContent[i].date === inputDate) {
+        return meetLinkContent[i].link
+      }
+    }
+  }
+
   // console.log("daySetter", daySetter)
 
   let eachDateContent = ''
@@ -167,6 +181,23 @@ myData.on('value', function (snapshot) {
             </tr>
           `
         }
+
+        if (daysUntilTuesday===0 && NextThreeDateMonth[0]===NextThreeDateMonth[i]){
+          tableRowDisplay+= `
+          <tr>
+            <td colspan="4" style="padding-bottom: 0px;">
+              <div class="col-md-12 mx-auto text-right">
+                <a target="_blank" href="${MeetLinkFinder(`${NextThreeDateFull[0][1]}/${NextThreeDateFull[0][2]}`)}">
+                    <button type="button" class="btn-icon btn btn-meet shadow">
+                        <span class="btn-inner--icon"><span class='iconify' data-icon='logos:google-meet' data-inline='false'></span> </span>
+                        <span class="btn-inner--text">使用 Google Meet 加入讀書會</span>
+                    </button>
+                </a>
+              </div>
+            </td>
+          </tr>`
+        }
+
         var cardBodyContent = `
           <div class="card shadow">
             <div class="card-body">
