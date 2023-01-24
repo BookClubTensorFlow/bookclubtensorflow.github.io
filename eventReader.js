@@ -228,18 +228,18 @@ myData.on('value', function (snapshot) {
 
 
     eachDateContent += `
-      <div class="row col-md-12">
-          <div class="col-lg-2 mr-auto text-left mt-4">
-              <p class="h1 card-title mb-3 " style="word-break:break-all; color: #ff3600; animation-delay: 0ms;">${NextThreeDateMonth[i]}</p>
+      <div class="row col-md-12" style = "margin-top: 0rem !important; margin-bottom: 1.5rem !important;padding-right: 0px;">
+          <div class="col-lg-2 mr-auto text-left mt-4" style = "margin-top: 0rem !important;">
+              <p class="h1 card-title mb-3" style="word-break:break-all; color: #ff3600; margin-bottom: 0rem !important;">${NextThreeDateMonth[i]}</p>
           </div>
-          <div class="col-lg-10 mr-auto text-left mt-4">
+          <div class="col-lg-10 mr-auto text-left mt-4" style = "margin-top: 0rem !important; margin-bottom: 1.5rem !important;padding-right: 0px;">
                 ${cardBodyContent}
           </div>
       </div>`
 
   }
 
-  document.getElementById("recentContentList").innerHTML = eachDateContent
+  document.getElementById("recentContentList").innerHTML = `<div class="row col-md-12" style="margin-top: 1.5em; margin-right: 0em; padding-right: 0px;">${eachDateContent}</div>`
 
 });
 
