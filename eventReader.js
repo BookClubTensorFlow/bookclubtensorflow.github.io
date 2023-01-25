@@ -290,7 +290,7 @@ myData.on('value', function (snapshot) {
   script.textContent = ` {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "itemListElement": ${ActivityList}
+    "itemListElement": [${ActivityList}]
   }`;
   document.head.appendChild(script);
   
