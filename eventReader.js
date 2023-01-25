@@ -210,17 +210,17 @@ myData.on('value', function (snapshot) {
     }
     else{
 
-    let inputDate = HolidayChecker(`${NextThreeDateFull[i][0]}-${NextThreeDateFull[i][1]}-${NextThreeDateFull[i][2]}`);
+    let Holiday = HolidayChecker(`${NextThreeDateFull[i][0]}-${NextThreeDateFull[i][1]}-${NextThreeDateFull[i][2]}`);
 
     let backgroundColor = "#000000"
 
-    if (inputDate!=="休息日"){
+    if (Holiday!=="休息日"){
       backgroundColor = "#cd201f"
     }
 
     var cardBodyContent = `
       <div class="card shadow text-center" style="padding:5px; background-color: ${backgroundColor};opacity: 0.4;">
-        <p class="h1 card-title mb-3 text-white" style="margin:0 !important; ">${inputDate}</p>
+        <p class="h1 card-title mb-3 text-white" style="margin:0 !important; ">${Holiday}</p>
       </div>
     `
     }

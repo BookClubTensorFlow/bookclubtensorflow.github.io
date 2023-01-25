@@ -1,6 +1,6 @@
 import random
 
-input = "Colab"
+input = "線上讀書會"
 
 inputTemp = '''.type("%s", { delay: %s })'''
 deleteTemp = '''.delete(1, { delay: %s })'''

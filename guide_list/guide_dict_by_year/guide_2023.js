@@ -15,16 +15,22 @@ var guide_dict_2023=[
             {
                 "name":"廖健傑Jack"
             },
+            {
+                "name":"Kevin T."
+            }
         ]
     },
     {
         "banner": " <span class='iconify' data-icon='simple-icons:openai' data-inline='false'></span> OpenAI",
         "chapter_title":"OpenAI",
-        "chapters":1,
+        "chapters":2,
         "guider_list":[
             {
                 "name":"Justin",
                 "details":"GDG Taoyuan"
+            },
+            {
+                "name":"廖健傑Jack"
             },
         ]
     },
@@ -33,9 +39,7 @@ var guide_dict_2023=[
         "chapter_title":"TensorFlow 證照",
         "chapters":0,
         "guider_list":[
-            {
-                "name":"廖健傑Jack"
-            },
+            
         ]
     }
 ]
