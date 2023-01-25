@@ -1,5 +1,5 @@
 new TypeIt("#element", { 
-  strings: ["從 Python 到", "TensorFlow"],
+  strings: ["TensorFlow"],
   lifeLike: true,
   waitUntilVisible: true,
 })
@@ -42,6 +42,4 @@ new TypeIt("#element", {
   .pause(300)
   .delete(6, { deleteSpeed: 59 })
   .type("TensorFlow", { lifeLike: true })
-  .break({ delay: 500 })
-  .type("線上讀書會", { lifeLike: true })
   .go();
