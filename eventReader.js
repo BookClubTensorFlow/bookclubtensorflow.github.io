@@ -251,8 +251,6 @@ myData.on('value', function (snapshot) {
       </div>
     `
 
-    // "url":"https://bookclubtensorflow.github.io/lesson_info/",
-
     var ActivityContnet = `{
         "@type": "ListItem",
         "position": ${i+1},
