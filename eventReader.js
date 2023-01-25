@@ -10,8 +10,11 @@ if (daysUntilTuesday < 0) {
 let daySetter = {
   0: [],
   1: [],
-  2: []
+  2: [],
+  3: []
 }
+
+var ActivityList = []
 
 const NextThreeDateFull = Object.keys(daySetter).map(function (x) {
   let date = new Date(today.getTime() + ((daysUntilTuesday + x * 7) * 24 * 60 * 60 * 1000))
@@ -152,6 +155,8 @@ myData.on('value', function (snapshot) {
     if (tableRowSource.length > 0 ) {
 
       let tableRowDisplay = ""
+      let googleCardContent = ""
+      let googleCardLink = ""
 
       if (daysUntilTuesday===0 && NextThreeDateMonth[0]===NextThreeDateMonth[i]){
         tableRowDisplay+= `<tr>
@@ -160,6 +165,7 @@ myData.on('value', function (snapshot) {
           LIVE
         </button>
         </tr>`
+        googleCardContent+= "今晚 20:30 - 22:00\\n"
       }else{
         tableRowDisplay+= `
         <tr>
@@ -168,7 +174,7 @@ myData.on('value', function (snapshot) {
       }
     
 
-        for(let j = 0 ;j <tableRowSource.length;j++){
+        for(let j = 0 ; j <tableRowSource.length;j++){
 
           tableRowDisplay+=`
             <tr>
@@ -180,6 +186,7 @@ myData.on('value', function (snapshot) {
               </td>
             </tr>
           `
+          googleCardContent+= `${j+1}. ${tableRowSource[j].title.split('</span>  ')[1]}:${tableRowSource[j].chapter_title}\\n`
         }
 
         if (daysUntilTuesday===0 && NextThreeDateMonth[0]===NextThreeDateMonth[i]){
@@ -198,6 +205,8 @@ myData.on('value', function (snapshot) {
           </tr>`
         }
 
+        googleCardLink = MeetLinkFinder(`${NextThreeDateFull[i][1]}/${NextThreeDateFull[i][2]}`)
+
         var cardBodyContent = `
           <div class="card shadow">
             <div class="card-body">
@@ -207,6 +216,24 @@ myData.on('value', function (snapshot) {
               </div>
           </div>
         `
+
+        var ActivityContnet = `{
+          "@type": "ListItem",
+          "position": ${i+1},
+          "item": {
+            "@type": "Course",
+            "url":"${googleCardLink}",
+            "name": "${NextThreeDateMonth[i]} 線上讀書會",
+            "description": "${googleCardContent}",
+            "provider": {
+              "@type": "Organization",
+              "name": "TensorFlow User Group Taipei",
+              "sameAs": "https://www.meetup.com/en-AU/TensorFlow-User-Group-Taipei/"
+            }
+          }
+        }`
+
+
     }
     else{
 
@@ -223,9 +250,24 @@ myData.on('value', function (snapshot) {
         <p class="h1 card-title mb-3 text-white" style="margin:0 !important; ">${Holiday}</p>
       </div>
     `
+
+    var ActivityContnet = `{
+        "@type": "ListItem",
+        "position": ${i+1},
+        "item": {
+          "@type": "Course",
+          "url":"https://bookclubtensorflow.github.io/lesson_info/",
+          "name": "${NextThreeDateMonth[i]} : ${Holiday}",
+          "description": " 該日(${NextThreeDateMonth[i]})沒有舉行活動，暫停一次",
+          "provider": {
+            "@type": "Organization",
+            "name": "TensorFlow User Group Taipei",
+            "sameAs": "https://www.meetup.com/en-AU/TensorFlow-User-Group-Taipei/"
+          }
+        }
+      }`
     }
     
-
 
     eachDateContent += `
       <div class="row col-md-12" style = "margin-top: 0rem !important; margin-bottom: 0rem !important;padding-right: 0px;">
@@ -237,9 +279,20 @@ myData.on('value', function (snapshot) {
           </div>
       </div>`
 
+      ActivityList.push(ActivityContnet);
+
   }
 
   document.getElementById("recentContentList").innerHTML = `<div class="row col-md-12" style="margin-top: 1.5em; margin-right: 0em; padding-right: 0px;">${eachDateContent}</div>`
-
+  
+  const script = document.createElement('script');
+  script.setAttribute('type', 'application/ld+json');
+  script.textContent = ` {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": ${ActivityList}
+  }`;
+  document.head.appendChild(script);
+  
 });
 
