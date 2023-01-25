@@ -251,12 +251,13 @@ myData.on('value', function (snapshot) {
       </div>
     `
 
+    // "url":"https://bookclubtensorflow.github.io/lesson_info/",
+
     var ActivityContnet = `{
         "@type": "ListItem",
         "position": ${i+1},
         "item": {
           "@type": "Course",
-          "url":"https://bookclubtensorflow.github.io/lesson_info/",
           "name": "${NextThreeDateMonth[i]} : ${Holiday}",
           "description": " 該日(${NextThreeDateMonth[i]})沒有舉行活動，暫停一次",
           "provider": {
