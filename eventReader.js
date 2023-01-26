@@ -178,12 +178,12 @@ myData.on('value', function (snapshot) {
 
           tableRowDisplay+=`
             <tr>
-              <td class="text-center" style="width:10px">${j+1}</td>
-              <td class="text-left" style="color: #ff3600; width:170px;">${tableRowSource[j].title}</td>
-              <td class="text-left">${tableRowSource[j].chapter_title}</td>
-              <td class="td-actions text-right">
+              <!--td class="text-center" style="width:10px; padding:16px 16px;">${j+1}</td-->
+              <td class="text-left" style="color: #ff3600; width:170px; padding:16px 0px;">${tableRowSource[j].title}</td>
+              <td class="text-left" style="padding:16px 0px;">${tableRowSource[j].chapter_title}</td>
+              <!--td class="td-actions text-right" style="padding:16px 0px;">
               ${tableRowSource[j].buttonContent}
-              </td>
+              </td-->
             </tr>
           `
           googleCardContent+= `${j+1}. ${tableRowSource[j].title.split('</span>  ')[1]}:${tableRowSource[j].chapter_title}\\n`
