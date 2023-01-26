@@ -9,7 +9,8 @@ async function runSample() {
     youtubeData.on('value', function(snapshot) {
 
         const videoTemplate = `
-            <iframe src="https://www.youtube.com/embed/${snapshot.val().videoId}?rel=0"  class="rounded col-lg-12 mr-auto mt-4 shadow" style=" background-color: #000000; height:315px; padding:0px;
+            <iframe src="https://www.youtube.com/embed/${snapshot.val().videoId}?rel=0"  class="rounded col-lg-12 mr-auto mt-4 shadow" style=" background-color: #000000; padding:0px; width: 100%;
+            aspect-ratio: 16 / 9;
                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" 
                 allowfullscreen>
             </iframe>`;

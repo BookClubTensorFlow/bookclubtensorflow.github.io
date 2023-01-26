@@ -58,6 +58,27 @@ Coded by www.creative-tim.com
             background-color: #35465c;
             color: #fff;
         }
+        .videobox {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+        }
+
+        .videobox iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .videobox embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     </style>
     <style>
         df-messenger {
@@ -183,28 +204,31 @@ Coded by www.creative-tim.com
                 </div>
             </div>
             <div class="row col-md-12" style="margin: 0px;" style="margin-bottom: 50px;">
-                <div class="col-lg-6 mr-auto mt-4" id="recentVideo">
+                <div class="col-lg-6 mr-auto mt-4 align-items-center justify-content-center" id="recentVideo" >
                     <!-- 交由JS檔案自動讀取生成 -->
                     <div class=" rounded col-lg-12 mr-auto mt-4"
-                        style=" background-color: #000000; height:315px; padding-left: 15px; padding-right: 15px;">
-                        <div class="card-body">
-
+                        style=" background-color: #000000; width: 100%;
+                        aspect-ratio: 16 / 9; padding-left: 15px; padding-right: 15px;">
+                        <div class="card-body" style="width: 100%; height:100%; padding: 26% 46%;">
+                            <div class="spinner-border text-light " role="status">
+                                <span class="sr-only" >Loading...</span>
+                                </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 mr-auto mt-4" id="recentVideoContent" style="margin-top: 24px; padding-top: 40px;">
+                <div class="col-lg-6 mr-auto mt-4 align-items-center justify-content-center" id="recentVideoContent" style="padding-top: 15px;">
                     <!-- 交由JS檔案自動讀取生成 -->
                     <p class="h4 card-title mb-3 animated flash infinite slower"
                         style="word-break:break-all; color: #ff3600; animation-delay: 0ms;">
                         ██████████████████████████████████</p>
                     <p class="card-description h6 animated flash infinite slower"
                         style="word-break:break-all; animation-delay: 125ms;">
-                        ██████████████████████████████████████████████████████████████████████████████████████████████████████████████
+                        ███████████████████████████████████████████████████████████████████████████████████
                     </p>
                     <p class="card-text text-md font-weight-bold animated flash infinite slower"
                         style="animation-delay: 250ms;">發布日期：████年██月██日</p>
                     <a href="">
-                        <button type="button" class="btn-icon btn btn-youtube shadow animated flash infinite slower"
+                        <button type="button" class="btn-icon btn btn-youtube shadow animated flash infinite slower disabled"
                             style="animation-delay: 375ms;">
                             <span class="btn-inner--icon"><i class="fab fa-youtube"></i></span>
                             <span class="btn-inner--text">██████████████</span>
