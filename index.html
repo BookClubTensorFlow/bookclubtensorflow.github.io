@@ -56,28 +56,42 @@ Coded by www.creative-tim.com
     <style>
         .btn.btn-meet {
             background-color: #35465c;
-            color: #fff;
+            color: #ffffff;
         }
-        .videobox {
-            position: relative;
-            width: 100%;
-            height: 0;
-            padding-bottom: 56.25%;
+        .btn-outline-youtube {
+            color: #cd201f;
+            border-color: #cd201f;
         }
 
-        .videobox iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+        .btn-outline-youtube:hover {
+            color: #fff;
+            background-color: #cd201f;
+            border-color: #cd201f;
         }
-        .videobox embed {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+
+        .btn-outline-youtube:focus,
+        .btn-outline-youtube.focus {
+            box-shadow: 0 0 0 0 rgba(205, 32, 31, 0.5);
+        }
+
+        .btn-outline-youtube.disabled,
+        .btn-outline-youtube:disabled {
+            color: #cd201f;
+            background-color: transparent;
+        }
+
+        .btn-outline-youtube:not(:disabled):not(.disabled):active,
+        .btn-outline-youtube:not(:disabled):not(.disabled).active,
+        .show>.btn-outline-youtube.dropdown-toggle {
+            color: #fff;
+            background-color: #cd201f;
+            border-color: #cd201f;
+        }
+
+        .btn-outline-youtube:not(:disabled):not(.disabled):active:focus,
+        .btn-outline-youtube:not(:disabled):not(.disabled).active:focus,
+        .show>.btn-outline-youtube.dropdown-toggle:focus {
+            box-shadow: 0 0 0 0 rgba(205, 32, 31, 0.5);
         }
     </style>
     <style>
@@ -201,6 +215,12 @@ Coded by www.creative-tim.com
             <div class="row col-md-12" style="margin: 0px;">
                 <div class="col-md-8 mx-auto text-center">
                     <h3 class="display-3">最新影片</h3>
+                    <a target="_blank" href="https://www.youtube.com/@tensorflowusergrouptaipeit9723">
+                        <button type="button" class="btn-icon btn btn-outline-youtube btn-round" style="margin: 5px 5px;">
+                            <span class="btn-inner--icon"><i class="fab fa-youtube"></i></span>
+                            <span class="btn-inner--text">在 Youtube 找到我們</span>
+                        </button>
+                    </a>
                 </div>
             </div>
             <div class="row col-md-12" style="margin: 0px;" style="margin-bottom: 50px;">
@@ -216,24 +236,21 @@ Coded by www.creative-tim.com
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 mr-auto mt-4 align-items-center justify-content-center" id="recentVideoContent" style="padding-top: 15px;">
-                    <!-- 交由JS檔案自動讀取生成 -->
-                    <p class="h4 card-title mb-3 animated flash infinite slower"
-                        style="word-break:break-all; color: #ff3600; animation-delay: 0ms;">
-                        ██████████████████████████████████</p>
-                    <p class="card-description h6 animated flash infinite slower"
-                        style="word-break:break-all; animation-delay: 125ms;">
-                        ███████████████████████████████████████████████████████████████████████████████████
-                    </p>
-                    <p class="card-text text-md font-weight-bold animated flash infinite slower"
-                        style="animation-delay: 250ms;">發布日期：████年██月██日</p>
-                    <a href="">
-                        <button type="button" class="btn-icon btn btn-youtube shadow animated flash infinite slower disabled"
-                            style="animation-delay: 375ms;">
-                            <span class="btn-inner--icon"><i class="fab fa-youtube"></i></span>
-                            <span class="btn-inner--text">██████████████</span>
-                        </button>
-                    </a>
+                <div class="col-lg-6 mr-auto mt-4" style="display: flex;
+                justify-content: center;
+                align-items: center;">
+                    <div id="recentVideoContent" style="align-self: center; margin: 0 auto;">
+                        <!-- 交由JS檔案自動讀取生成 -->
+                        <p class="h4 card-title mb-3 animated flash infinite slower"
+                            style="word-break:break-all; color: #ff3600; animation-delay: 0ms;">
+                            ██████████████████████████████████</p>
+                        <p class="card-description h6 animated flash infinite slower"
+                            style="word-break:break-all; animation-delay: 125ms;">
+                            ███████████████████████████████████████████████████████████████████████████████████
+                        </p>
+                        <p class="card-text text-md font-weight-bold animated flash infinite slower"
+                            style="animation-delay: 250ms;">發布日期：███年█月█日</p>
+                    </div>
                 </div>
             </div>
 
@@ -332,6 +349,10 @@ Coded by www.creative-tim.com
             <div class="row col-md-12" style="margin-top: 50px;">
                 <div class="col-md-8 mx-auto text-center">
                     <h3 class="display-3">加入我們</h3>
+                    <a href="https://forms.gle/kFpagtAUFLXt3KWN6" target="_blank"
+                    class="btn btn-outline-warning btn-icon mt-3 mb-sm-0" style="margin: 5px 5px;">
+                    <span class="btn-inner--text">報名成為 Hugging Face 導讀者</span>
+                </a>
                 </div>
             </div>
             <div class="row col-md-12" style="margin-bottom: 20px;">
@@ -348,12 +369,7 @@ Coded by www.creative-tim.com
                             我們歡迎所有興趣參與 「從Python到TensorFlow線上讀書會」 的講者和導讀者，協助我們在本讀書會中傳授這些知識和技能。 </p>
                         <div class="author">
                             <div class="btn-wrapper mt-4">
-                                <!-- <a href="javascript:;" class="text-primary"><button type="button" class="btn btn-secondary btn-icon mt-3 mb-sm-0 disabled">即將開放第三梯次報名</button></a> -->
-
-                                <a href="https://forms.gle/kFpagtAUFLXt3KWN6" target="_blank"
-                                    class="btn btn-outline-white btn-icon mt-3 mb-sm-0">
-                                    <span class="btn-inner--text">報名成為 Hugging Face 導讀者</span>
-                                </a>
+                            
                             </div>
                         </div>
                     </div>

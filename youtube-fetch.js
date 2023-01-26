@@ -21,12 +21,7 @@ async function runSample() {
             <p class="h4 card-title mb-3" style="color: #ff3600;">${snapshot.val().title}</p>
             <p class="card-description h6">${snapshot.val().description}</p>
             <p class="card-text text-md font-weight-bold">發布日期：${publishDate.getFullYear()}年${publishDate.getMonth()+1}月${publishDate.getDate()}日</p>
-            <a target="_blank" href="https://www.youtube.com/@tensorflowusergrouptaipeit9723">
-                <button type="button" class="btn-icon btn btn-youtube shadow">
-                    <span class="btn-inner--icon"><i class="fab fa-youtube"></i></span>
-                    <span class="btn-inner--text">在 Youtube 找到我們</span>
-                </button>
-            </a>
+            
             `;
 
         document.getElementById("recentVideo").innerHTML = videoTemplate
