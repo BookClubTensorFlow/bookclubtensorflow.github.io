@@ -284,14 +284,14 @@ myData.on('value', function (snapshot) {
 
   document.getElementById("recentContentList").innerHTML = `<div class="row col-md-12" style="margin-top: 1.5em; margin-right: 0em; padding-right: 0px;">${eachDateContent}</div>`
   
-  // const script = document.createElement('script');
-  // script.setAttribute('type', 'application/ld+json');
-  // script.textContent = ` {
-  //   "@context": "https://schema.org",
-  //   "@type": "ItemList",
-  //   "itemListElement": [${ActivityList}]
-  // }`;
-  // document.head.appendChild(script);
+  const script = document.createElement('script');
+  script.setAttribute('type', 'application/ld+json');
+  script.textContent = ` {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [${ActivityList}]
+  }`;
+  document.head.appendChild(script);
   
 });
 
