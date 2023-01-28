@@ -17,7 +17,7 @@ firebase.initializeApp(firebaseConfig);
 var myData = firebase.database().ref('/');
 countDown()
 
-var today = new Date('2023-2-18');
+var today = new Date();
 
 function LatestNextDateEvent(){
   
