@@ -139,7 +139,7 @@ myData.on('value', function (snapshot) {
 
     for (let i=0;i<meetLinkContent.length;i++){
       if ( meetLinkContent[i].date === inputDate) {
-        return meetLinkContent[i].link
+        return meetLinkContent[i].url
       }
     }
   }

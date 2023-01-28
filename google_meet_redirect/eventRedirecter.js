@@ -17,7 +17,7 @@ firebase.initializeApp(firebaseConfig);
 var myData = firebase.database().ref('/');
 countDown()
 
-var today = new Date();
+var today = new Date('2023-2-18');
 
 function LatestNextDateEvent(){
   
@@ -64,10 +64,10 @@ myData.on('value', function (snapshot) {
 
   function MeetLinkFinder(inputDate){
     let meetLinkContent = snapshot.val()["meet"][new Date().getFullYear()];
-
+    
     for (let i=0;i<meetLinkContent.length;i++){
       if ( meetLinkContent[i].date === inputDate) {
-        return meetLinkContent[i].link
+        return meetLinkContent[i].url
       }
     }
   }
