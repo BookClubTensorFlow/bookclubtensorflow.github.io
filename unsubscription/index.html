@@ -37,7 +37,6 @@ Coded by www.creative-tim.com
   <!-- Animate.css v3.5.2 -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" />
   <style>
-
     .text-primary {
       color: #fe8200 !important;
     }
@@ -122,10 +121,14 @@ Coded by www.creative-tim.com
                         <div class="form-group ">
                           <label>
                             <!-- <i class="ni ni-email-83"></i> -->
-                            請填入欲取消訂閱的電子郵件地址</label>
+                            請填入欲取消訂閱的電子郵件地址
+                          </label>
                           <div class="input-group" id="emailInputField">
                             <input name="Email" type="email" id="email" class="form-control"
                               placeholder="name@example.com" required />
+                          </div>
+                          <div style="font-size: 80%;
+                          font-weight: 400;" id='emailVailfiedHint'>
                           </div>
                         </div>
                         <div class="row">
@@ -269,32 +272,32 @@ Coded by www.creative-tim.com
       </div>
     </div>
   </div>
-  
 
-  <div class="modal fade" id="modal-notification-fail" tabindex="-1" role="dialog"
-  aria-labelledby="modal-notification" aria-hidden="true">
-  <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
-    <div class="modal-content bg-gradient-danger">
-      <div class="modal-header">
-        <h6 class="modal-title" id="modal-title-notification">請求處理發生錯誤</h6>
-        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+  <div class="modal fade" id="modal-notification-fail" tabindex="-1" role="dialog" aria-labelledby="modal-notification"
+    aria-hidden="true">
+    <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
+      <div class="modal-content bg-gradient-danger">
+        <div class="modal-header">
+          <h6 class="modal-title" id="modal-title-notification">請求處理發生錯誤</h6>
+          <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">×</span>
       </button> -->
-      </div>
-      <div class="modal-body">
-        <div class="py-3 text-center">
-          <i class="ni ni-support-16 ni-3x"></i>
-          <h4 class="heading mt-4" id="requestEmail">name@example.com</h4>
-          <p>系統處理過程中發生錯誤，請嘗試重新輸入電子郵箱</p>
         </div>
-      </div>
-      <div class="modal-footer align-items-center">
-        <button type="button" class="btn btn-white" data-dismiss="modal"
-          href="https://bookclubtensorflow.github.io/">好的，我知道了</button>
+        <div class="modal-body">
+          <div class="py-3 text-center">
+            <i class="ni ni-support-16 ni-3x"></i>
+            <h4 class="heading mt-4" id="requestEmail">name@example.com</h4>
+            <p>系統處理過程中發生錯誤，請嘗試重新輸入電子郵箱</p>
+          </div>
+        </div>
+        <div class="modal-footer align-items-center">
+          <button type="button" class="btn btn-white" data-dismiss="modal"
+            href="https://bookclubtensorflow.github.io/">好的，我知道了</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </body>
 
 </html>
