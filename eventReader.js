@@ -44,8 +44,6 @@ firebase.initializeApp(firebaseConfig);
 var myData = firebase.database().ref('/');
 
 
-
-
 myData.on('value', function (snapshot) {
 
   let yearContent = snapshot.val()[new Date().getFullYear()];
@@ -165,7 +163,6 @@ myData.on('value', function (snapshot) {
           LIVE
         </button>
         </tr>`
-        googleCardContent+= "今晚 20:30 - 22:00\\n"
       }else{
         tableRowDisplay+= `
         <tr>
@@ -186,7 +183,7 @@ myData.on('value', function (snapshot) {
               </td-->
             </tr>
           `
-          googleCardContent+= `${j+1}. ${tableRowSource[j].title.split('</span>  ')[1]}:${tableRowSource[j].chapter_title}\\n`
+          googleCardContent+= `* ${tableRowSource[j].title.split('</span>  ')[1]} : ${tableRowSource[j].chapter_title}\\n`
         }
 
         if (daysUntilTuesday===0 && NextThreeDateMonth[0]===NextThreeDateMonth[i]){
@@ -218,21 +215,40 @@ myData.on('value', function (snapshot) {
         `
 
         var ActivityContnet = `{
-          "@type": "ListItem",
-          "position": ${i+1},
-          "item": {
-            "@type": "Course",
-            "url":"${googleCardLink}",
-            "name": "${NextThreeDateMonth[i]} 線上讀書會",
-            "description": "${googleCardContent}",
-            "provider": {
-              "@type": "Organization",
-              "name": "TensorFlow User Group Taipei",
-              "sameAs": "https://www.meetup.com/en-AU/TensorFlow-User-Group-Taipei/"
-            }
-          }
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name":"${googleCardContent}",
+          "url":"https://bookclubtensorflow.github.io",
+          "description":"「**從Python到TensorFlow線上讀書會**」是一個致力於幫助學習者更好地了解
+              TensorFlow 和深度學習技術的線上讀書會。在本讀書會中，我們將會邀請專家講者，導讀有關 Python 和 TensorFlow 的知識，並解答參與者的問題。\n我們歡迎所有興趣參與&quot;從Python到TensorFlow線上讀書會&quot;的講者和導讀者，協助我們在本讀書會中傳授這些知識和技能。\n\n**甚麼是Hugging
+              Face?**\n&quot;Hugging face&quot;是一家專注於提供自然語言處理（NLP）工具的公司。他們提供了許多用於訓練和使用自然語言模型的工具，包括一個叫做Transformers 的庫，可以讓開發人員輕鬆地訓練和使用頂尖的 NLP 模型。你也可以參考這裡：[變形金剛與抱臉怪---NLP 應用開發之實戰
+              ＠IT邦幫忙](https: //ithelp.ithome.com.tw/articles/10291739)",
+          "startDate":"${NextThreeDateFull[i][0]}-${NextThreeDateFull[i][1]}-${NextThreeDateFull[i][2]}T20:30+08:00",
+          "endDate":"${NextThreeDateFull[i][0]}-${NextThreeDateFull[i][1]}-${NextThreeDateFull[i][2]}T22:30+08:00",
+          "eventStatus":"https://schema.org/EventScheduled",
+          "eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode",
+          "location":{"@type":"VirtualLocation","url":"${MeetLinkFinder(`${NextThreeDateFull[i][1]}/${NextThreeDateFull[i][2]}`)}"},
+          "offers":{"@type":"Offer","price":"0","priceCurrency":"USD","validFrom":"2020-03-24","availability":"https://schema.org/InStock"},
+          "organizer":{"@type":"Organization","name":"TensorFlow User Group Taipei","url":"https://www.meetup.com/tensorflow-user-group-taipei/"},
+          "image":["https://bookclubtensorflow.github.io/assets/img/tf-bg-new-design-2023.png"]
         }`
 
+
+        // var ActivityContnet = `{
+        //   "@type": "ListItem",
+        //   "position": ${i+1},
+        //   "item": {
+        //     "@type": "Course",
+        //     "url":"${googleCardLink}",
+        //     "name": "${NextThreeDateMonth[i]} 線上讀書會",
+        //     "description": "${googleCardContent}",
+        //     "provider": {
+        //       "@type": "Organization",
+        //       "name": "TensorFlow User Group Taipei",
+        //       "sameAs": "https://www.meetup.com/en-AU/TensorFlow-User-Group-Taipei/"
+        //     }
+        //   }
+        // }`
 
     }
     else{
@@ -251,20 +267,24 @@ myData.on('value', function (snapshot) {
       </div>
     `
 
-    var ActivityContnet = `{
-        "@type": "ListItem",
-        "position": ${i+1},
-        "item": {
-          "@type": "Course",
-          "name": "${NextThreeDateMonth[i]} : ${Holiday}",
-          "description": " 該日(${NextThreeDateMonth[i]})沒有舉行活動，暫停一次",
-          "provider": {
-            "@type": "Organization",
-            "name": "TensorFlow User Group Taipei",
-            "sameAs": "https://www.meetup.com/en-AU/TensorFlow-User-Group-Taipei/"
-          }
-        }
+    var ActivityContnet =  `{
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "eventStatus": "https://schema.org/EventPostponed",
+      "name": "讀書會暫停一次 - ${Holiday}",
+      "description":"本日無讀書會活動",
+      "offers":{"@type":"Offer","price":"0","priceCurrency":"USD","validFrom":"2020-03-24","availability":"https://schema.org/InStock"},
+      "eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://bookclubtensorflow.github.io/google_meet_redirect/"
+        },
+      "startDate":"${NextThreeDateFull[i][0]}-${NextThreeDateFull[i][1]}-${NextThreeDateFull[i][2]}T20:30+08:00",
+      "endDate":"${NextThreeDateFull[i][0]}-${NextThreeDateFull[i][1]}-${NextThreeDateFull[i][2]}T22:30+08:00",
+      "organizer":{"@type":"Organization","name":"TensorFlow User Group Taipei","url":"https://www.meetup.com/tensorflow-user-group-taipei/"},
+      "image":["https://bookclubtensorflow.github.io/assets/img/tf-bg-new-design-2023.png"]
       }`
+
     }
     
 
@@ -286,11 +306,12 @@ myData.on('value', function (snapshot) {
   
   const script = document.createElement('script');
   script.setAttribute('type', 'application/ld+json');
-  script.textContent = ` {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "itemListElement": [${ActivityList}]
-  }`;
+  script.textContent = `[${ActivityList}]`
+  // ` {
+  //   "@context": "https://schema.org",
+  //   "@type": "ItemList",
+  //   "itemListElement": [${ActivityList}]
+  // }`;
   document.head.appendChild(script);
   
 });
