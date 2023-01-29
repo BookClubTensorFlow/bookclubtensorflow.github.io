@@ -39,9 +39,12 @@ function validate(e) {
         emailInputField.classList.remove("has-success");
         email.classList.remove("is-invalid");
         emailInputField.classList.remove("has-danger");
+        
+        email.innerHTML = '';
+        email.placeholder = 'name@example.com';
+        emailVailfiedHint.innerHTML = ``;
+          
         console.log("Valid email address");
-
-        emailVailfiedHint.innerHTML = '';
 
         if (status.result==='success'){
           let Modal = new bootstrap.Modal(document.getElementById('modal-notification-success'), {});
@@ -62,9 +65,14 @@ function validate(e) {
 
     emailVailfiedHint.style.color = '#fb6340';
 
-    if (email.value.indexOf('@')===-1){
+  
+    if (email.value.length===0) {
+      emailVailfiedHint.innerHTML = `這是必填欄位`;  
+    }
+    else  if (email.value.indexOf('@')===-1){
       emailVailfiedHint.innerHTML = `請在電子郵件地址中包含「＠」，「${email.value}」未包含「＠」`;
-    }else{
+    }
+    else{
       emailVailfiedHint.innerHTML = '請符合要求的格式';
     }
     
