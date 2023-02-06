@@ -17,7 +17,8 @@ function validate(e) {
   console.log(email.value)
   console.log(email.value.indexOf('@')!==-1)
 
-  document.getElementById("requestEmail").innerHTML = email.value;
+  document.getElementById("requestEmail-success").innerHTML = email.value;
+  document.getElementById("requestEmail-fail").innerHTML = email.value;
 
   
   if (emailRegex.test(email.value)) {
